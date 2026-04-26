@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 16,
+  "theme": "obsidian",
+  "cssTheme": "Obsidianite",
+  "accentColor": "",
+  "nativeMenus": true,
+  "translucency": false,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "chinese-fonts"
+  ]
+}

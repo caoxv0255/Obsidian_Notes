@@ -1,0 +1,84 @@
+/* ========================================
+   Obsidian 中文字体配置
+   用于解决中文字符显示问题
+   ======================================== */
+
+/* 编辑器字体设置 */
+.markdown-source-view {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 编辑器代码块字体 */
+.markdown-source-view code {
+    font-family: "Consolas", "Courier New", "Microsoft YaHei", monospace;
+}
+
+/* 预览视图字体设置 */
+.markdown-preview-view {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 预览视图标题字体 */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+    font-weight: bold;
+}
+
+/* 预览视图代码块字体 */
+.markdown-preview-view code,
+.markdown-preview-view pre {
+    font-family: "Consolas", "Courier New", "Microsoft YaHei", monospace;
+}
+
+/* 界面整体字体 */
+body {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 侧边栏字体 */
+.nav-file-title,
+.nav-folder-title,
+.nav-file-title-content,
+.nav-folder-title-content {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 标题栏字体 */
+.workspace-leaf-content .view-header-title {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 确保特殊字符正确显示 */
+.cm-specialChar {
+    color: #e83e8c;
+}
+
+/* 表格字体 */
+.markdown-preview-view table {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 引用块字体 */
+.markdown-preview-view blockquote {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 列表字体 */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+/* 任务列表字体 */
+.markdown-preview-view ul.contains-task-list .task-list-item {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}

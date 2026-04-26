@@ -1,0 +1,1 @@
+{"mcpServers": {"obsidian-vault": {"command": "npx", "args": ["-y", "@iflow-mcp/obsidian-semantic-mcp"], "env": {"OBSIDIAN_API_URL": "http://127.0.0.1:27124", "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}", "VAULT_PATH": "C:/Users/CaoXv/Documents/obsidian_files/XuCao"}}}}
