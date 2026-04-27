@@ -12,8 +12,20 @@ acm_relevant: false
 created: 2026-03-09
 updated: 2026-04-24
 status: complete
+subject: calculus
+chapter: 19
 ---
+
 # 偏导数与全微分 (Partial Derivatives and Total Differential)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解偏导数、全微分、方向导数和梯度的基本概念
@@ -911,5 +923,6 @@ dy/dx = -x/y
 2. 构造一个在原点偏导数都存在但不可微的二维函数，并说明原因。
 3. 用 Hessian 矩阵分析 $f(x,y)=x^2-2xy+y^2+2x+2y$ 的极值点。
 4. 说明偏导数和梯度在神经网络反向传播中的作用。
+
 
 

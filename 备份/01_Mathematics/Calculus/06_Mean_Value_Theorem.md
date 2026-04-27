@@ -9,7 +9,11 @@ prerequisites:
 acm_relevant: false
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 06
+updated: 2026-04-27
 ---
+
 # 微分中值定理 (Mean Value Theorem)
 
 ## 📌 学习目标
@@ -746,6 +750,7 @@ for n in [1, 2, 3]:
 3. 应用：拉格朗日乘数法在优化问题中的应用（参考《高等数学 下册》第八版）
 4. 应用：拉格朗日中值定理在误差估计中的应用（参考《高等数学 上册 第八版》第3章习题3-3第4题）
 5. 研究：多元函数极值在机器学习中的应用（参考《高等数学 下册》第9章多元函数微分法应用）
+
 
 
 

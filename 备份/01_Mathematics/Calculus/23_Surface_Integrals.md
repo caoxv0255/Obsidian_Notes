@@ -11,8 +11,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 23
+updated: 2026-04-27
 ---
+
 # 曲面积分 (Surface Integrals)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解第一类和第二类曲面积分的定义与几何意义
@@ -241,5 +254,6 @@ $$\oint_C \mathbf{F}\cdot d\mathbf{r} = \iint_S (\nabla\times\mathbf{F})\cdot d\
 - [[22_Curve_Integrals]] - 曲线积分（曲面积分的特例）
 - [[23_Vector_Calculus]] - 向量微积分（曲面积分的应用）
 - [[07_Case_Image]] - 图像案例（曲面积分的应用）
+
 
 

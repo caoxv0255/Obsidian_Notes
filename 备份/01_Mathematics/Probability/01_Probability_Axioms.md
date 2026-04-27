@@ -1,12 +1,34 @@
----
+﻿---
 type: note
 subject: probability
 chapter: 01
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 01 - 概率公理与基本概念
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 概率论发展史
 
@@ -333,3 +355,4 @@ $$P(\text{恰有} k \text{件不合格}) = \frac{C_M^k C_{N-M}^{n-k}}{C_N^n}$$
 3. 《A First Course in Probability》（第10版）- Sheldon Ross
 
 **下一章**：[[02_Conditional_Probability]] - 条件概率与独立性
+

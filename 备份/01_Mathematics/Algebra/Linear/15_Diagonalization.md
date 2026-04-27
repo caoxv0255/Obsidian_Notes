@@ -9,8 +9,32 @@ acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
 status: complete
+subject: linear_algebra
+chapter: 15
 ---
+
 # 矩阵对角化 (Matrix Diagonalization)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 定义
 
@@ -429,4 +453,5 @@ $$\frac{d\mathbf{x}}{dt} = A\mathbf{x}$$
 - [[13_Eigenvalues]] - 特征值与特征向量
 - [[14_Similar_Matrices]] - 相似矩阵
 - [[16_Jordan_Canonical]] - 约当标准形
+
 

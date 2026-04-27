@@ -9,8 +9,32 @@ acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
 status: complete
+subject: linear_algebra
+chapter: 03
 ---
+
 # 行列式的计算技巧 (Determinant Computation)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 初等变换法
 
@@ -501,4 +525,5 @@ $$\det\begin{bmatrix} A & B \\ 0 & D \end{bmatrix} = \det(A)\det(D)$$
 - [[01_Determinants]] - 行列式
 - [[02_Determinant_Applications]] - 行列式的应用
 - [[04_Matrix_Basics]] - 矩阵基础
+
 

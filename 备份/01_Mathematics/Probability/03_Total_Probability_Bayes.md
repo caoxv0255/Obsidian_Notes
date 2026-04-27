@@ -1,12 +1,34 @@
----
+﻿---
 type: note
 subject: probability
 chapter: 03
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 03 - 全概率公式与贝叶斯公式深入
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 全概率公式的深入理解
 
@@ -333,3 +355,4 @@ $$P(X_1, \ldots, X_n) = \prod_{i=1}^{n} P(X_i | \text{Parents}(X_i))$$
 3. 《Bayesian Data Analysis》- Gelman et al.
 
 **下一章**：[[04_Probability_Calculus]] - 概率计算技巧
+

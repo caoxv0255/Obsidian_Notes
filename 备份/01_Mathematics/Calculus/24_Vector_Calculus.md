@@ -11,8 +11,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 24
+updated: 2026-04-27
 ---
+
 # 向量微积分 (Vector Calculus)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解梯度、散度、旋度与拉普拉斯算子的定义和几何意义
@@ -330,5 +343,6 @@ print(f"旋度 ∇×F 在 {point}: {curl}")
 - [[23_Surface_Integrals]] - 曲面积分（向量微积分的应用）
 - [[../../01_Mathematics/Linear_Algebra/04_Eigenvalues_Eigenvectors]] - 特征值特征向量（拉普拉斯算子）
 - [[02_Autograd]] - 自动微分（梯度的计算）
+
 
 

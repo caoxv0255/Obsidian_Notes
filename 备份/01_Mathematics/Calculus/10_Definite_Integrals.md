@@ -18,7 +18,11 @@ created: 2026-02-20
 
 status: complete
 
+subject: calculus
+chapter: 10
+updated: 2026-04-27
 ---
+
 # 定积分 (Definite Integrals)
 
 ## 📌 学习目标
@@ -1372,6 +1376,7 @@ $$\left(\int_a^b f(x)g(x) dx\right)^2 \leq \int_a^b f^2(x) dx \cdot \int_a^b g^2
 8. 证明：Riemann-Lebesgue引理（参考《数学分析(第5版) 下》第15章）
 9. 讨论：∫₀^∞ sin(x)/x 的收敛性（条件收敛但非绝对收敛）
 10. 研究：Gamma函数与Beta函数的关系及其在概率论中的应用
+
 
 
 

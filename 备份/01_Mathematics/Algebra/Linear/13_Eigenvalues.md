@@ -9,8 +9,15 @@ acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
 status: complete
+subject: linear_algebra
+chapter: 13
 ---
+
 # 特征值与特征向量 (Eigenvalues and Eigenvectors)
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -464,4 +471,5 @@ print(f"PageRank得分: {pagerank}")
 - [[15_Diagonalization]] - 矩阵对角化
 - [[16_Jordan_Canonical]] - 约当标准形
 - [[21_SVD]] - 奇异值分解
+
 

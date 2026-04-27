@@ -10,8 +10,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 12
+updated: 2026-04-27
 ---
+
 # 反常积分 (Improper Integrals)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解无限区间积分与无界函数积分的定义与极限化方法
@@ -909,5 +922,6 @@ $$I = (1 - 0)\ln\frac{b}{a} = \ln\frac{b}{a}$$
 2. 证明 Frullani 型积分公式：$$\int_0^{\infty} \frac{e^{-ax}-e^{-bx}}{x} \, dx = \ln\frac{b}{a}$$（$$b>a>0$$）。
 3. 设 $$I(a,b)=\int_0^1 \frac{x^a-x^b}{\ln x} \, dx$$（$$b>a>-1$$），尝试用含参变量积分方法计算它。
 4. 研究 $$\int_0^{\infty} \frac{\sin x}{x} \, dx$$ 的收敛性，并说明它为什么是经典的条件收敛例子。
+
 
 

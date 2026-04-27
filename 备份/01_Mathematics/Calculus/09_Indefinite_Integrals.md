@@ -8,7 +8,11 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 09
+updated: 2026-04-27
 ---
+
 # 不定积分 (Indefinite Integrals)
 
 ## 📌 学习目标
@@ -682,6 +686,7 @@ plot_integrand_and_integral(f3, F3, [0, 3], "∫e^(-x) dx")
 3. 应用：积分在期望和方差计算中的应用（参考《数学分析(第5版) 下》第15章）
 4. 应用：部分分式分解在控制理论中的应用（参考《高等数学 上册 第八版》第4章）
 5. 应用：不定积分在数值积分中的应用（参考《高等数学 上册 第八版》第4章）
+
 
 
 

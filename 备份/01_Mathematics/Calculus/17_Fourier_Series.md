@@ -10,8 +10,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 17
+updated: 2026-04-27
 ---
+
 # 傅里叶级数 (Fourier Series)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解傅里叶级数、傅里叶系数和正交性的基本概念
@@ -383,5 +396,6 @@ plt.show()
 2. 用傅里叶级数处理一个热传导或振动模型的初始边值问题。
 3. 证明方波级数出现 Gibbs 现象，并说明其极限含义。
 4. 讨论傅里叶级数在信号分解中的作用，以及它与卷积的联系。
+
 
 

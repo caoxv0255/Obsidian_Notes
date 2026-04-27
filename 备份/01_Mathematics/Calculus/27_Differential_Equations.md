@@ -13,8 +13,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-04-13
 status: complete
+subject: calculus
+chapter: 27
+updated: 2026-04-27
 ---
+
 # 微分方程 (Differential Equations)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解常微分方程与偏微分方程的基本概念和分类
@@ -395,5 +408,6 @@ $$\mathcal{L} = \mathcal{L}_{data} + \lambda \mathcal{L}_{physics}$$
 - [[19_Partial_Derivatives]] - 偏导数（PDE 的基础）
 - [[24_Vector_Calculus]] - 向量微积分（拉普拉斯算子与 PDE）
 - [[../00_Symbols_Conventions|符号与约定总表]]
+
 
 

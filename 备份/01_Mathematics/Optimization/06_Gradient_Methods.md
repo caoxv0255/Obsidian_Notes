@@ -1,12 +1,17 @@
----
+﻿---
 type: note
 subject: optimization
 chapter: 06
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 06 - 梯度下降法
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -629,3 +634,4 @@ plt.show()
 3. 《Optimization for Machine Learning》- Sra, Nowozin, Wright
 
 **下一章**：[[07_Newton_Method]] - 牛顿法与拟牛顿法
+

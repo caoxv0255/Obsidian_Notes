@@ -11,8 +11,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-04-01
 status: complete
+subject: calculus
+chapter: 26
+updated: 2026-04-27
 ---
+
 # 附录：实分析初步 (Introduction to Real Analysis)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解为什么需要 Lebesgue 积分以及它比 Riemann 积分更强的地方
@@ -616,5 +629,6 @@ if __name__ == "__main__":
 4. **深度学习理论**：神经网络的表达能力、泛化界
 
 虽然Lebesgue积分在日常机器学习实践中不直接使用，但其背后的思想——用更严谨的框架处理极限和收敛——对于理解高级算法和理论至关重要。
+
 
 

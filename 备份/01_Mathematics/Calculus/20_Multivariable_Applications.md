@@ -9,8 +9,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 20
+updated: 2026-04-27
 ---
+
 # 多元函数应用 (Multivariable Applications)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解多元函数极值、条件极值和约束优化的基本思路
@@ -422,5 +435,6 @@ print(f"最小值: {result_min.fun:.6f}")
 2. 结合隐函数定理，分析约束方程组的局部解结构。
 3. 研究最小二乘法与多元极值之间的联系。
 4. 设计一个机器学习损失函数的优化问题，并写出梯度与 Hessian。
+
 
 

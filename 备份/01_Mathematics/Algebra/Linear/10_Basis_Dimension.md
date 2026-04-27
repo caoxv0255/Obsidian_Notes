@@ -9,8 +9,32 @@ acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
 status: complete
+subject: linear_algebra
+chapter: 10
 ---
+
 # 基与维数 (Basis and Dimension)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 基的定义
 
@@ -963,4 +987,5 @@ $$[\mathbf{v}]_{\mathcal{B}'} = P^{-1} [\mathbf{v}]_{\mathcal{B}}$$
 - 《线性代数》（第6版），同济大学数学系，第四章
 - 《Introduction to Linear Algebra》（第5版），Gilbert Strang, Chapter 3
 - 《高等代数简明教程》（第2版），北京大学数学系，第三章
+
 

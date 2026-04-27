@@ -17,8 +17,21 @@ created: 2026-03-11
 
 status: complete
 
+subject: calculus
+chapter: 11
+updated: 2026-04-27
 ---
+
 # 变限积分 (Variable Limit Integrals)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解积分上限函数与更一般变限积分的定义
@@ -601,5 +614,6 @@ print(f"F(-1) ≈ {cdf_values[np.argmin(np.abs(x_values + 1))]:.6f} (理论值: 
 - 《数学分析(第5版) 上》，华东师范大学数学系，第九章
 - 《微积分学教程》（第一卷，第八版），菲赫金哥尔茨，第八章
 - 《托马斯微积分》（第十版），Thomas，第五章
+
 
 

@@ -13,8 +13,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-02-20
 status: complete
+subject: calculus
+chapter: 25
+updated: 2026-04-27
 ---
+
 # 微积分应用 (Applications)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解微积分在优化、物理、经济、概率和机器学习中的典型用途
@@ -526,5 +539,6 @@ print(f"正则化使权重更接近0，防止过拟合")
 - 数学分析（第5版）- 华东师范大学数学系
 - 高等数学（第八版）- 同济大学数学科学学院
 - 深度学习 - Ian Goodfellow
+
 
 

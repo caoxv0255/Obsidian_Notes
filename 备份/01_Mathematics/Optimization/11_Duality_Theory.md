@@ -1,12 +1,34 @@
----
+﻿---
 type: note
 subject: optimization
 chapter: 11
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 11 - 对偶理论
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 拉格朗日对偶
 
@@ -270,3 +292,4 @@ print(f"原始最优值: p* = {sum(x_star**2) if len(x_star) > 0 else dual_objec
 - [[10_Linear_Programming]] - 线性规划的对偶
 - [[12_Penalty_Methods]] - 罚函数法
 - [[13_Augmented_Lagrangian]] - 增广拉格朗日法
+

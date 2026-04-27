@@ -1,12 +1,17 @@
----
+﻿---
 type: note
 subject: probability
 chapter: 14
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 14 - 数学期望
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -352,3 +357,4 @@ $$E[R_i] = R_f + \beta_i (E[R_m] - R_f)$$
 3. 《A First Course in Probability》- Sheldon Ross
 
 **下一章**：[[15_Variance]] - 方差与标准差
+

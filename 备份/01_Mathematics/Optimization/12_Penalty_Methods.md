@@ -1,12 +1,34 @@
----
+﻿---
 type: note
 subject: optimization
 chapter: 12
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 12 - 罚函数法
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
 
 ## 1. 罚函数法的基本思想
 
@@ -317,3 +339,4 @@ def portfolio_penalty(Sigma, mu, r_min, w0):
 - [[11_Duality_Theory]] - 对偶理论
 - [[13_Augmented_Lagrangian]] - 增广拉格朗日法
 - [[16_Interior_Point]] - 内点法
+

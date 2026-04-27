@@ -10,8 +10,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 16
+updated: 2026-04-27
 ---
+
 # 幂级数 (Power Series)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解幂级数、收敛半径和收敛区间的基本概念
@@ -272,5 +285,6 @@ $$f(x + \Delta x) \approx f(x) + \nabla f(x)^T \Delta x + \frac{1}{2} \Delta x^T
 2. 研究 $\sum_{n=0}^{\infty} a_n(x-c)^n$ 的唯一性：若它在某区间上恒等于零，则所有系数都为零。
 3. 用泰勒级数证明 $e^x\ge 1+x$，并讨论其推广。
 4. 研究一个函数在某点是否解析：例如 $f(x)=\frac{1}{1+x^2}$ 的展开和收敛区间。
+
 
 

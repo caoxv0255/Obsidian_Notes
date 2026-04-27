@@ -1,12 +1,17 @@
----
+﻿---
 type: note
 subject: optimization
 chapter: 01
 created: 2026-04-03
 status: complete
+updated: 2026-04-27
 ---
 
 # 01 - 凸集
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -374,3 +379,4 @@ $$\text{relbd}(C) = \text{cl}(C) \setminus \text{relint}(C)$$
 3. 《Convex Analysis》- R. Tyrrell Rockafellar
 
 **下一章**：[[02_Convex_Functions]] - 凸函数
+

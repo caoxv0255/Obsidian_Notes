@@ -10,8 +10,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-03-09
 status: complete
+subject: calculus
+chapter: 18
+updated: 2026-04-27
 ---
+
 # 多元函数极限与连续 (Multivariable Limits and Continuity)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解多元函数极限存在的判定思路与路径法
@@ -250,5 +263,6 @@ print("\n由于极限值不相等，极限不存在！")
 2. 证明：若 $f(x,y)$ 在 $(0,0)$ 附近可表示为 $r^k\phi(\theta)$，则可据此判断极限。
 3. 研究极坐标法在判断 $\lim_{(x,y)\to(0,0)} \frac{x^m y^n}{x^2+y^2}$ 时的普适性。
 4. 证明多元极限存在时，函数在该点的连续性与一元情形完全一致。
+
 
 

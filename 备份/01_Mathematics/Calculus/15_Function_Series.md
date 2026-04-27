@@ -10,8 +10,20 @@ acm_relevant: true
 created: 2026-03-09
 updated: 2026-04-24
 status: complete
+subject: calculus
+chapter: 15
 ---
+
 # 函数项级数 (Function Series)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解函数项级数、收敛域与和函数的基本概念
@@ -231,5 +243,6 @@ plot_function_series(u_n_terms, [0, 2*np.pi], [1, 3, 5], "正弦级数")
 2. 证明：若 $\sum u_n(x)$ 在 $[a,b]$ 上一致收敛且每项可积，则可逐项积分。
 3. 研究级数 $\sum_{n=1}^{\infty} \frac{x^n}{n}$ 在 $[0,1)$ 上的和函数，并说明为什么在 $x\to 1^{-}$ 时会出现边界问题。
 4. 构造一个在 $[0,1]$ 上逐点收敛但不一致收敛的函数项级数，并说明它为何不能随意交换极限与积分。
+
 
 

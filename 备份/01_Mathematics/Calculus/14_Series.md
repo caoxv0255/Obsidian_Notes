@@ -1,4 +1,4 @@
----
+﻿---
 type: concept
 topic: series
 category: calculus
@@ -8,8 +8,21 @@ prerequisites:
 acm_relevant: true
 created: 2026-02-20
 status: complete
+subject: calculus
+chapter: 14
+updated: 2026-04-27
 ---
+
 # 级数 (Series)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解数项级数、部分和与收敛的基本定义
@@ -419,5 +432,6 @@ $$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x - a)^n$$
 2. 证明 Leibniz 判别法，并用它分析 $\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^p}$ 在不同 $p$ 下的敛散性。
 3. 研究级数 $\sum_{n=1}^{\infty} \frac{x^n}{n}$ 的收敛域，并讨论边界点的敛散性。
 4. 尝试用积分判别法证明调和级数发散，并与积分 $\int_1^{\infty} \frac{1}{x}dx$ 对照。
+
 
 
