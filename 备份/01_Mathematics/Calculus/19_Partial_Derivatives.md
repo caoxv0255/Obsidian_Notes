@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: partial_derivatives
 category: calculus

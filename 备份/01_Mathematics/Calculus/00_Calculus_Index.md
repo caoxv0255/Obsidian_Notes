@@ -2,7 +2,7 @@
 type: index
 subject: calculus
 created: 2026-02-20
-updated: 2026-04-13
+updated: 2026-04-27
 status: complete
 ---
 
@@ -81,6 +81,24 @@ status: complete
 6. **应用专题** - 将理论应用于实际问题
 7. **微分方程** - 研究变化规律的数学工具
 8. **概念索引** - 快速查找和导航工具
+
+## 学习附件对照（高数 + 数分）
+
+### 高数侧（同济/托马斯/吉米多维奇）
+- **计算与题型训练**：极限计算、求导计算、积分技巧、级数判别
+- **对应章节**：[[02_Limits]]、[[05_Derivatives]]、[[09_Indefinite_Integrals]]、[[10_Definite_Integrals]]、[[14_Series]]
+- **建议用法**：每章先做 8-15 道典型题，再回看定理条件
+
+### 数分侧（华师大/北大数分/Rudin）
+- **定义与证明训练**：$\varepsilon$-$\delta$、一致收敛、可积判别、交换极限条件
+- **对应章节**：[[02_Limits]]、[[15_Function_Series]]、[[16_Power_Series]]、[[17_Fourier_Series]]、[[26_Real_Analysis_Appendix]]
+- **建议用法**：每章至少写 1 个“定理证明主线”与 1 个“反例”
+
+### 章节补强优先级（已补）
+1. [[02_Limits]]：高数五步法 + 数分严谨证明模板
+2. [[05_Derivatives]]：求导题型树 + 可导与连续的区分反例
+3. [[10_Definite_Integrals]]：积分估计与不等式专题
+4. [[17_Fourier_Series]]：收敛点判定 + Parseval 应用
 
 ## 已完成笔记
 

@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: multivariable_limits
 category: calculus
