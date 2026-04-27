@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: power_series
 category: calculus

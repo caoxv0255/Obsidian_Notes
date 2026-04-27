@@ -10,7 +10,7 @@ prerequisites:
     - [[../00_Symbols_Conventions|符号与约定总表]]
 acm_relevant: false
 created: 2026-03-09
-updated: 2026-04-24
+updated: 2026-04-27
 status: complete
 subject: calculus
 chapter: 19
@@ -31,6 +31,7 @@ chapter: 19
 - 理解偏导数、全微分、方向导数和梯度的基本概念
 - 掌握多元链式法则、隐函数求导和混合偏导数判别
 - 会用二阶偏导和 Hessian 判别多元函数的极值
+- 会应用一阶全微分形式的不变性计算微分或求偏导数
 
 ## 先修
 - [[02_Limits]] - 极限
@@ -98,6 +99,25 @@ $$dz = \frac{\partial f}{\partial x}(x_0, y_0) dx + \frac{\partial f}{\partial y
 **几何意义**：
 全微分是函数在点 $(x_0, y_0)$ 处的切平面方程：
 $$z - f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0)(x - x_0) + \frac{\partial f}{\partial y}(x_0, y_0)(y - y_0)$$
+
+**一阶全微分形式的不变性**：
+若 $z=f(u,v)$，且 $u=u(x,y)$、$v=v(x,y)$，则
+$$
+dz = f_u\,du + f_v\,dv
+$$
+在变量代换下保持同样的一阶线性形式。
+
+**例**：若 $u=x+y$，$v=x-y$，则
+$$
+dz = f_u\,(dx+dy) + f_v\,(dx-dy)
+= (f_u+f_v)dx + (f_u-f_v)dy
+$$
+因此可直接读出
+$$
+\frac{\partial z}{\partial x} = f_u + f_v,
+\quad
+\frac{\partial z}{\partial y} = f_u - f_v
+$$
 
 ### 可微性
 

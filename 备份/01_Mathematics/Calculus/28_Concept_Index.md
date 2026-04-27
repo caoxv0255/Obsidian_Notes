@@ -1,4 +1,4 @@
-﻿---
+---
 type: index
 topic: concept_index
 category: calculus
@@ -40,6 +40,7 @@ updated: 2026-04-27
 ### A
 - **Absolute Value** - 绝对值 [[01_Real_Numbers]]
 - **Acceleration** - 加速度 [[05_Derivatives]]
+- **Accumulation Point** - 聚点 [[18_Multivariable_Limits]]
 - **Algebraic Functions** - 代数函数 [[05_Derivatives]]
 - **Antiderivative** - 原函数 [[09_Indefinite_Integrals]]
 - **Area** - 面积 [[13_Integral_Applications]]
@@ -53,6 +54,8 @@ updated: 2026-04-27
 - **Cauchy Sequence** - 柯西序列 [[01_Real_Numbers]]
 - **Chain Rule** - 链式法则 [[05_Derivatives]]
 - **Closed Interval** - 闭区间 [[01_Real_Numbers]]
+- **Closed Region** - 闭区域 [[18_Multivariable_Limits]]
+- **Closed Set** - 闭集 [[18_Multivariable_Limits]]
 - **Continuity** - 连续性 [[03_Continuity]]
 - **Convergence** - 收敛性 [[02_Limits]]
 - **Curve Integral** - 曲线积分 [[22_Curve_Integrals]]
@@ -68,6 +71,8 @@ updated: 2026-04-27
 ### E
 - **ε-δ Definition** - ε-δ定义 [[02_Limits]]
 - **Exponential Function** - 指数函数 [[05_Derivatives]]
+- **Euclidean Space** - 欧式空间 [[18_Multivariable_Limits]]
+- **Exterior Point** - 外点 [[18_Multivariable_Limits]]
 - **Extreme Value Theorem** - 极值定理 [[03_Continuity]]
 
 ### F
@@ -79,18 +84,25 @@ updated: 2026-04-27
 - **Gamma Function** - Γ函数 [[12_Improper_Integrals]]
 - **Gradient** - 梯度 [[19_Partial_Derivatives]]
 
+### H
+- **Hessian Matrix** - Hessian矩阵 [[20_Multivariable_Applications]]
+
 ### I
+- **Implicit Function Theorem** - 隐函数定理 [[20_Multivariable_Applications]]
 - **Improper Integral** - 反常积分 [[12_Improper_Integrals]]
 - **Indefinite Integral** - 不定积分 [[09_Indefinite_Integrals]]
+- **Interior Point** - 内点 [[18_Multivariable_Limits]]
 - **Infimum** - 下确界 [[01_Real_Numbers]]
 - **Infinite Series** - 无穷级数 [[14_Series]]
 - **Integral** - 积分 [[09_Indefinite_Integrals]]
 - **Intermediate Value Theorem** - 介值定理 [[03_Continuity]]
 - **Interval** - 区间 [[01_Real_Numbers]]
 - **Inverse Function** - 反函数 [[05_Derivatives]]
+- **Iterated Limit** - 累次极限 [[18_Multivariable_Limits]]
 
 ### L
 - **Lebesgue Integral** - Lebesgue积分 [[26_Real_Analysis_Appendix]]
+- **Lagrange Multiplier** - 拉格朗日乘数法 [[20_Multivariable_Applications]]
 - **Limit** - 极限 [[02_Limits]]
 - **Lipschitz Condition** - 利普希茨条件 [[04_Uniform_Continuity]]
 - **Logarithmic Function** - 对数函数 [[05_Derivatives]]
@@ -108,6 +120,8 @@ updated: 2026-04-27
 
 ### O
 - **Open Interval** - 开区间 [[01_Real_Numbers]]
+- **Open Region** - 开区域 [[18_Multivariable_Limits]]
+- **Open Set** - 开集 [[18_Multivariable_Limits]]
 - **Optimization** - 优化 [[08_Derivative_Applications]]
 - **Ordered Field** - 有序域 [[01_Real_Numbers]]
 
@@ -130,6 +144,7 @@ updated: 2026-04-27
 
 ### T
 - **Taylor Series** - 泰勒级数 [[07_Taylor_Series]]
+- **Total Differential** - 全微分 [[19_Partial_Derivatives]]
 - **Trigonometric Functions** - 三角函数 [[05_Derivatives]]
 
 ### U

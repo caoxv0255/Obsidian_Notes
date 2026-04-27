@@ -100,6 +100,16 @@ status: complete
 3. [[10_Definite_Integrals]]：积分估计与不等式专题
 4. [[17_Fourier_Series]]：收敛点判定 + Parseval 应用
 
+### 第七章：多元函数微分学目标映射
+1. **欧式空间 / 点集拓扑** -> [[01_Real_Numbers]]、[[18_Multivariable_Limits]]
+2. **多重极限 / 二重极限 / 累次极限** -> [[18_Multivariable_Limits]]
+3. **多元连续性 / 有界闭域最值性质** -> [[18_Multivariable_Limits]]
+4. **偏导数 / 高阶偏导数 / 全微分** -> [[19_Partial_Derivatives]]
+5. **链式法则 / 隐函数求导** -> [[19_Partial_Derivatives]]、[[20_Multivariable_Applications]]
+6. **极值 / Hessian / 拉格朗日乘数法** -> [[20_Multivariable_Applications]]
+
+第七章的 8 项学习目标由 [[18_Multivariable_Limits]]、[[19_Partial_Derivatives]]、[[20_Multivariable_Applications]] 三章共同覆盖；其中第 1 项的点集与欧式空间预备由 [[01_Real_Numbers]] 提供支撑。
+
 ## 已完成笔记
 
 ### 第一部分：实数与极限基础
@@ -157,5 +167,5 @@ status: complete
 ---
 
 **创建时间：2026年2月20日**  
-**最后更新：2026年4月13日**  
+**最后更新：2026年4月27日**
 **总笔记数：28章（完整）**

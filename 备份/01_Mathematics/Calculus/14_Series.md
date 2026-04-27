@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: series
 category: calculus

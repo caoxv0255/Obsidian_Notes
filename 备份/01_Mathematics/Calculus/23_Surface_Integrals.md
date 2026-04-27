@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: surface_integrals
 category: calculus

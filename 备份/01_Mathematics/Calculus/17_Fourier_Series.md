@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: fourier_series
 category: calculus

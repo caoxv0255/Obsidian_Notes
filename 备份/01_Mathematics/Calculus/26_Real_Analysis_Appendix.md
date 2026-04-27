@@ -1,4 +1,4 @@
-﻿---
+---
 type: appendix
 topic: real_analysis
 category: calculus
