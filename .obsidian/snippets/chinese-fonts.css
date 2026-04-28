@@ -82,3 +82,64 @@ body {
 .markdown-preview-view ul.contains-task-list .task-list-item {
     font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
 }
+
+/* 图表与表格显示优化 */
+.markdown-preview-view .mermaid,
+.markdown-rendered .mermaid {
+    margin: 1rem 0 1.25rem;
+    padding: 0.9rem 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, var(--background-secondary) 0%, var(--background-primary) 100%);
+}
+
+.markdown-preview-view .mermaid svg,
+.markdown-rendered .mermaid svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.markdown-preview-view .mermaid text,
+.markdown-preview-view .mermaid tspan,
+.markdown-preview-view .mermaid .nodeLabel,
+.markdown-preview-view .mermaid .edgeLabel,
+.markdown-rendered .mermaid text,
+.markdown-rendered .mermaid tspan,
+.markdown-rendered .mermaid .nodeLabel,
+.markdown-rendered .mermaid .edgeLabel {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "Segoe UI", sans-serif;
+}
+
+.markdown-preview-view .block-language-tikz,
+.markdown-rendered .block-language-tikz {
+    margin: 1rem 0 1.25rem;
+    padding: 0.9rem 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, var(--background-secondary) 0%, var(--background-primary) 100%);
+}
+
+.markdown-preview-view .block-language-tikz svg,
+.markdown-rendered .block-language-tikz svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.markdown-preview-view table,
+.markdown-rendered table {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 0.85rem 0 1rem;
+}
