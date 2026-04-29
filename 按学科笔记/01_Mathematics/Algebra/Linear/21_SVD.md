@@ -1,0 +1,571 @@
+﻿---
+type: concept
+topic: svd
+category: linear_algebra
+difficulty: advanced
+prerequisites:
+  - [[16_Spectral_Theorem]]
+acm_relevant: false
+created: 2026-03-11
+updated: 2026-03-11
+status: complete
+subject: linear_algebra
+chapter: 21
+---
+
+# 奇异值分解 (Singular Value Decomposition)
+
+## 📌 学习目标
+
+- 明确本章核心概念与关键结论
+- 能将本章方法用于标准题型
+
+## ✅ 先修
+
+- [[../00_Symbols_Conventions|符号与约定总表]]
+
+## 难度分层
+
+- **基础**：定义与直接计算
+- **进阶**：性质证明与综合应用
+- **拓展**：跨章节联系与建模
+
+## 自测（3问速测）
+
+1. 本章最核心的定义是什么？
+2. 本章一个关键结论的适用条件是什么？
+3. 如何把本章方法应用到一个具体问题？
+
+## 1. 定义
+
+### 1.1 SVD
+
+对于任意 $m \times n$ 矩阵 $A$（可以是非方阵、实数或复数），存在分解：
+$$A = U\Sigma V^T$$
+
+其中：
+- $U$ 是 $m \times m$ 正交矩阵（左奇异向量）
+- $\Sigma$ 是 $m \times n$ 对角矩阵（奇异值矩阵）
+- $V$ 是 $n \times n$ 正交矩阵（右奇异向量）
+
+### 1.2 奇异值
+
+$\Sigma$ 的对角线元素 $\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$ 是奇异值，其中 $r = \text{rank}(A)$。
+
+### 1.3 几何解释
+
+SVD将线性变换分解为：
+1. 旋转（$V^T$）
+2. 伸缩（$\Sigma$）
+3. 旋转（$U$）
+
+## 2. 性质
+
+### 2.1 奇异值与特征值
+
+- 奇异值是 $A^T A$（或 $AA^T$）特征值的平方根
+- $\sigma_i^2$ 是 $A^T A$ 的特征值
+
+### 2.2 秩的关系
+
+$$\text{rank}(A) = r$$（非零奇异值的个数）
+
+### 2.3 Frobenius 范数
+
+$$\|A\|_F = \sqrt{\sum_{i=1}^r \sigma_i^2}$$
+
+### 2.4 谱范数
+
+$$\|A\|_2 = \sigma_1$$（最大奇异值）
+
+### 2.5 数值稳定性
+
+SVD是最稳定的矩阵分解方法之一。
+
+## 3. 应用
+
+### 3.1 低秩近似
+
+$$A_k = \sum_{i=1}^k \sigma_i \mathbf{u}_i \mathbf{v}_i^T$$
+
+这是最优的 $k$ 秩近似（在Frobenius范数或谱范数下）。
+
+### 3.2 伪逆
+
+$$A^+ = V\Sigma^+ U^T$$
+
+其中 $\Sigma^+$ 是 $\Sigma$ 的伪逆（非零奇异值的倒数，然后转置）。
+
+### 3.3 最小二乘解
+
+超定方程组 $A\mathbf{x} = \mathbf{b}$ 的最小范数解：
+$$\mathbf{x} = A^+ \mathbf{b}$$
+
+### 3.4 条件数
+
+$$\kappa(A) = \frac{\sigma_1}{\sigma_r}$$
+
+## 代码示例
+
+### 示例 1：计算 SVD
+
+```python
+import numpy as np
+
+def svd_analysis(A):
+    """分析矩阵的SVD"""
+    m, n = A.shape
+
+    # 计算 SVD
+    U, S, Vt = np.linalg.svd(A)
+
+    print(f"原始矩阵 A ({m}×{n}):\n{A}")
+    print(f"\n奇异值: {S}")
+    print(f"奇异值个数: {len(S)}")
+    print(f"矩阵的秩: {len(S[S > 1e-10])}")
+    print(f"\n左奇异向量 U ({m}×{m}):\n{U}")
+    print(f"\n右奇异向量 V^T ({n}×{n}):\n{Vt}")
+
+    # 重构
+    Sigma = np.zeros((m, n))
+    Sigma[:len(S), :len(S)] = np.diag(S)
+    A_reconstructed = U @ Sigma @ Vt
+
+    print(f"\n重构误差: {np.linalg.norm(A - A_reconstructed):.6e}")
+
+    return U, S, Vt
+
+# 示例
+A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+U, S, Vt = svd_analysis(A)
+```
+
+### 示例 2：低秩近似
+
+```python
+import numpy as np
+
+def low_rank_approximation(A, k):
+    """计算k秩近似"""
+    U, S, Vt = np.linalg.svd(A)
+
+    # 截断到前k个奇异值
+    U_k = U[:, :k]
+    S_k = S[:k]
+    Vt_k = Vt[:k, :]
+
+    # 重构
+    A_k = U_k @ np.diag(S_k) @ Vt_k
+
+    # 计算相对误差
+    relative_error = np.linalg.norm(A - A_k) / np.linalg.norm(A)
+
+    return A_k, relative_error
+
+# 示例：图像压缩（简化）
+A = np.random.randn(100, 100)  # 模拟图像
+
+for k in [1, 5, 10, 20, 50]:
+    A_k, error = low_rank_approximation(A, k)
+    print(f"k = {k:2d}, 相对误差: {error:.6f}")
+```
+
+### 示例 3：伪逆计算
+
+```python
+import numpy as np
+
+def pseudoinverse_svd(A):
+    """使用SVD计算伪逆"""
+    U, S, Vt = np.linalg.svd(A)
+
+    # 计算伪逆
+    S_plus = np.zeros_like(A.T, dtype=float)
+    for i in range(len(S)):
+        if S[i] > 1e-10:
+            S_plus[i, i] = 1 / S[i]
+
+    A_plus = Vt.T @ S_plus @ U.T
+
+    return A_plus
+
+# 示例
+A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+A_plus = pseudoinverse_svd(A)
+
+print(f"矩阵 A:\n{A}")
+print(f"\n伪逆 A^+:\n{A_plus}")
+print(f"\n验证 A A^+ A:\n{A @ A_plus @ A}")
+print(f"\n验证 A^+ A A^+:\n{A_plus @ A @ A_plus}")
+```
+
+### 示例 4：最小二乘解
+
+```python
+import numpy as np
+
+def least_squares_svd(A, b):
+    """使用SVD求解最小二乘问题"""
+    A_plus = pseudoinverse_svd(A)
+    x = A_plus @ b
+    return x
+
+# 示例：超定系统
+A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+b = np.array([3, 7, 11], dtype=float)
+
+x = least_squares_svd(A, b)
+
+print(f"系数矩阵 A:\n{A}")
+print(f"\n常数向量 b: {b}")
+print(f"\n最小二乘解 x: {x}")
+print(f"\n残差: {np.linalg.norm(A @ x - b):.6f}")
+```
+
+### 示例 5：条件数
+
+```python
+import numpy as np
+
+def condition_number_svd(A):
+    """使用SVD计算条件数"""
+    U, S, Vt = np.linalg.svd(A)
+
+    if len(S) == 0:
+        return np.inf
+
+    return S[0] / S[-1]
+
+# 示例
+A1 = np.array([[1, 0], [0, 1]], dtype=float)  # 单位矩阵
+A2 = np.array([[1, 1], [1, 1.01]], dtype=float)  # 接近奇异
+
+print(f"矩阵 A1 的条件数: {condition_number_svd(A1):.6f}")
+print(f"矩阵 A2 的条件数: {condition_number_svd(A2):.6f}")
+```
+
+## 机器学习应用
+
+### 应用 1：图像压缩
+
+使用低秩SVD近似压缩图像。
+
+### 应用 2：推荐系统
+
+矩阵分解用于协同过滤。
+
+### 应用 3：PCA
+
+PCA可以通过SVD实现。
+
+```python
+import numpy as np
+from sklearn.decomposition import PCA
+
+# 生成数据
+np.random.seed(42)
+X = np.random.randn(100, 3)
+
+# PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X)
+
+print(f"PCA变换矩阵（主成分）:\n{pca.components_.T}")
+print(f"解释方差比: {pca.explained_variance_ratio_}")
+
+# 使用SVD实现PCA
+X_centered = X - X.mean(axis=0)
+U, S, Vt = np.linalg.svd(X_centered, full_matrices=False)
+X_pca_svd = U[:, :2] @ np.diag(S[:2])
+
+print(f"\nSVD PCA结果（前5个样本）:\n{X_pca[:5]}")
+print(f"\np.fit_transform结果（前5个样本）:\n{X_pca_svd[:5]}")
+```
+
+## 严格证明
+
+### 证明：SVD的存在性
+
+**定理**：对于任意 $m \times n$ 矩阵 $A$，存在SVD分解 $A = U\Sigma V^T$。
+
+**证明**：
+
+设 $A^T A$ 的特征值为 $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_n \geq 0$，对应的标准正交特征向量为 $\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_n$。
+
+令 $\sigma_i = \sqrt{\lambda_i}$（对于 $\lambda_i > 0$），$V = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_n]$。
+
+对于 $i = 1, 2, \ldots, r$（$r = \text{rank}(A)$），定义：
+$$\mathbf{u}_i = \frac{A\mathbf{v}_i}{\sigma_i}$$
+
+可以验证 $\{\mathbf{u}_1, \mathbf{u}_2, \ldots, \mathbf{u}_r\}$ 是标准正交的。将其扩充为 $\mathbb{R}^m$ 的标准正交基 $\{\mathbf{u}_1, \ldots, \mathbf{u}_m\}$，令 $U = [\mathbf{u}_1, \ldots, \mathbf{u}_m]$。
+
+构造 $\Sigma$ 为 $m \times n$ 对角矩阵，前 $r$ 个对角元素为 $\sigma_1, \ldots, \sigma_r$。
+
+验证 $A = U\Sigma V^T$ 即可。
+
+## 例题
+
+### 例题 1：计算 SVD
+
+**问题**：计算 $A = \begin{bmatrix} 3 & 0 \\ 0 & -4 \end{bmatrix}$ 的 SVD。
+
+**解**：
+
+$A^T A = \begin{bmatrix} 9 & 0 \\ 0 & 16 \end{bmatrix}$
+
+特征值：$\lambda_1 = 16$，$\lambda_2 = 9$
+
+奇异值：$\sigma_1 = 4$，$\sigma_2 = 3$
+
+特征向量：
+$\lambda_1 = 16$：$\mathbf{v}_1 = [0, 1]^T$
+$\lambda_2 = 9$：$\mathbf{v}_2 = [1, 0]^T$
+
+$V = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+
+计算左奇异向量：
+$\mathbf{u}_1 = \frac{A\mathbf{v}_1}{\sigma_1} = \frac{[0, -4]^T}{4} = [0, -1]^T$
+$\mathbf{u}_2 = \frac{A\mathbf{v}_2}{\sigma_2} = \frac{[3, 0]^T}{3} = [1, 0]^T$
+
+$U = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$
+
+$\Sigma = \begin{bmatrix} 4 & 0 \\ 0 & 3 \end{bmatrix}$
+
+验证：$U\Sigma V^T = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}\begin{bmatrix} 4 & 0 \\ 0 & 3 \end{bmatrix}\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} = \begin{bmatrix} 3 & 0 \\ 0 & -4 \end{bmatrix} = A$
+
+### 例题 2：低秩近似
+
+**问题**：求 $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$ 的1秩近似。
+
+**解**：
+
+计算 $A^T A = \begin{bmatrix} 35 & 44 \\ 44 & 56 \end{bmatrix}$
+
+特征方程：$\lambda^2 - 91\lambda + 24 = 0$
+
+$\lambda_1 \approx 90.5$，$\lambda_2 \approx 0.5$
+
+$\sigma_1 = \sqrt{90.5} \approx 9.5$
+
+最大奇异值对应的特征向量 $\mathbf{v}_1$ 满足：
+$\begin{bmatrix} 35 & 44 \\ 44 & 56 \end{bmatrix}\mathbf{v}_1 = 90.5\mathbf{v}_1$
+
+解得 $\mathbf{v}_1 \approx [0.57, 0.82]^T$
+
+$\mathbf{u}_1 = \frac{A\mathbf{v}_1}{\sigma_1} \approx \frac{[2.21, 4.93, 7.65]^T}{9.5} \approx [0.23, 0.52, 0.81]^T$
+
+1秩近似：$A_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T \approx 9.5\begin{bmatrix} 0.23 \\ 0.52 \\ 0.81 \end{bmatrix}[0.57, 0.82] \approx \begin{bmatrix} 1.25 & 1.79 \\ 2.82 & 4.05 \\ 4.39 & 6.30 \end{bmatrix}$
+
+### 例题 3：伪逆
+
+**问题**：求 $A = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ 的伪逆。
+
+**解**：
+
+SVD：$A = U\Sigma V^T = I \cdot \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix} \cdot I$
+
+$\Sigma^+ = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$
+
+$A^+ = V\Sigma^+ U^T = I \cdot \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix} \cdot I = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$
+
+### 例题 4：条件数
+
+**问题**：计算 $A = \begin{bmatrix} 1 & 1 \\ 1 & 1.01 \end{bmatrix}$ 的条件数。
+
+**解**：
+
+$A^T A = \begin{bmatrix} 2 & 2.01 \\ 2.01 & 2.0201 \end{bmatrix}$
+
+特征方程：$\lambda^2 - 4.0201\lambda + 0.0001 = 0$
+
+$\lambda_1 \approx 4.02$，$\lambda_2 \approx 0.000025$
+
+$\sigma_1 = \sqrt{4.02} \approx 2.005$
+$\sigma_2 = \sqrt{0.000025} \approx 0.005$
+
+条件数：$\kappa(A) = \frac{\sigma_1}{\sigma_2} \approx \frac{2.005}{0.005} \approx 401$
+
+### 例题 5：最小二乘
+
+**问题**：用SVD求解 $\min \|A\mathbf{x} - \mathbf{b}\|^2$，其中 $A = \begin{bmatrix} 1 & 1 \\ 1 & 2 \\ 1 & 3 \end{bmatrix}$，$\mathbf{b} = \begin{bmatrix} 2 \\ 3 \\ 5 \end{bmatrix}$。
+
+**解**：
+
+计算SVD（略），得到伪逆：
+$A^+ = (A^T A)^{-1} A^T$
+
+$A^T A = \begin{bmatrix} 3 & 6 \\ 6 & 14 \end{bmatrix}$，$(A^T A)^{-1} = \frac{1}{6}\begin{bmatrix} 14 & -6 \\ -6 & 3 \end{bmatrix}$
+
+$A^+ = \frac{1}{6}\begin{bmatrix} 14 & -6 \\ -6 & 3 \end{bmatrix}\begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \end{bmatrix} = \frac{1}{6}\begin{bmatrix} 8 & 2 & -4 \\ -3 & 0 & 3 \end{bmatrix}$
+
+解：$\mathbf{x} = A^+ \mathbf{b} = \frac{1}{6}\begin{bmatrix} 8 & 2 & -4 \\ -3 & 0 & 3 \end{bmatrix}\begin{bmatrix} 2 \\ 3 \\ 5 \end{bmatrix} = \frac{1}{6}\begin{bmatrix} 2 \\ 9 \end{bmatrix} = \begin{bmatrix} 1/3 \\ 3/2 \end{bmatrix}$
+
+## 习题
+
+### 基础题
+
+1. 计算 $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ 的 SVD。
+
+2. 证明：$\text{rank}(A)$ 等于非零奇异值的个数。
+
+3. 计算单位矩阵 $I$ 的 SVD。
+
+4. 证明：$\|A\|_F = \sqrt{\sum_{i=1}^r \sigma_i^2}$。
+
+5. 计算 $A = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ 的伪逆。
+
+### 进阶题
+
+6. 证明：SVD的存在性。
+
+7. 证明：低秩近似是最优的 $k$ 秩近似。
+
+8. 证明：$\kappa(A) = \frac{\sigma_1}{\sigma_r}$。
+
+9. 证明：$A^+ = (A^T A)^{-1} A^T$（当 $A$ 满秩时）。
+
+10. 证明：$A A^+ A = A$ 和 $A^+ A A^+ = A^+$。
+
+### 挑战题
+
+11. 研究截断 SVD 在降噪中的应用。
+
+12. 证明：PCA 可以通过 SVD 实现。
+
+13. 在推荐系统中，如何使用矩阵分解？
+
+14. 研究 HOSVD（高阶SVD）在张量分解中的应用。
+
+15. 证明：SVD 的数值稳定性优于其他分解方法。
+
+## 注意事项
+
+⚠️ **常见错误**
+
+1. **混淆奇异值和特征值**
+   - 奇异值是非负的
+   - 特征值可以是复数
+
+2. **忽略奇异值的排序**
+   - 奇异值从大到小排序
+   - 对应的左右奇异向量也要排序
+
+3. **错误计算伪逆**
+   - 只对非零奇异值取倒数
+   - 要转置 $\Sigma$
+
+✅ **最佳实践**
+
+1. **使用 SVD 解决问题**
+   - 数值稳定
+   - 适用于各种情况
+
+2. **低秩近似**
+   - 保留主要奇异值
+   - 压缩和降噪
+
+3. **条件数分析**
+   - 评估问题难度
+   - 选择合适算法
+
+## 题型总结与思路技巧
+
+### SVD核心要点
+
+#### 📋 SVD分解的结构
+
+$$A = U\Sigma V^T$$
+
+| 矩阵 | 大小 | 含义 |
+|-----|------|------|
+| $U$ | $m \times m$ | 左奇异向量，$AA^T$的特征向量 |
+| $\Sigma$ | $m \times n$ | 奇异值对角矩阵 |
+| $V$ | $n \times n$ | 右奇异向量，$A^TA$的特征向量 |
+
+### 💡 核心技巧与常用结论
+
+#### 1. SVD计算步骤
+
+1. 计算$A^TA$的特征值$\lambda_i$和特征向量$\mathbf{v}_i$
+2. 奇异值$\sigma_i = \sqrt{\lambda_i}$
+3. $V = [\mathbf{v}_1, \ldots, \mathbf{v}_n]$
+4. $\mathbf{u}_i = \frac{A\mathbf{v}_i}{\sigma_i}$（对于$\sigma_i \neq 0$）
+5. 补充$U$的其余列使之正交
+
+#### 2. SVD的重要性质
+
+- $\text{rank}(A) = $ 非零奇异值个数
+- $\|A\|_2 = \sigma_1$（最大奇异值）
+- $\|A\|_F = \sqrt{\sum \sigma_i^2}$（Frobenius范数）
+- $\kappa(A) = \frac{\sigma_1}{\sigma_r}$（条件数）
+
+#### 3. 低秩近似
+
+**定理**：$A_k = \sum_{i=1}^k \sigma_i \mathbf{u}_i \mathbf{v}_i^T$是$A$的最佳秩$k$近似
+
+$$\|A - A_k\|_2 = \sigma_{k+1}$$
+
+#### 4. 伪逆
+
+$$A^+ = V\Sigma^+ U^T$$
+
+其中$\Sigma^+$是非零奇异值取倒数后转置
+
+### 🎯 题型分类与对策
+
+| 题型 | 方法 | 关键点 |
+|-----|------|-------|
+| 计算SVD | 求$A^TA$特征值 | 对称矩阵对角化 |
+| 求秩 | 非零奇异值个数 | 数值计算考虑阈值 |
+| 低秩近似 | 截断SVD | 保留前$k$个奇异值 |
+| 求伪逆 | $V\Sigma^+ U^T$ | 处理奇异矩阵 |
+| 条件数 | $\sigma_1/\sigma_r$ | 评估数值稳定性 |
+
+### ⚠️ 常见错误
+
+**错误一**：混淆奇异值与特征值
+- 奇异值是非负的
+- 特征值可以是负数或复数
+
+**错误二**：SVD唯一性
+- SVD不唯一（奇异值相同时基可旋转）
+- 但奇异值唯一
+
+**错误三**：截断位置
+- 低秩近似截断位置需根据精度要求选择
+- 不是随意截断
+
+## 本章小结
+
+### 重要定义
+1. SVD：$A = U\Sigma V^T$
+2. 奇异值：$\sigma_i = \sqrt{\lambda_i}$（$\lambda_i$ 是 $A^T A$ 的特征值）
+
+### 重要定理
+1. SVD 的存在性
+2. 低秩近似的最优性
+3. 秩与奇异值的关系
+
+### 重要方法
+1. 计算 SVD
+2. 低秩近似
+3. 伪逆计算
+
+### 重要应用
+1. 图像压缩
+2. 推荐系统
+3. PCA
+4. 最小二乘
+
+## 相关概念
+
+- [[16_Eigenvalues]] - 特征值
+- [[20_Orthogonal_Transformations]] - 正交变换
+- [[22_Pseudoinverse]] - 伪逆
+
+## 参考教材
+
+- 《线性代数》（第6版），同济大学数学系，第五章
+- 《Introduction to Linear Algebra》（第5版），Gilbert Strang, Chapter 7
+
+

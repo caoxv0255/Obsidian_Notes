@@ -13,17 +13,19 @@
 ```text
 .
 ├── README.md
-├── 备份/
+├── .obsidian/
+├── copilot/
+├── history/
+├── MY_Learning/
+├── 按学科笔记/
 │   ├── 01_Mathematics/
 │   ├── 02_Programming/
-│   ├── 计算机组织与设计_RISC-V版/
-│   ├── 经济学笔记/
 │   ├── 数据结构笔记(C++)/
-│   └── 算法导论笔记(C++)/
-├── 电子书/
-├── coding_每日记录/
-├── MY_Learning/
-├── 中外美术欣赏/
+│   ├── 算法导论笔记(C++)/
+│   ├── 经济学笔记/
+│   └── 计算机组织与设计_RISC-V版/
+├── 电子书附件/
+├── 记录/                      # 学习与复盘模板（daily/weekly/monthly/semester）
 └── 其他课程与项目目录
 ```
 
@@ -37,21 +39,27 @@
 
 ### 2) 学科与课程笔记入口
 
-- [备份/02_Programming/00_Index.md](备份/02_Programming/00_Index.md)
-	- 语言分支：C++ / Python / Java / JavaScript / Rust
-- [备份/计算机组织与设计_RISC-V版/00_Index.md](备份/计算机组织与设计_RISC-V版/00_Index.md)
-	- 计算机体系结构章节化笔记
-- [备份/经济学笔记/00_Index.md](备份/经济学笔记/00_Index.md)
-	- 经济学总索引（按教材与按主题双路径）
-- [备份/数据结构笔记(C++)/00_Index.md](备份/数据结构笔记%28C%2B%2B%29/00_Index.md)
-	- 数据结构体系化笔记（线性结构、树、图、查找与排序）
-- [备份/算法导论笔记(C++)/快速开始.md](备份/算法导论笔记%28C%2B%2B%29/快速开始.md)
-	- CLRS 主题分册笔记入口
+- 按学科总目录： [按学科笔记/](按学科笔记)
+	- [01_Mathematics/](按学科笔记/01_Mathematics/)：数学笔记（代数、微积分、概率、优化）
+		- 主要文件： [按学科笔记/01_Mathematics/00_Symbols_Conventions.md](按学科笔记/01_Mathematics/00_Symbols_Conventions.md)
+	- [02_Programming/](按学科笔记/02_Programming/)：编程语言与工具
+		- 子目录： `C++/`, `Python/`, `Java/`, `JavaScript/`, `Rust/`
+		- 入口文件： [按学科笔记/02_Programming/00_Index.md](按学科笔记/02_Programming/00_Index.md)
+	- [数据结构笔记(C++)/](按学科笔记/数据结构笔记%28C%2B%2B%29/)：系统章节化笔记（含章节索引与习题）
+		- 入口文件： [按学科笔记/数据结构笔记(C++)/00_Index.md](按学科笔记/数据结构笔记%28C%2B%2B%29/00_Index.md)
+	- [算法导论笔记(C++)/](按学科笔记/算法导论笔记%28C%2B%2B%29/)：CLRS 主题分册与专题
+		- 入口文件： [按学科笔记/算法导论笔记(C++)/快速开始.md](按学科笔记/算法导论笔记%28C%2B%2B%29/快速开始.md)
+	- [经济学笔记/](按学科笔记/经济学笔记/)：教材索引与主题分类
+		- 入口文件： [按学科笔记/经济学笔记/00_Index.md](按学科笔记/经济学笔记/00_Index.md)
+	- [计算机组织与设计_RISC-V版/](按学科笔记/计算机组织与设计_RISC-V版/)
+		- 入口文件： [按学科笔记/计算机组织与设计_RISC-V版/00_Index.md](按学科笔记/计算机组织与设计_RISC-V版/00_Index.md)
+
+ （注：各学科目录下通常包含 `00_Index.md` 或 `README.md` 作为模块入口）
 
 ### 3) 日常与项目实践入口
 
-- [coding_每日记录/](coding_每日记录)
-	- 编程学习的日更日志与过程记录
+- [记录/](记录)
+	- 学习与复盘模板（每日/每周/每月/学期），便于快速建笔记
 - [MY_Learning/Projects/](MY_Learning/Projects)
 	- 项目化学习与研究实践载体
 - [MY_Learning/00_迭代报告/](MY_Learning/00_迭代报告)
@@ -59,7 +67,7 @@
 
 ### 4) 资料库入口
 
-- [电子书/](电子书)
+- [电子书附件/](电子书附件)
 	- 编程、数学、经济学、文学理财与哲学等电子资料
 
 ## 内容特点
@@ -72,8 +80,8 @@
 ## 推荐使用流程
 
 1. 从 [MY_Learning/00_Index.md](MY_Learning/00_Index.md) 进入，确认当前阶段目标。
-2. 按需要跳转到对应学科索引（如 [备份/02_Programming/00_Index.md](备份/02_Programming/00_Index.md)）。
-3. 学习后在 [coding_每日记录/](coding_每日记录) 留下当天输出与问题。
+2. 按需要跳转到对应学科索引（如 [按学科笔记/02_Programming/00_Index.md](按学科笔记/02_Programming/00_Index.md)）。
+3. 学习后在 [记录/](记录) 或相应学科日记中留下当天输出与问题。
 4. 定期在 [MY_Learning/00_迭代报告/](MY_Learning/00_迭代报告) 复盘，更新优先级与路线。
 
 ## 快速开始清单
@@ -81,7 +89,7 @@
 - [ ] 打开 [MY_Learning/00_Index.md](MY_Learning/00_Index.md)，确认本周主线任务
 - [ ] 打开一个学科索引并选定 1 个最小学习单元
 - [ ] 当天输出 1 条可复用笔记（定义/例题/代码片段/总结其一）
-- [ ] 在 [coding_每日记录/](coding_每日记录) 记录进展、问题、下一步
+- [ ] 在 [记录/](记录) 或 `coding_每日记录/`（如存在）记录进展、问题、下一步
 - [ ] 每周复盘一次 [MY_Learning/00_迭代报告/](MY_Learning/00_迭代报告)
 
 ## 面向 Obsidian 的使用说明
@@ -102,6 +110,10 @@
 - 仓库已形成“学科笔记 + 双路径规划 + 日常记录 + 资料库”的完整骨架。
 - 重点推进区域以 `MY_Learning/00_Index.md` 的进度和待办为准。
 
+模板迁移（2026-04-29）：
+- 为便于集中管理，我已在 `XuCao/记录/` 创建学习与复盘模板（`daily_template.md`、`weekly_template.md`、`monthly_template.md`、`semester_template.md`）并同步 `README`。
+- 原位置 `MY_Learning/Tracking/` 下的模板已移除，原 `README.md` 内容已复制到 `记录/README.md` 以保留说明。
+
 ---
 
-Last updated: 2026-04-27
+Last updated: 2026-04-29
