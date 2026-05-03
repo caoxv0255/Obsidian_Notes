@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: multiple_integrals
 category: calculus

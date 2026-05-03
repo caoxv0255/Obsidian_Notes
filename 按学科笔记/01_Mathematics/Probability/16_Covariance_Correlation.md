@@ -1,4 +1,4 @@
-﻿---
+---
 type: note
 subject: probability
 chapter: 16

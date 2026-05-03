@@ -5,17 +5,17 @@ created: 2026-04-25
 status: complete
 ---
 
-# 02_Programming 总索引
+# 02_programming 总索引
 
-> 这里按语言汇总编程笔记，入口统一放在各语言的 `00_Index`。
+> 这里按语言汇总编程笔记，入口统一放在各语言的 `00_index`。
 
 ## 目录
 
-- [[C++/00_CPP_Index|C++]] - 竞赛、STL、Linux 工程
-- [[Python/00_Python_Index|Python]] - 科学计算、数据科学、深度学习
-- [[Java/00_Java_Index|Java]] - 面向对象、集合框架、JVM、并发
-- [[JavaScript/00_JavaScript_Index|JavaScript]] - 浏览器、模块、异步、Node.js
-- [[Rust/00_Rust_Index|Rust]] - 所有权、借用、Cargo、错误处理
+- [[01_cpp/00_cpp_index|C++]] - 竞赛、STL、Linux 工程
+- [[04_python/00_python_index|Python]] - 科学计算、数据科学、深度学习
+- [[02_java/00_java_index|Java]] - 面向对象、集合框架、JVM、并发
+- [[03_javascript/00_javascript_index|JavaScript]] - 浏览器、模块、异步、Node.js
+- [[05_rust/00_rust_index|Rust]] - 所有权、借用、Cargo、错误处理
 
 ## 学习路径
 

@@ -501,7 +501,7 @@ status: complete
   - 专题_STL底层原理 - STL容器和算法的底层实现
 
 **C++语言基础**：
-- [[../../../../备份/02_programming/01_cpp/00_CPP_Index|C++ 编程]] - C++语言完整学习路径
+- [[../02_programming/01_cpp/00_CPP_Index|C++ 编程]] - C++语言完整学习路径
   - 01_Basics - 基础知识（20个笔记）：基本语法、变量类型、控制流、函数、指针、引用等
   - 02_STL - 标准模板库：容器、迭代器
   - 03_Algorithms - 算法：排序、搜索、动态规划
@@ -511,14 +511,14 @@ status: complete
 
 | 本笔记章节 | 对应的算法导论章节 | 相关C++基础 |
 |-----------|-------------------|------------|
-| 第1章：绪论 | Part01_基础与算法分析 | [[../../../../备份/02_programming/01_cpp/01_Basics/15_Type_Conversion|类型转换]] |
-| 第2章：线性表 | Part03_基础数据结构 | [[../../../../备份/02_programming/01_cpp/01_Basics/06_Pointers|指针]], [[../../../../备份/02_programming/01_cpp/01_Basics/08_Arrays|数组]] |
-| 第3章：栈和队列 | Part03_基础数据结构 | [[../../../../备份/02_programming/01_cpp/02_STL/01_Containers|容器]] |
-| 第4章：字符串和多维数组 | Part07_高级主题 | [[../../../../备份/02_programming/01_cpp/01_Basics/09_Strings|字符串]] |
-| 第5章：树和二叉树 | Part03_基础数据结构, Part04_平衡树与高级数据结构 | [[../../../../备份/02_programming/01_cpp/01_Basics/13_Struct_Union|结构体]] |
+| 第1章：绪论 | Part01_基础与算法分析 | [[../02_programming/01_cpp/01_Basics/15_Type_Conversion|类型转换]] |
+| 第2章：线性表 | Part03_基础数据结构 | [[../02_programming/01_cpp/01_Basics/06_Pointers|指针]], [[../02_programming/01_cpp/01_Basics/08_Arrays|数组]] |
+| 第3章：栈和队列 | Part03_基础数据结构 | [[../02_programming/01_cpp/02_STL/01_Containers|容器]] |
+| 第4章：字符串和多维数组 | Part07_高级主题 | [[../02_programming/01_cpp/01_Basics/09_Strings|字符串]] |
+| 第5章：树和二叉树 | Part03_基础数据结构, Part04_平衡树与高级数据结构 | [[../02_programming/01_cpp/01_Basics/13_Struct_Union|结构体]] |
 | 第6章：图 | Part06_图算法 | - |
 | 第7章：查找技术 | Part03_基础数据结构 | - |
-| 第8章：排序技术 | Part02_排序算法 | [[../../../../备份/02_programming/01_cpp/03_Algorithms/03_Algorithms_Sorting_Searching|排序和搜索]] |
+| 第8章：排序技术 | Part02_排序算法 | [[../02_programming/01_cpp/03_Algorithms/03_Algorithms_Sorting_Searching|排序和搜索]] |
 | 第9章：索引技术 | Part04_平衡树与高级数据结构 | - |
 
 ---

@@ -641,7 +641,7 @@ if __name__ == "__main__":
 - [[01_Real_Numbers]] - 实数理论（测度论的基础）
 - [[10_Definite_Integrals]] - 定积分（Riemann积分）
 - [[12_Improper_Integrals]] - 反常积分（推广的积分）
-- [[../../02_Programming/Python/02_Autograd]] - 自动微分（$L^2$ 空间的应用）
+- [[../../02_programming/04_python/02_Autograd]] - 自动微分（$L^2$ 空间的应用）
 
 ## 总结
 

@@ -121,9 +121,9 @@ status: complete
 - [[00_Optimization_Index|优化理论]] - 矩阵运算在牛顿法、共轭梯度法中的应用
 
 ### 编程工具链接
-- [[../../02_Programming/Python/00_Python_Index|Python]] - NumPy矩阵运算、线性代数函数
-- [[../../02_Programming/Python/00_Pytorch_Index|PyTorch]] - 线性层、全连接层、矩阵乘法、张量运算
-- [[../../02_Programming/C++/00_CPP_Index|C++]] - 线性代数库（Eigen、BLAS）的使用
+- [[../../02_programming/04_python/00_Python_Index|Python]] - NumPy矩阵运算、线性代数函数
+- [[../../02_programming/04_python/00_Pytorch_Index|PyTorch]] - 线性层、全连接层、矩阵乘法、张量运算
+- [[../../02_programming/01_cpp/00_CPP_Index|C++]] - 线性代数库（Eigen、BLAS）的使用
 
 ## 教材参考
 

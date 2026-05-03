@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: curve_integrals
 category: calculus

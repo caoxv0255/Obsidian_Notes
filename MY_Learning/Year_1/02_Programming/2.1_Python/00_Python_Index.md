@@ -76,5 +76,5 @@ updated: 2026-04-08
 - [[00_Calculus_Index|微积分]]
 - [[00_Linear_Algebra_Index|线性代数]]
 - [[00_Probability_Index|概率统计]]
-- [[../../../../备份/02_Programming/Python/00_Pytorch_Index|PyTorch]]
+- [[../../../../备份/02_programming/04_python/00_Pytorch_Index|PyTorch]]
 - [[../../../00_Index|主索引]]
