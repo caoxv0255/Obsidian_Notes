@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: matrix_basics
 category: linear_algebra

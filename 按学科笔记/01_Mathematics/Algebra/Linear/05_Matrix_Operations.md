@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: matrix_operations
 category: linear_algebra
@@ -12,7 +12,6 @@ subject: linear_algebra
 chapter: 05
 updated: 2026-04-27
 ---
-
 # 矩阵运算 (Matrix Operations)
 
 ## 📌 学习目标

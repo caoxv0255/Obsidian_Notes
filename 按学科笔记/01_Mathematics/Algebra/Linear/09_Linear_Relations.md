@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: linear_relations
 category: linear_algebra

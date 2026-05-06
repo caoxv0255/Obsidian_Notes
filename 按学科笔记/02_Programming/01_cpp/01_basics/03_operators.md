@@ -13,7 +13,6 @@ ml_relevance: medium
 cpp_standard: 11
 tags: [编程/C++, 基础/运算符, ACM/基础]
 ---
-
 # 运算符 (Operators)
 
 > 运算符用于执行各种运算操作，包括算术、关系、逻辑和位运算

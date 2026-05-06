@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: determinant_applications
 category: linear_algebra

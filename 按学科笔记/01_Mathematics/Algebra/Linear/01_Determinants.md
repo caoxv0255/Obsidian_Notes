@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: determinants
 category: linear_algebra

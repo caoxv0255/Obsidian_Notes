@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 topic: inverse_matrix
 category: linear_algebra
