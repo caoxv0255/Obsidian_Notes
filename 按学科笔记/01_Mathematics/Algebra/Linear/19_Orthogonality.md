@@ -4,7 +4,7 @@ topic: orthogonality
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[18_Inner_Product]]
+  - [[按学科笔记/01_mathematics/algebra/linear/18_inner_product]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 19
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -352,9 +352,9 @@ $\mathbf{e}_3 = \frac{1}{\sqrt{2}}[1, -1, 0]^T$
 
 ## 相关概念
 
-- [[18_Inner_Product]] - 内积空间
-- [[20_Orthogonal_Transformations]] - 正交变换
-- [[21_SVD]] - 奇异值分解
+- [[按学科笔记/01_mathematics/algebra/linear/18_inner_product]] - 内积空间
+- [[按学科笔记/01_mathematics/algebra/linear/20_orthogonal_transformations]] - 正交变换
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解
 
 ## 参考教材
 

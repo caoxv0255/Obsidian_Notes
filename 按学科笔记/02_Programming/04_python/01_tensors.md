@@ -3,7 +3,7 @@ type: concept
 topic: tensors
 category: pytorch
 difficulty: beginner
-prerequisites: [[00_Python_Index|Python 科学计算与深度学习]]
+prerequisites: [[../../../MY_Learning/Year_1/02_Programming/2.1_Python/00_Python_Index|Python 科学计算与深度学习]]
 acm_relevant: false
 created: 2026-02-20
 status: complete

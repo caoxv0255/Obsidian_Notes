@@ -1,0 +1,605 @@
+{
+  "total_issues": 2758,
+  "top50": [
+    {
+      "target": "../00_symbols_conventions",
+      "count": 111,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/00_algebra_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/01_real_numbers.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md",
+        "按学科笔记/01_mathematics/calculus/03_continuity.md",
+        "按学科笔记/01_mathematics/calculus/04_uniform_continuity.md"
+      ]
+    },
+    {
+      "target": "../00_Symbols_Conventions",
+      "count": 44,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/abstract/01_群的定义与基本性质.md",
+        "按学科笔记/01_mathematics/algebra/abstract/02_陪集与商群.md",
+        "按学科笔记/01_mathematics/algebra/abstract/03_群的结构.md",
+        "按学科笔记/01_mathematics/algebra/abstract/04_环的定义与理想.md",
+        "按学科笔记/01_mathematics/algebra/abstract/05_整环域与多项式环.md",
+        "按学科笔记/01_mathematics/algebra/abstract/06_域扩张.md"
+      ]
+    },
+    {
+      "target": "05_Derivatives",
+      "count": 35,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/01_real_numbers.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md",
+        "按学科笔记/01_mathematics/calculus/03_continuity.md"
+      ]
+    },
+    {
+      "target": "第4章：供给与需求的市场力量",
+      "count": 32,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/02_第2章_像经济学家一样思考.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/03_第3章_相互依存性与贸易的好处.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/03_第3章_相互依存性与贸易的好处.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/05_第5章_弹性及其应用.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md"
+      ]
+    },
+    {
+      "target": "02_Limits",
+      "count": 29,
+      "examples": [
+        "按学科笔记/01_mathematics/00_symbols_conventions.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/01_real_numbers.md"
+      ]
+    },
+    {
+      "target": "10_Definite_Integrals",
+      "count": 27,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/05_derivatives.md",
+        "按学科笔记/01_mathematics/calculus/11_variable_limit_integrals.md",
+        "按学科笔记/01_mathematics/calculus/11_variable_limit_integrals.md"
+      ]
+    },
+    {
+      "target": "19_Partial_Derivatives",
+      "count": 26,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/20_multivariable_applications.md",
+        "按学科笔记/01_mathematics/calculus/20_multivariable_applications.md"
+      ]
+    },
+    {
+      "target": "01_Real_Numbers",
+      "count": 25,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md"
+      ]
+    },
+    {
+      "target": "18_Multivariable_Limits",
+      "count": 18,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/19_partial_derivatives.md"
+      ]
+    },
+    {
+      "target": "03_Continuity",
+      "count": 17,
+      "examples": [
+        "按学科笔记/01_mathematics/00_symbols_conventions.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/01_real_numbers.md",
+        "按学科笔记/01_mathematics/calculus/02_limits.md",
+        "按学科笔记/01_mathematics/calculus/04_uniform_continuity.md",
+        "按学科笔记/01_mathematics/calculus/05_derivatives.md"
+      ]
+    },
+    {
+      "target": "第7章：消费者、生产者与市场效率",
+      "count": 16,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/05_第5章_弹性及其应用.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/08_第8章_应用_税收的代价.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/09_第9章_应用_国际贸易.md"
+      ]
+    },
+    {
+      "target": "09_Indefinite_Integrals",
+      "count": 16,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/05_derivatives.md",
+        "按学科笔记/01_mathematics/calculus/10_definite_integrals.md",
+        "按学科笔记/01_mathematics/calculus/10_definite_integrals.md",
+        "按学科笔记/01_mathematics/calculus/11_variable_limit_integrals.md"
+      ]
+    },
+    {
+      "target": "21_SVD",
+      "count": 16,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/advanced/06_矩阵范数.md",
+        "按学科笔记/01_mathematics/algebra/advanced/06_矩阵范数.md",
+        "按学科笔记/01_mathematics/algebra/advanced/10_矩阵分解进阶.md",
+        "按学科笔记/01_mathematics/algebra/advanced/11_广义逆与矩阵方程.md",
+        "按学科笔记/01_mathematics/algebra/advanced/11_广义逆与矩阵方程.md",
+        "按学科笔记/01_mathematics/algebra/linear/00_linear_algebra_index.md"
+      ]
+    },
+    {
+      "target": "第2章：线性表",
+      "count": 14,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/01_第1章_绪论.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/03_第3章_栈和队列.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/04_第4章_字符串和多维数组.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/05_第5章_树和二叉树.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/06_第6章_图.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/07_第7章_查找技术.md"
+      ]
+    },
+    {
+      "target": "第5章：树和二叉树",
+      "count": 14,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/01_第1章_绪论.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/03_第3章_栈和队列.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/04_第4章_字符串和多维数组.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/06_第6章_图.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/07_第7章_查找技术.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/09_第9章_索引技术.md"
+      ]
+    },
+    {
+      "target": "第8章：排序技术",
+      "count": 14,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/02_第2章_线性表.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/03_第3章_栈和队列.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/05_第5章_树和二叉树.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/06_第6章_图.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/07_第7章_查找技术.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/09_第9章_索引技术.md"
+      ]
+    },
+    {
+      "target": "temp_data_cleaning",
+      "count": 14,
+      "examples": [
+        "按学科笔记/02_programming/04_python/01_ml_pipeline.md",
+        "按学科笔记/02_programming/04_python/02_data_acquisition.md",
+        "按学科笔记/02_programming/04_python/04_data_analysis.md",
+        "按学科笔记/02_programming/04_python/04_data_analysis.md",
+        "按学科笔记/02_programming/04_python/05_data_visualization.md",
+        "按学科笔记/02_programming/04_python/07_case_image.md"
+      ]
+    },
+    {
+      "target": "02_Variables_Types",
+      "count": 14,
+      "examples": [
+        "按学科笔记/02_programming/01_cpp/01_basics/00_basics_index.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/03_operators.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/03_operators.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/06_pointers.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/06_pointers.md"
+      ]
+    },
+    {
+      "target": "第10章：外部性",
+      "count": 13,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/07_第7章_消费者、生产者与市场效率.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/08_第8章_应用_税收的代价.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/09_第9章_应用_国际贸易.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/09_第9章_应用_国际贸易.md"
+      ]
+    },
+    {
+      "target": "第6章：供给、需求与政府政策",
+      "count": 13,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/05_第5章_弹性及其应用.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/05_第5章_弹性及其应用.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/07_第7章_消费者、生产者与市场效率.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/08_第8章_应用_税收的代价.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/04_第4章_供给与需求的市场力量.md"
+      ]
+    },
+    {
+      "target": "第13章：生产成本",
+      "count": 13,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/11_第11章_公共物品和公共资源.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/12_第12章_税制的设计.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/12_第12章_税制的设计.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/14_第14章_竞争市场上的企业.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/15_第15章_垄断.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/16_第16章_垄断竞争.md"
+      ]
+    },
+    {
+      "target": "05_Functions",
+      "count": 13,
+      "examples": [
+        "按学科笔记/02_programming/01_cpp/01_basics/00_basics_index.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/04_control_flow.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/07_references.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/11_scope_lifetime.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/11_scope_lifetime.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/17_preprocessor.md"
+      ]
+    },
+    {
+      "target": "第2章：需求、供给和均衡价格",
+      "count": 12,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/01_第1章_引论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/01_第1章_引论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/03_第3章_消费者行为理论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/04_第4章_生产论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/05_第5章_成本论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/06_第6章_完全竞争市场.md"
+      ]
+    },
+    {
+      "target": "第6章：图",
+      "count": 12,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/01_第1章_绪论.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/03_第3章_栈和队列.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/05_第5章_树和二叉树.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/07_第7章_查找技术.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/09_第9章_索引技术.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/01_第1章_绪论.md"
+      ]
+    },
+    {
+      "target": "temp_ml_pipeline",
+      "count": 12,
+      "examples": [
+        "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+        "按学科笔记/02_programming/04_python/04_data_analysis.md",
+        "按学科笔记/02_programming/04_python/05_data_visualization.md",
+        "按学科笔记/02_programming/04_python/06_case_finance.md",
+        "按学科笔记/02_programming/04_python/07_case_image.md",
+        "按学科笔记/02_programming/04_python/08_case_nlp.md"
+      ]
+    },
+    {
+      "target": "13_Eigenvalues",
+      "count": 12,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/advanced/01_多项式基础.md",
+        "按学科笔记/01_mathematics/algebra/advanced/02_多项式深化.md",
+        "按学科笔记/01_mathematics/algebra/advanced/05_线性变换的深入理论.md",
+        "按学科笔记/01_mathematics/algebra/advanced/05_线性变换的深入理论.md",
+        "按学科笔记/01_mathematics/algebra/advanced/08_矩阵微积分.md",
+        "按学科笔记/01_mathematics/algebra/linear/00_linear_algebra_index.md"
+      ]
+    },
+    {
+      "target": "15_Diagonalization",
+      "count": 12,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/advanced/07_矩阵函数.md",
+        "按学科笔记/01_mathematics/algebra/advanced/07_矩阵函数.md",
+        "按学科笔记/01_mathematics/algebra/advanced/09_特殊矩阵类.md",
+        "按学科笔记/01_mathematics/algebra/advanced/09_特殊矩阵类.md",
+        "按学科笔记/01_mathematics/algebra/advanced/10_矩阵分解进阶.md",
+        "按学科笔记/01_mathematics/algebra/linear/00_linear_algebra_index.md"
+      ]
+    },
+    {
+      "target": "第5章：弹性及其应用",
+      "count": 11,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/07_第7章_消费者、生产者与市场效率.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/08_第8章_应用_税收的代价.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/21_第21章_消费者选择理论.md"
+      ]
+    },
+    {
+      "target": "01_Determinants",
+      "count": 11,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/advanced/04_张量积与外代数.md",
+        "按学科笔记/01_mathematics/algebra/linear/00_linear_algebra_index.md",
+        "按学科笔记/01_mathematics/algebra/linear/02_determinant_applications.md",
+        "按学科笔记/01_mathematics/algebra/linear/02_determinant_applications.md",
+        "按学科笔记/01_mathematics/algebra/linear/03_determinant_computation.md",
+        "按学科笔记/01_mathematics/algebra/linear/03_determinant_computation.md"
+      ]
+    },
+    {
+      "target": "08_Vectors",
+      "count": 11,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/linear/00_linear_algebra_index.md",
+        "按学科笔记/01_mathematics/algebra/linear/09_linear_relations.md",
+        "按学科笔记/01_mathematics/algebra/linear/09_linear_relations.md",
+        "按学科笔记/01_mathematics/algebra/linear/10_basis_dimension.md",
+        "按学科笔记/01_mathematics/algebra/linear/10_basis_dimension.md",
+        "按学科笔记/01_mathematics/algebra/linear/11_linear_equations.md"
+      ]
+    },
+    {
+      "target": "第3章：相互依存性与贸易的好处",
+      "count": 10,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/02_第2章_像经济学家一样思考.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/02_第2章_像经济学家一样思考.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/09_第9章_应用_国际贸易.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/01_第1章_经济学十大原理.md"
+      ]
+    },
+    {
+      "target": "第14章：竞争市场上的企业",
+      "count": 10,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/12_第12章_税制的设计.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/13_第13章_生产成本.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/13_第13章_生产成本.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/15_第15章_垄断.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/16_第16章_垄断竞争.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/17_第17章_寡头.md"
+      ]
+    },
+    {
+      "target": "第6章：完全竞争市场",
+      "count": 10,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/04_第4章_生产论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/05_第5章_成本论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/05_第5章_成本论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/07_第7章_完全垄断市场.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/08_第8章_垄断竞争市场.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/09_第9章_寡头市场.md"
+      ]
+    },
+    {
+      "target": "第3章：栈和队列",
+      "count": 10,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/01_第1章_绪论.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/02_第2章_线性表.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/04_第4章_字符串和多维数组.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/05_第5章_树和二叉树.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/01_第1章_绪论.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/02_第2章_线性表.md"
+      ]
+    },
+    {
+      "target": "第7章：查找技术",
+      "count": 10,
+      "examples": [
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/02_第2章_线性表.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/05_第5章_树和二叉树.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/06_第6章_图.md",
+        "按学科笔记/07_data_structures_cpp/01_lecture_notes/原始详细笔记/09_第9章_索引技术.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/02_第2章_线性表.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/05_第5章_树和二叉树.md"
+      ]
+    },
+    {
+      "target": "temp_data_analysis",
+      "count": 10,
+      "examples": [
+        "按学科笔记/02_programming/04_python/01_ml_pipeline.md",
+        "按学科笔记/02_programming/04_python/02_data_acquisition.md",
+        "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+        "按学科笔记/02_programming/04_python/05_data_visualization.md",
+        "按学科笔记/02_programming/04_python/06_case_finance.md",
+        "MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline.md"
+      ]
+    },
+    {
+      "target": "06_Pointers",
+      "count": 10,
+      "examples": [
+        "按学科笔记/02_programming/01_cpp/01_basics/00_basics_index.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/05_functions.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/07_references.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/07_references.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/08_arrays.md",
+        "按学科笔记/02_programming/01_cpp/01_basics/08_arrays.md"
+      ]
+    },
+    {
+      "target": "14_Series",
+      "count": 10,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/15_function_series.md",
+        "按学科笔记/01_mathematics/calculus/15_function_series.md",
+        "按学科笔记/01_mathematics/calculus/16_power_series.md",
+        "按学科笔记/01_mathematics/calculus/16_power_series.md"
+      ]
+    },
+    {
+      "target": "01_群的定义与基本性质",
+      "count": 10,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/abstract/02_陪集与商群.md",
+        "按学科笔记/01_mathematics/algebra/abstract/02_陪集与商群.md",
+        "按学科笔记/01_mathematics/algebra/abstract/03_群的结构.md",
+        "按学科笔记/01_mathematics/algebra/abstract/03_群的结构.md",
+        "按学科笔记/01_mathematics/algebra/abstract/04_环的定义与理想.md",
+        "按学科笔记/01_mathematics/algebra/abstract/04_环的定义与理想.md"
+      ]
+    },
+    {
+      "target": "第1章：经济学十大原理",
+      "count": 9,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/02_第2章_像经济学家一样思考.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/03_第3章_相互依存性与贸易的好处.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/02_第2章_像经济学家一样思考.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/03_第3章_相互依存性与贸易的好处.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/04_第4章_供给与需求的市场力量.md"
+      ]
+    },
+    {
+      "target": "12_Improper_Integrals",
+      "count": 9,
+      "examples": [
+        "按学科笔记/01_mathematics/calculus/00_calculus_index.md",
+        "按学科笔记/01_mathematics/calculus/11_variable_limit_integrals.md",
+        "按学科笔记/01_mathematics/calculus/13_integral_applications.md",
+        "按学科笔记/01_mathematics/calculus/26_real_analysis_appendix.md",
+        "按学科笔记/01_mathematics/calculus/26_real_analysis_appendix.md",
+        "按学科笔记/01_mathematics/calculus/26_real_analysis_appendix.md"
+      ]
+    },
+    {
+      "target": "03_群的结构",
+      "count": 9,
+      "examples": [
+        "按学科笔记/01_mathematics/algebra/abstract/01_群的定义与基本性质.md",
+        "按学科笔记/01_mathematics/algebra/abstract/02_陪集与商群.md",
+        "按学科笔记/01_mathematics/algebra/abstract/07_有限域与Galois理论.md",
+        "按学科笔记/01_mathematics/algebra/abstract/07_有限域与Galois理论.md",
+        "按学科笔记/01_mathematics/algebra/abstract/09_PID上的模.md",
+        "按学科笔记/01_mathematics/algebra/abstract/09_PID上的模.md"
+      ]
+    },
+    {
+      "target": "../00_双路径评估与重构规划",
+      "count": 9,
+      "examples": [
+        "MY_Learning/00_META/00_学习路径图.md",
+        "MY_Learning/Year_1/00_Overview.md",
+        "MY_Learning/Year_1/00_Overview.md",
+        "MY_Learning/Year_2/00_Overview.md",
+        "MY_Learning/Year_2/00_Overview.md",
+        "MY_Learning/Year_3/00_Year_Overview.md"
+      ]
+    },
+    {
+      "target": "../00_双路径能力矩阵",
+      "count": 9,
+      "examples": [
+        "MY_Learning/00_META/00_学习路径图.md",
+        "MY_Learning/Year_1/00_Overview.md",
+        "MY_Learning/Year_1/00_Overview.md",
+        "MY_Learning/Year_2/00_Overview.md",
+        "MY_Learning/Year_2/00_Overview.md",
+        "MY_Learning/Year_3/00_Year_Overview.md"
+      ]
+    },
+    {
+      "target": "第2章：像经济学家一样思考",
+      "count": 8,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/03_第3章_相互依存性与贸易的好处.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/01_第1章_经济学十大原理.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/01_第1章_经济学十大原理.md"
+      ]
+    },
+    {
+      "target": "第12章：税制的设计",
+      "count": 8,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/08_第8章_应用_税收的代价.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/10_第10章_外部性.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/11_第11章_公共物品和公共资源.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/11_第11章_公共物品和公共资源.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/13_第13章_生产成本.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/01_宏观经济学/01_初级/曼昆_经济学原理_宏观分册/10_第10章_外部性.md"
+      ]
+    },
+    {
+      "target": "第15章：垄断",
+      "count": 8,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/09_第9章_应用_国际贸易.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/13_第13章_生产成本.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/14_第14章_竞争市场上的企业.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/14_第14章_竞争市场上的企业.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/16_第16章_垄断竞争.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/17_第17章_寡头.md"
+      ]
+    },
+    {
+      "target": "第5章：成本论",
+      "count": 8,
+      "examples": [
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/03_第3章_消费者行为理论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/04_第4章_生产论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/04_第4章_生产论.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/06_第6章_完全竞争市场.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/07_第7章_完全垄断市场.md",
+        "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/08_第8章_垄断竞争市场.md"
+      ]
+    },
+    {
+      "target": "01_Containers",
+      "count": 8,
+      "examples": [
+        "按学科笔记/02_programming/01_cpp/00_cpp_index.md",
+        "按学科笔记/02_programming/01_cpp/02_stl/00_stl_index.md",
+        "按学科笔记/02_programming/01_cpp/02_stl/02_iterators.md",
+        "按学科笔记/02_programming/01_cpp/02_stl/03_stl_algorithms.md",
+        "按学科笔记/02_programming/01_cpp/02_stl/03_stl_algorithms.md",
+        "按学科笔记/02_programming/01_cpp/02_stl/05_container_adapters.md"
+      ]
+    },
+    {
+      "target": "03_Algorithms_Sorting_Searching",
+      "count": 8,
+      "examples": [
+        "按学科笔记/02_programming/01_cpp/00_cpp_index.md",
+        "按学科笔记/02_programming/01_cpp/03_algorithms/00_algorithms_index.md",
+        "按学科笔记/02_programming/01_cpp/03_algorithms/04_dynamic_programming.md",
+        "按学科笔记/02_programming/01_cpp/03_algorithms/05_greedy.md",
+        "按学科笔记/02_programming/01_cpp/03_algorithms/06_graph_algorithms.md",
+        "按学科笔记/02_programming/01_cpp/03_algorithms/07_string_algorithms.md"
+      ]
+    }
+  ]
+}

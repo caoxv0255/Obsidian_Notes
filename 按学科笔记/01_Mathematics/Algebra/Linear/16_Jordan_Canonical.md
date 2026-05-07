@@ -4,7 +4,7 @@ topic: jordan_canonical
 category: linear_algebra
 difficulty: advanced
 prerequisites:
-  - [[15_Diagonalization]]
+  - [[按学科笔记/01_mathematics/algebra/linear/15_diagonalization]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 16
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -309,8 +309,8 @@ $$J_k(\lambda) = \begin{bmatrix} \lambda & 1 & & \\ & \lambda & \ddots & \\ & & 
 
 ## 相关概念
 
-- [[13_Eigenvalues]] - 特征值与特征向量
-- [[14_Similar_Matrices]] - 相似矩阵
-- [[15_Diagonalization]] - 矩阵对角化
+- [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]] - 特征值与特征向量
+- [[按学科笔记/01_mathematics/algebra/linear/14_similar_matrices]] - 相似矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/15_diagonalization]] - 矩阵对角化
 
 

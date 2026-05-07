@@ -3,7 +3,7 @@ type: concept
 topic: stl_pitfalls_performance
 category: advanced
 difficulty: intermediate
-prerequisites: [[../02_STL/01_Containers]], [[../02_STL/02_Iterators]]
+prerequisites: [[../02_stl/01_containers]], [[../02_stl/02_iterators]]
 acm_relevant: true
 created: 2026-04-22
 status: draft
@@ -101,8 +101,8 @@ int main() {
 3. 手工构造 `vector` 迭代器失效案例，确认什么时候必须重新取迭代器
 
 ## 相关链接
-- [[../02_STL/01_Containers|STL 容器]]
-- [[../02_STL/02_Iterators|STL 迭代器]]
+- [[../02_stl/01_containers|STL 容器]]
+- [[../02_stl/02_iterators|STL 迭代器]]
 
 ## 参考资料
 - cppreference：container requirements

@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -255,5 +255,5 @@ $$P(X_1 = x_1, \ldots, X_m = x_m) = \frac{n!}{x_1! \cdots x_m!} p_1^{x_1} \cdots
 1. 《概率论与数理统计》- 浙江大学
 2. 《A First Course in Probability》- Sheldon Ross
 
-**下一章**：[[07_Continuous_Distributions]] - 连续型随机变量
+**下一章**：[[按学科笔记/01_mathematics/probability/07_continuous_distributions]] - 连续型随机变量
 

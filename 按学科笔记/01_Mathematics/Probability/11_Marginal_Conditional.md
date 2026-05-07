@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -280,7 +280,7 @@ print(f"X|Y=1 ~ N({mu_x_given_y}, {var_x_given_y})")
 ---
 
 **相关链接**：
-- [[10_Joint_Distributions]] - 多维随机变量与联合分布
-- [[12_Independence]] - 随机变量的独立性
-- [[14_Expectation]] - 数学期望
+- [[按学科笔记/01_mathematics/probability/10_joint_distributions]] - 多维随机变量与联合分布
+- [[按学科笔记/01_mathematics/probability/12_independence]] - 随机变量的独立性
+- [[按学科笔记/01_mathematics/probability/14_expectation]] - 数学期望
 

@@ -3,7 +3,7 @@ type: concept
 topic: java_basics
 category: java
 difficulty: beginner
-prerequisites: [[00_Java_Index]]
+prerequisites: [[按学科笔记/02_programming/02_java/00_java_index]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

@@ -4,10 +4,10 @@ topic: vector_calculus
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[19_Partial_Derivatives]]
-    - [[22_Curve_Integrals]]
-    - [[23_Surface_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/22_curve_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/23_surface_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -25,7 +25,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解梯度、散度、旋度与拉普拉斯算子的定义和几何意义
@@ -33,10 +33,10 @@ updated: 2026-04-27
 - 会用向量微积分分析保守场、通量和环量问题
 
 ## 先修
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[22_Curve_Integrals]] - 曲线积分
-- [[23_Surface_Integrals]] - 曲面积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[按学科笔记/01_mathematics/calculus/22_curve_integrals]] - 曲线积分
+- [[按学科笔记/01_mathematics/calculus/23_surface_integrals]] - 曲面积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：梯度、散度、旋度与拉普拉斯算子
@@ -338,11 +338,11 @@ print(f"旋度 ∇×F 在 {point}: {curl}")
 
 ## 相关链接
 
-- [[19_Partial_Derivatives]] - 偏导数（向量微积分的基础）
-- [[22_Curve_Integrals]] - 曲线积分（向量微积分的应用）
-- [[23_Surface_Integrals]] - 曲面积分（向量微积分的应用）
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数（向量微积分的基础）
+- [[按学科笔记/01_mathematics/calculus/22_curve_integrals]] - 曲线积分（向量微积分的应用）
+- [[按学科笔记/01_mathematics/calculus/23_surface_integrals]] - 曲面积分（向量微积分的应用）
 - [[../../01_Mathematics/Linear_Algebra/04_Eigenvalues_Eigenvectors]] - 特征值特征向量（拉普拉斯算子）
-- [[02_Autograd]] - 自动微分（梯度的计算）
+- [[按学科笔记/02_programming/04_python/02_autograd]] - 自动微分（梯度的计算）
 
 
 

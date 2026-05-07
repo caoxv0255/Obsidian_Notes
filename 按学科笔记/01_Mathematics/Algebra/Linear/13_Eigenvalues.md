@@ -4,7 +4,7 @@ topic: eigenvalues
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[01_Determinants]]
+  - [[按学科笔记/01_mathematics/algebra/linear/01_determinants]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -17,7 +17,7 @@ chapter: 13
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -467,9 +467,9 @@ print(f"PageRank得分: {pagerank}")
 
 ## 相关概念
 
-- [[14_Similar_Matrices]] - 相似矩阵
-- [[15_Diagonalization]] - 矩阵对角化
-- [[16_Jordan_Canonical]] - 约当标准形
-- [[21_SVD]] - 奇异值分解
+- [[按学科笔记/01_mathematics/algebra/linear/14_similar_matrices]] - 相似矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/15_diagonalization]] - 矩阵对角化
+- [[按学科笔记/01_mathematics/algebra/linear/16_jordan_canonical]] - 约当标准形
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解
 
 

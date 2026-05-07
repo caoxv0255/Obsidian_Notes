@@ -4,7 +4,7 @@ topic: orthogonal_transformations
 category: linear_algebra
 difficulty: advanced
 prerequisites:
-  - [[19_Orthogonality]]
+  - [[按学科笔记/01_mathematics/algebra/linear/19_orthogonality]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 20
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -557,9 +557,9 @@ $$H = I - 2\mathbf{u}\mathbf{u}^T = I - \frac{8}{5}\begin{bmatrix} 4 & 2 \\ 2 & 
 
 ## 相关概念
 
-- [[19_Orthogonality]] - 正交性
-- [[21_SVD]] - 奇异值分解
-- [[23_Linear_Maps]] - 线性映射
+- [[按学科笔记/01_mathematics/algebra/linear/19_orthogonality]] - 正交性
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解
+- [[按学科笔记/01_mathematics/algebra/linear/23_linear_maps]] - 线性映射
 
 ## 参考教材
 

@@ -3,7 +3,7 @@ type: case_study
 topic: nlp
 category: case_studies
 difficulty: advanced
-prerequisites: [[temp_data_cleaning, temp_ml_pipeline]]
+prerequisites: 
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -500,6 +500,6 @@ result = sentiment_pipeline("I love this product!")
 ```
 
 ## 相关链接
-- [[temp_data_cleaning|数据清洗]]
-- [[temp_ml_pipeline|ML 全流程]]
-- [[temp_pytorch_index|PyTorch]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning|数据清洗]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline|ML 全流程]]
+- 

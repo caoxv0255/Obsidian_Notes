@@ -9,7 +9,7 @@ status: active
 
 ## 速查
 
-- [[../00_symbols_conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 知识地图
 
@@ -34,12 +34,12 @@ status: active
 
 ## 章节入口
 
-- [[01_logic|命题逻辑与推理]]
-- [[02_sets_relations|集合、关系与函数]]
-- [[03_proofs|证明方法与归纳法]]
-- [[04_counting|计数原理与组合]]
-- [[05_graphs|图论基础]]
-- [[06_number_theory|数论基础]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/01_logic|命题逻辑与推理]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/02_sets_relations|集合、关系与函数]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/03_proofs|证明方法与归纳法]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/04_counting|计数原理与组合]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/05_graphs|图论基础]]
+- [[按学科笔记/01_mathematics/discrete_mathematics/06_number_theory|数论基础]]
 
 ## 后续扩展
 

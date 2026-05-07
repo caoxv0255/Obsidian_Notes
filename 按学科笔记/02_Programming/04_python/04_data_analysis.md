@@ -3,7 +3,7 @@ type: cookbook
 topic: data_analysis
 category: data_science
 difficulty: intermediate
-prerequisites: [[temp_data_cleaning]]
+prerequisites: [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning]]
 acm_relevant: false
 created: 2026-02-20
 status: complete
@@ -300,6 +300,6 @@ def quick_analysis(df):
 ```
 
 ## 相关链接
-- [[temp_data_cleaning|数据清洗]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning|数据清洗]]
 - [[temp_data_visualization|数据可视化]]
-- [[temp_ml_pipeline|ML 全流程]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline|ML 全流程]]

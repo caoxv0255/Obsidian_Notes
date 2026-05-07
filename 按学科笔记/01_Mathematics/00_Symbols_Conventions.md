@@ -59,7 +59,7 @@ status: active
 
 - 每章 YAML 里用 `prerequisites` 作为列表：
   - `prerequisites:`
-  - `  - [[02_Limits]]`
-  - `  - [[03_Continuity]]`
+  - `  - [[按学科笔记/01_mathematics/calculus/02_limits]]`
+  - `  - [[按学科笔记/01_mathematics/calculus/03_continuity]]`
 - 难度分层统一用：**基础 / 进阶 / 拓展**
 - 练习分层统一用：**A档（熟练）/ B档（辨析）/ C档（证明/推导）**

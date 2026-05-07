@@ -3,7 +3,7 @@ type: concept
 topic: Control Flow
 category: basics
 difficulty: 基础
-prerequisites: [[03_Operators]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/03_operators]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -166,8 +166,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[03_Operators]] - 运算符
-- [[05_Functions]] - 函数
+- [[按学科笔记/02_programming/01_cpp/01_basics/03_operators]] - 运算符
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数
 
 ## 📝 练习题
 

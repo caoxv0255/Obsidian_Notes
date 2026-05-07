@@ -3,7 +3,7 @@ type: concept
 topic: algorithms_sort
 category: algorithms
 difficulty: intermediate
-prerequisites: [[../02_STL/01_Containers]]
+prerequisites: [[../02_stl/01_containers]]
 acm_relevant: true
 created: 2026-02-20
 status: complete

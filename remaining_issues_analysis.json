@@ -1,0 +1,73 @@
+{
+  "by_type": {
+    "OTHER": {
+      "count": 61,
+      "examples": [
+        {
+          "target": "00_双路径评估与重构规划",
+          "refs_count": 1
+        },
+        {
+          "target": "00_双路径能力矩阵",
+          "refs_count": 1
+        },
+        {
+          "target": "00_双路径研究执行模板",
+          "refs_count": 1
+        }
+      ]
+    },
+    "CHAPTER_FILE": {
+      "count": 79,
+      "examples": [
+        {
+          "target": "微积分笔记/第五章/定积分定义",
+          "refs_count": 1
+        },
+        {
+          "target": "微积分笔记/第五章",
+          "refs_count": 3
+        },
+        {
+          "target": "概率论笔记/第一章",
+          "refs_count": 2
+        }
+      ]
+    },
+    "PATH_LIKE": {
+      "count": 42,
+      "examples": [
+        {
+          "target": "算法模板/动态规划/背包问题",
+          "refs_count": 1
+        },
+        {
+          "target": "Python学习/NumPy基础",
+          "refs_count": 1
+        },
+        {
+          "target": "算法模板/DP专题",
+          "refs_count": 2
+        }
+      ]
+    },
+    "ENGLISH_NAME": {
+      "count": 60,
+      "examples": [
+        {
+          "target": "02_Limits",
+          "refs_count": 29
+        },
+        {
+          "target": "03_Continuity",
+          "refs_count": 17
+        },
+        {
+          "target": "附录A_逻辑设计基础",
+          "refs_count": 3
+        }
+      ]
+    }
+  },
+  "total_unresolved": 934
+}

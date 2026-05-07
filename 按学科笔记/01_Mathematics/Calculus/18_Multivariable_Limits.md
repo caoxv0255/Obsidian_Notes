@@ -4,10 +4,10 @@ topic: multivariable_limits
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[01_Real_Numbers]]
-    - [[02_Limits]]
-    - [[03_Continuity]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/01_real_numbers]]
+    - [[按学科笔记/01_mathematics/calculus/02_limits]]
+    - [[按学科笔记/01_mathematics/calculus/03_continuity]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -25,7 +25,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 熟悉欧式空间、邻域与开闭集等点集概念
@@ -34,10 +34,10 @@ updated: 2026-04-27
 - 会用极坐标、夹逼和反例判断多元极限是否存在，并理解累次极限与二重极限的区别
 
 ## 先修
-- [[01_Real_Numbers]] - 实数理论
-- [[02_Limits]] - 极限
-- [[03_Continuity]] - 连续性
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]] - 实数理论
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：多元极限定义、路径法与连续性
@@ -225,8 +225,8 @@ print("\n由于极限值不相等，极限不存在！")
 
 ## 相关链接
 
-- [[02_Limits]] - 极限（多元极限的基础）
-- [[03_Continuity]] - 连续性（多元连续的基础）
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限（多元极限的基础）
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性（多元连续的基础）
 - [[18_Partial_Derivatives]] - 偏导数（多元微分的开始）
 - [[../../01_Mathematics/Optimization/01_Gradient_Descent]] - 梯度下降（连续性的应用）
 ## 根据题型整理的做题方法

@@ -4,7 +4,7 @@ topic: ml_applications
 category: linear_algebra
 difficulty: advanced
 prerequisites:
-  - [[21_SVD]]
+  - [[按学科笔记/01_mathematics/algebra/linear/21_svd]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 24
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -319,9 +319,9 @@ $$\Sigma = \frac{1}{3}\begin{bmatrix} 0 & 0 & 2 \\ 0 & 0 & 0 \end{bmatrix} + \fr
 
 ## 相关概念
 
-- [[21_SVD]] - 奇异值分解
-- [[22_Pseudoinverse]] - 伪逆
-- [[12_Least_Squares]] - 最小二乘法
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解
+- [[按学科笔记/01_mathematics/algebra/linear/22_pseudoinverse]] - 伪逆
+- [[按学科笔记/01_mathematics/algebra/linear/12_least_squares]] - 最小二乘法
 
 ## 参考教材
 

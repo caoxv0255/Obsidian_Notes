@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -294,5 +294,5 @@ $$\min_x \frac{1}{2}\|Ax - b\|^2 + \lambda \|x\|_1$$
 1. 《Convex Optimization》- Boyd & Vandenberghe
 2. 《Numerical Optimization》- Nocedal & Wright
 
-**下一章**：[[05_Optimality_Conditions]] - 最优性条件
+**下一章**：[[按学科笔记/01_mathematics/optimization/05_optimality_conditions]] - 最优性条件
 

@@ -3,7 +3,7 @@ type: concept
 topic: rust_ownership_borrowing
 category: rust
 difficulty: intermediate
-prerequisites: [[01_Rust_Basics]]
+prerequisites: [[按学科笔记/02_programming/05_rust/01_rust_basics]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

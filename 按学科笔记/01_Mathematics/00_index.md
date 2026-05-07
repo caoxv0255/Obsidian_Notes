@@ -9,7 +9,7 @@ status: active
 
 ## 速查
 
-- [[00_symbols_conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/00_symbols_conventions|符号与约定总表]]
 
 ## 学科入口
 

@@ -3,7 +3,7 @@ type: project
 topic: rust_practice_grep
 category: rust
 difficulty: intermediate
-prerequisites: [[03_Rust_Cargo_Error_Handling]]
+prerequisites: [[按学科笔记/02_programming/05_rust/03_rust_cargo_error_handling]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

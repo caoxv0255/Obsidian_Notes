@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -247,5 +247,5 @@ $$\varphi(t) = e^{i\mu^T t} \psi(t^T \Sigma t)$$
 1. 《Statistical Inference》- Casella & Berger
 2. 《Theory of Point Estimation》- Lehmann
 
-**下一章**：[[10_Joint_Distributions]] - 多维随机变量与联合分布
+**下一章**：[[按学科笔记/01_mathematics/probability/10_joint_distributions]] - 多维随机变量与联合分布
 

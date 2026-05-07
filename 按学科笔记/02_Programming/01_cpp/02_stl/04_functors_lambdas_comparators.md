@@ -3,7 +3,7 @@ type: concept
 topic: stl_functors
 category: stl
 difficulty: intermediate
-prerequisites: [[03_STL_Algorithms]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/02_stl/03_stl_algorithms]]
 acm_relevant: true
 created: 2026-04-25
 status: complete
@@ -60,5 +60,5 @@ int main() {
 
 ## 相关链接
 
-- [[03_STL_Algorithms]]
-- [[00_STL_Index|返回 STL 索引]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/03_stl_algorithms]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/00_stl_index|返回 STL 索引]]

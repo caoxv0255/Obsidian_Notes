@@ -4,9 +4,9 @@ topic: multiple_integrals
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[10_Definite_Integrals]]
-    - [[19_Partial_Derivatives]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -24,7 +24,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解二重积分、三重积分及其几何意义
@@ -32,9 +32,9 @@ updated: 2026-04-27
 - 会用重积分求体积、质量、概率与物理量
 
 ## 先修
-- [[10_Definite_Integrals]] - 定积分
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：二重积分、三重积分与区域分解
@@ -656,10 +656,10 @@ if __name__ == "__main__":
 
 ## 相关链接
 
-- [[10_Definite_Integrals]] - 定积分（重积分的基础）
-- [[19_Partial_Derivatives]] - 偏导数（重积分的逆运算）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（重积分的基础）
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数（重积分的逆运算）
 - [[../../01_Mathematics/Probability/03_Distributions]] - 概率分布（重积分的应用）
-- [[06_Case_Finance]] - 金融案例（联合概率的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融案例（联合概率的应用）
 
 ## 总结
 - 重积分是把一维积分推广到二维和三维区域上的累积量计算

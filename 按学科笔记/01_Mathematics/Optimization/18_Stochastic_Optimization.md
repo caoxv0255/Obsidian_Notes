@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -386,7 +386,7 @@ class LogisticRegression:
 ---
 
 **相关链接**：
-- [[06_Gradient_Methods]] - 梯度下降法
-- [[07_Newton_Method]] - 牛顿法
-- [[19_Distributed_Optimization]] - 分布式优化
+- [[按学科笔记/01_mathematics/optimization/06_gradient_methods]] - 梯度下降法
+- [[按学科笔记/01_mathematics/optimization/07_newton_method]] - 牛顿法
+- [[按学科笔记/01_mathematics/optimization/19_distributed_optimization]] - 分布式优化
 

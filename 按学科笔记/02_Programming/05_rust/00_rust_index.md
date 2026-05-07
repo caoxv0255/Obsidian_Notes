@@ -11,10 +11,10 @@ status: complete
 
 ## 目录结构
 
-- [[01_Rust_Basics]] - 基础语法、模式匹配、模块、Cargo
-- [[02_Rust_Ownership_Borrowing]] - 所有权、借用、生命周期
-- [[03_Rust_Cargo_Error_Handling]] - Cargo、Result、Option、测试
-- [[04_Rust_Practice]] - 命令行文件搜索器
+- [[按学科笔记/02_programming/05_rust/01_rust_basics]] - 基础语法、模式匹配、模块、Cargo
+- [[按学科笔记/02_programming/05_rust/02_rust_ownership_borrowing]] - 所有权、借用、生命周期
+- [[按学科笔记/02_programming/05_rust/03_rust_cargo_error_handling]] - Cargo、Result、Option、测试
+- [[按学科笔记/02_programming/05_rust/04_rust_practice]] - 命令行文件搜索器
 
 ## 学习路径
 
@@ -41,4 +41,4 @@ status: complete
 
 ## 相关链接
 
-- [[../00_Index|02_Programming 总索引]]
+- [[../00_index|02_Programming 总索引]]

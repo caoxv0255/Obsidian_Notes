@@ -11,7 +11,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -378,5 +378,5 @@ $$\text{relbd}(C) = \text{cl}(C) \setminus \text{relint}(C)$$
 2. 《凸分析》- 史树中
 3. 《Convex Analysis》- R. Tyrrell Rockafellar
 
-**下一章**：[[02_Convex_Functions]] - 凸函数
+**下一章**：[[按学科笔记/01_mathematics/optimization/02_convex_functions]] - 凸函数
 

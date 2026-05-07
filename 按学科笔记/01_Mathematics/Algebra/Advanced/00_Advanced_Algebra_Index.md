@@ -176,7 +176,7 @@ status: complete
 - 最小范数最小二乘解
 
 **应用链接**
-- → [[22_Pseudoinverse|伪逆初步]]
+- → [[按学科笔记/01_mathematics/algebra/linear/22_pseudoinverse|伪逆初步]]
 - → 统计学中的线性模型
 
 ---
@@ -200,11 +200,11 @@ status: complete
 ## 与其他模块的关联
 
 ### 前置知识
-- [[00_Linear_Algebra_Index|线性代数]] - 行列式、矩阵、向量空间、特征值
+- [[../../../../MY_Learning/Year_1/01_Math/1.2_线性代数/00_Linear_Algebra_Index|线性代数]] - 行列式、矩阵、向量空间、特征值
 
 ### 后续学习
-- [[00_Abstract_Algebra_Index|近世代数]] - 多项式环、模论
-- [[00_Optimization_Index|优化理论]] - 矩阵微积分、凸优化
+- [[按学科笔记/01_mathematics/algebra/abstract/00_abstract_algebra_index|近世代数]] - 多项式环、模论
+- [[按学科笔记/01_mathematics/optimization/00_optimization_index|优化理论]] - 矩阵微积分、凸优化
 
 ### 应用领域
 - **机器学习**：矩阵微积分、正定矩阵

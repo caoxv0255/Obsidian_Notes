@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -156,7 +156,7 @@ $$H_{k+1} = H_k + \frac{(y_k - H_k s_k)(y_k - H_k s_k)^T}{(y_k - H_k s_k)^T s_k}
 
 ### 5.2 内点法
 
-适用于大规模QP，详见[[16_Interior_Point]]。
+适用于大规模QP，详见[[按学科笔记/01_mathematics/optimization/16_interior_point]]。
 
 ### 5.3 QP求解的复杂性
 
@@ -321,8 +321,8 @@ if __name__ == "__main__":
 ---
 
 **相关链接**：
-- [[07_Newton_Method]] - 牛顿法
-- [[13_Augmented_Lagrangian]] - 增广拉格朗日法
-- [[15_Simplex_Method]] - 单纯形法
-- [[16_Interior_Point]] - 内点法
+- [[按学科笔记/01_mathematics/optimization/07_newton_method]] - 牛顿法
+- [[按学科笔记/01_mathematics/optimization/13_augmented_lagrangian]] - 增广拉格朗日法
+- [[按学科笔记/01_mathematics/optimization/15_simplex_method]] - 单纯形法
+- [[按学科笔记/01_mathematics/optimization/16_interior_point]] - 内点法
 

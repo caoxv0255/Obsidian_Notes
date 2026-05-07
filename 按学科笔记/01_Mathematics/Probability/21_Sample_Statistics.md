@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -368,9 +368,9 @@ if __name__ == "__main__":
 ---
 
 **相关链接**：
-- [[14_Expectation]] - 数学期望
-- [[15_Variance]] - 方差与标准差
-- [[18_Law_of_Large_Numbers]] - 大数定律
-- [[19_Central_Limit_Theorem]] - 中心极限定理
-- [[22_Point_Estimation]] - 点估计
+- [[按学科笔记/01_mathematics/probability/14_expectation]] - 数学期望
+- [[按学科笔记/01_mathematics/probability/15_variance]] - 方差与标准差
+- [[按学科笔记/01_mathematics/probability/18_law_of_large_numbers]] - 大数定律
+- [[按学科笔记/01_mathematics/probability/19_central_limit_theorem]] - 中心极限定理
+- [[按学科笔记/01_mathematics/probability/22_point_estimation]] - 点估计
 

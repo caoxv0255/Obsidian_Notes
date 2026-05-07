@@ -346,6 +346,6 @@ train, test = df[:train_size], df[train_size:]
 ```
 
 ## 相关链接
-- [[temp_data_cleaning|数据清洗]]
-- [[temp_data_analysis|数据分析]]
-- [[temp_pytorch_index|PyTorch]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning|数据清洗]]
+- [[../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis|数据分析]]
+- 

@@ -1,0 +1,64 @@
+{
+  "phase": 8,
+  "name": "Delete placeholder links",
+  "files_modified": 10,
+  "total_deleted": 22,
+  "deleted_targets": [
+    "temp_pytorch_index",
+    "temp_data_acquisition",
+    "temp_data_cleaning, temp_ml_pipeline",
+    "'column1', 'column2'"
+  ],
+  "sample_logs": [
+    {
+      "file": "按学科笔记/02_programming/04_python/01_ml_pipeline.md",
+      "deleted_link": "temp_pytorch_index|PyTorch",
+      "target": "temp_pytorch_index"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+      "deleted_link": "temp_data_acquisition",
+      "target": "temp_data_acquisition"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+      "deleted_link": "'column1', 'column2'",
+      "target": "'column1', 'column2'"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+      "deleted_link": "'column1', 'column2'",
+      "target": "'column1', 'column2'"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+      "deleted_link": "'column1', 'column2'",
+      "target": "'column1', 'column2'"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/03_data_cleaning.md",
+      "deleted_link": "temp_data_acquisition|数据获取",
+      "target": "temp_data_acquisition"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/06_case_finance.md",
+      "deleted_link": "temp_data_acquisition|数据获取",
+      "target": "temp_data_acquisition"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/07_case_image.md",
+      "deleted_link": "temp_data_cleaning, temp_ml_pipeline",
+      "target": "temp_data_cleaning, temp_ml_pipeline"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/07_case_image.md",
+      "deleted_link": "temp_pytorch_index|PyTorch",
+      "target": "temp_pytorch_index"
+    },
+    {
+      "file": "按学科笔记/02_programming/04_python/08_case_nlp.md",
+      "deleted_link": "temp_data_cleaning, temp_ml_pipeline",
+      "target": "temp_data_cleaning, temp_ml_pipeline"
+    }
+  ]
+}

@@ -4,12 +4,12 @@ topic: differential_equations
 category: calculus
 difficulty: intermediate
 prerequisites:
-   - [[05_Derivatives]]
-   - [[09_Indefinite_Integrals]]
-   - [[10_Definite_Integrals]]
-   - [[19_Partial_Derivatives]]
-   - [[24_Vector_Calculus]]
-   - [[../00_Symbols_Conventions|符号与约定总表]]
+   - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+   - [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]]
+   - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+   - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+   - [[按学科笔记/01_mathematics/calculus/24_vector_calculus]]
+   - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-04-13
 status: complete
@@ -27,7 +27,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解常微分方程与偏微分方程的基本概念和分类
@@ -35,12 +35,12 @@ updated: 2026-04-27
 - 会用微分方程描述物理、生物、经济和机器学习中的动态过程
 
 ## 先修
-- [[05_Derivatives]] - 导数
-- [[09_Indefinite_Integrals]] - 不定积分
-- [[10_Definite_Integrals]] - 定积分
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[24_Vector_Calculus]] - 向量微积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[按学科笔记/01_mathematics/calculus/24_vector_calculus]] - 向量微积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：一阶方程、分离变量和积分因子法
@@ -402,12 +402,12 @@ $$\mathcal{L} = \mathcal{L}_{data} + \lambda \mathcal{L}_{physics}$$
 
 ## 相关链接
 
-- [[05_Derivatives]] - 导数（微分方程的基础）
-- [[09_Indefinite_Integrals]] - 不定积分（分离变量求解）
-- [[10_Definite_Integrals]] - 定积分（积分方程与数值解）
-- [[19_Partial_Derivatives]] - 偏导数（PDE 的基础）
-- [[24_Vector_Calculus]] - 向量微积分（拉普拉斯算子与 PDE）
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数（微分方程的基础）
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分（分离变量求解）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（积分方程与数值解）
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数（PDE 的基础）
+- [[按学科笔记/01_mathematics/calculus/24_vector_calculus]] - 向量微积分（拉普拉斯算子与 PDE）
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 
 

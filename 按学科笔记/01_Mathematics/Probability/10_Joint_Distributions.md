@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -182,5 +182,5 @@ $$P(X_1 \in B_1, \ldots, X_n \in B_n) = \prod_{i=1}^{n} P(X_i \in B_i)$$
 
 ---
 
-**下一章**：[[11_Marginal_Conditional]] - 边缘分布与条件分布
+**下一章**：[[按学科笔记/01_mathematics/probability/11_marginal_conditional]] - 边缘分布与条件分布
 

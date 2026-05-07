@@ -168,8 +168,8 @@ shell/
 
 ## 10) 与现有笔记的对应关系
 
-- [[08_Linux_OS_Fundamentals|Linux OS 基础：进程、线程、信号与文件 I/O]]
-- [[11_Linux_Project_Closure|Linux 工程闭环与项目实战]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/08_linux_os_fundamentals|Linux OS 基础：进程、线程、信号与文件 I/O]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/11_linux_project_closure|Linux 工程闭环与项目实战]]
 
 ## 11) 最小启动流程
 

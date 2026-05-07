@@ -3,7 +3,7 @@ type: concept
 topic: dynamic_programming
 category: algorithms
 difficulty: advanced
-prerequisites: [[03_Algorithms_Sorting_Searching]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/03_algorithms/03_algorithms_sorting_searching]]
 acm_relevant: true
 created: 2026-02-20
 status: complete

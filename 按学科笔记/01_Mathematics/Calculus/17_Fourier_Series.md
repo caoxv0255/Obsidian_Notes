@@ -4,9 +4,9 @@ topic: fourier_series
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[14_Series]]
-    - [[15_Function_Series]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/14_series]]
+    - [[按学科笔记/01_mathematics/calculus/15_function_series]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -24,9 +24,9 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[14_Series]]
-- [[15_Function_Series]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/14_series]]
+- [[按学科笔记/01_mathematics/calculus/15_function_series]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 核心知识框架
 - 傅里叶级数、傅里叶系数与正交基
@@ -345,7 +345,7 @@ plt.show()
 
 - [[13_Series]] - 数项级数（傅里叶级数的基础）
 - [[14_Function_Series]] - 函数项级数（傅里叶级数的推广）
-- [[08_Case_NLP]] - NLP案例（傅里叶变换在语音处理中的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/08_Case_NLP]] - NLP案例（傅里叶变换在语音处理中的应用）
 ## 根据题型整理的做题方法
 ### 傅里叶级数核心公式
 

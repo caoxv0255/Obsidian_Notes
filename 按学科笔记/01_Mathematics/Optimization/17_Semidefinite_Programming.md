@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -314,7 +314,7 @@ print(f"随机舍入割值: {cut}")
 ---
 
 **相关链接**：
-- [[16_Interior_Point]] - 内点法
-- [[09_KKT_Conditions]] - KKT条件
-- [[11_Duality_Theory]] - 对偶理论
+- [[按学科笔记/01_mathematics/optimization/16_interior_point]] - 内点法
+- [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]] - KKT条件
+- [[按学科笔记/01_mathematics/optimization/11_duality_theory]] - 对偶理论
 

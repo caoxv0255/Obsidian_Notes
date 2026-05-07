@@ -3,7 +3,7 @@ type: concept
 topic: javascript_core
 category: javascript
 difficulty: beginner
-prerequisites: [[00_JavaScript_Index]]
+prerequisites: [[按学科笔记/02_programming/03_javascript/00_javascript_index]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

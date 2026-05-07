@@ -29,7 +29,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -790,9 +790,9 @@ print(f"稳定softmax: {stable_softmax(x_large)}")
 
 ## 5. 相关概念
 
-- [[02_Limits]] - 极限
-- [[03_Continuity]] - 连续性
-- [[05_Derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
 - [[../../01_Mathematics/Linear_Algebra/04_Eigenvalues_Eigenvectors]] - 特征值特征向量
 
 ## 10. 总结

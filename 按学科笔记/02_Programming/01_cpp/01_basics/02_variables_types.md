@@ -3,7 +3,7 @@ type: concept
 topic: Variables and Types
 category: basics
 difficulty: 入门
-prerequisites: [[01_Basic_Syntax]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -103,8 +103,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[01_Basic_Syntax]] - C++ 基本语法
-- [[03_Operators]] - 运算符
+- [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]] - C++ 基本语法
+- [[按学科笔记/02_programming/01_cpp/01_basics/03_operators]] - 运算符
 
 ## 📝 练习题
 

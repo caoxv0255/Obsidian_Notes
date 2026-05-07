@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -428,5 +428,5 @@ $$x_p = F^{-1}(p) = \inf\{x : F(x) \geq p\}$$
 2. 《概率论基础》（第3版）- 李贤平
 3. 《Statistical Inference》（第2版）- Casella & Berger
 
-**下一章**：[[06_Discrete_Distributions]] - 离散型随机变量
+**下一章**：[[按学科笔记/01_mathematics/probability/06_discrete_distributions]] - 离散型随机变量
 

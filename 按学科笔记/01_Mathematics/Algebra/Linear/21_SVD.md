@@ -22,7 +22,7 @@ chapter: 21
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -560,8 +560,8 @@ $$A^+ = V\Sigma^+ U^T$$
 ## 相关概念
 
 - [[16_Eigenvalues]] - 特征值
-- [[20_Orthogonal_Transformations]] - 正交变换
-- [[22_Pseudoinverse]] - 伪逆
+- [[按学科笔记/01_mathematics/algebra/linear/20_orthogonal_transformations]] - 正交变换
+- [[按学科笔记/01_mathematics/algebra/linear/22_pseudoinverse]] - 伪逆
 
 ## 参考教材
 

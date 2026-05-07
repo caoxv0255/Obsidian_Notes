@@ -8,8 +8,8 @@ category: calculus
 difficulty: intermediate
 
 prerequisites:
-    - [[10_Definite_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 
 acm_relevant: false
 
@@ -31,7 +31,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解积分上限函数与更一般变限积分的定义
@@ -39,8 +39,8 @@ updated: 2026-04-27
 - 会用变限积分处理积分方程、单调性与极值问题
 
 ## 先修
-- [[10_Definite_Integrals]] - 定积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：积分上限函数的定义、连续性与直接求导
@@ -629,10 +629,10 @@ print(f"F(-1) ≈ {cdf_values[np.argmin(np.abs(x_values + 1))]:.6f} (理论值: 
 
 ## 3. 相关概念
 
-- [[10_Definite_Integrals]] - 定积分
-- [[09_Indefinite_Integrals]] - 不定积分
-- [[05_Derivatives]] - 导数与微分
-- [[12_Improper_Integrals]] - 反常积分
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数与微分
+- [[按学科笔记/01_mathematics/calculus/12_improper_integrals]] - 反常积分
 
 ## 总结
 - 变限积分把“积分值”看成关于上限的函数

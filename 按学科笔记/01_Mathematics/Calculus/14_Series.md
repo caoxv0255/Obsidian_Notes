@@ -4,7 +4,7 @@ topic: series
 category: calculus
 difficulty: intermediate
 prerequisites:
-  - [[02_Limits]]
+  - [[按学科笔记/01_mathematics/calculus/02_limits]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -22,7 +22,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解数项级数、部分和与收敛的基本定义
@@ -30,8 +30,8 @@ updated: 2026-04-27
 - 会用比较判别法、比值判别法、根值判别法和积分判别法判断敛散性
 
 ## 先修
-- [[02_Limits]] - 极限
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：级数定义、部分和、等比级数与p-级数
@@ -365,10 +365,10 @@ $$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x - a)^n$$
 
 ## 相关链接
 
-- [[02_Limits]] - 极限（级数的基础）
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限（级数的基础）
 - [[14_Function_Series]] - 函数项级数（级数的推广）
 - [[15_Power_Series]] - 幂级数（特殊的函数项级数）
-- [[06_Case_Finance]] - 金融案例（级数在时间序列中的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融案例（级数在时间序列中的应用）
 
 ## 参考资料
 

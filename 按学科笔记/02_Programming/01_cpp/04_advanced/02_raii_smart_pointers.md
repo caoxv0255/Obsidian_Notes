@@ -3,7 +3,7 @@ type: concept
 topic: raii_smart_pointers
 category: advanced
 difficulty: intermediate
-prerequisites: [[../01_Basics/16_Memory_Management]], [[../01_Basics/19_Error_Handling]]
+prerequisites: [[../01_basics/16_memory_management]], [[../01_basics/19_error_handling]]
 acm_relevant: true
 created: 2026-04-22
 status: draft
@@ -174,8 +174,8 @@ private:
 3. 把一个“手动 fclose / close / delete”的函数改造成 RAII 版本
 
 ## 相关链接
-- [[01_OOP_Classes_Objects|类与对象（特殊成员函数）]]
-- [[03_Move_Semantics_Perfect_Forwarding|移动语义与完美转发]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/01_oop_classes_objects|类与对象（特殊成员函数）]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/03_move_semantics_perfect_forwarding|移动语义与完美转发]]
 
 ## 参考资料
 - cppreference：smart pointers

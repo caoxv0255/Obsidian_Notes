@@ -11,7 +11,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -356,5 +356,5 @@ $$E[R_i] = R_f + \beta_i (E[R_m] - R_f)$$
 2. 《概率论基础》（第3版）- 李贤平
 3. 《A First Course in Probability》- Sheldon Ross
 
-**下一章**：[[15_Variance]] - 方差与标准差
+**下一章**：[[按学科笔记/01_mathematics/probability/15_variance]] - 方差与标准差
 

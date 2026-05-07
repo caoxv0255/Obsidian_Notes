@@ -223,5 +223,5 @@ df['date_column'] = pd.to_datetime(df['date_column'])
 ```
 
 ## 相关链接
-- [[temp_data_cleaning|数据清洗]]
-- [[temp_data_analysis|数据分析]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning|数据清洗]]
+- [[../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis|数据分析]]

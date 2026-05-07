@@ -11,10 +11,10 @@ status: complete
 
 ## 目录结构
 
-- [[01_Java_Basics]] - 基础语法、控制流、类与方法
-- [[02_Java_OOP_Collections]] - 面向对象、泛型、集合框架
-- [[03_Java_JVM_Concurrency]] - JVM、线程、并发工具
-- [[04_Java_Practice]] - 命令行项目、文件 I/O、测试与打包
+- [[按学科笔记/02_programming/02_java/01_java_basics]] - 基础语法、控制流、类与方法
+- [[按学科笔记/02_programming/02_java/02_java_oop_collections]] - 面向对象、泛型、集合框架
+- [[按学科笔记/02_programming/02_java/03_java_jvm_concurrency]] - JVM、线程、并发工具
+- [[按学科笔记/02_programming/02_java/04_java_practice]] - 命令行项目、文件 I/O、测试与打包
 
 ## 学习路径
 
@@ -41,4 +41,4 @@ status: complete
 
 ## 相关链接
 
-- [[../00_Index|02_Programming 总索引]]
+- [[../00_index|02_Programming 总索引]]

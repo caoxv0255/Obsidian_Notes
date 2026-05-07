@@ -10,7 +10,7 @@ status: active
 
 ## 速查
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 > 代数学是研究代数运算、代数结构及其相互关系的数学分支，是现代数学的基础之一。
 
@@ -45,7 +45,7 @@ status: active
 - **内积空间**：正交性、正交变换、正交投影
 - **矩阵分解**：SVD、QR、谱分解
 
-📖 [[00_Linear_Algebra_Index|完整目录 →]]
+📖 [[../../../MY_Learning/Year_1/01_Math/1.2_线性代数/00_Linear_Algebra_Index|完整目录 →]]
 
 ---
 
@@ -63,7 +63,7 @@ status: active
 - **特殊矩阵**：正定矩阵、正规矩阵、投影矩阵
 - **广义逆理论**：Moore-Penrose逆、矩阵方程
 
-📖 [[00_Advanced_Algebra_Index|完整目录 →]]
+📖 [[按学科笔记/01_mathematics/algebra/advanced/00_advanced_algebra_index|完整目录 →]]
 
 ### 教材参考
 - 《高等代数》（北京大学）- 丘维声
@@ -86,7 +86,7 @@ status: active
 - **格与布尔代数**：格结构、布尔代数、Stone表示
 - **范畴论导论**：范畴、函子、自然变换、极限
 
-📖 [[00_Abstract_Algebra_Index|完整目录 →]]
+📖 [[按学科笔记/01_mathematics/algebra/abstract/00_abstract_algebra_index|完整目录 →]]
 
 ### 教材参考
 - 《抽象代数》（I、II）- 徐明曜、赵春来

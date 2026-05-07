@@ -4,7 +4,7 @@ topic: linear_equations
 category: linear_algebra
 difficulty: beginner
 prerequisites:
-  - [[08_Vectors]]
+  - [[按学科笔记/01_mathematics/algebra/linear/08_vectors]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 11
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -1228,10 +1228,10 @@ $$\text{rank}(A) + \text{nullity}(A) = n$$
 
 ## 相关概念
 
-- [[08_Vectors]] - 向量基础
-- [[04_Matrix_Basics]] - 矩阵基础
+- [[按学科笔记/01_mathematics/algebra/linear/08_vectors]] - 向量基础
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础
 - [[07_Matrix_Rank]] - 矩阵的秩
-- [[12_Least_Squares]] - 最小二乘法
+- [[按学科笔记/01_mathematics/algebra/linear/12_least_squares]] - 最小二乘法
 
 ## 参考教材
 

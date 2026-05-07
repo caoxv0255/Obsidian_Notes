@@ -3,7 +3,7 @@ type: concept
 topic: stl_containers
 category: stl
 difficulty: intermediate
-prerequisites: [[../01_Basics/05_Functions]], [[../01_Basics/08_Arrays]]
+prerequisites: [[../01_basics/05_functions]], [[../01_basics/08_arrays]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -324,4 +324,4 @@ int main() {
 
 - [[02_STL_Iterators]] - 迭代器
 - [[03_Algorithms]] - 算法
-- [[06_Pointers]] - 指针
+- [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]] - 指针

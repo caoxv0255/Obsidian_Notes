@@ -3,7 +3,7 @@ type: concept
 topic: training_loop
 category: pytorch
 difficulty: intermediate
-prerequisites: [[03_NN_Module]]
+prerequisites: [[按学科笔记/02_programming/04_python/03_nn_module]]
 acm_relevant: false
 created: 2026-02-20
 status: complete

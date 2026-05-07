@@ -22,7 +22,7 @@ chapter: 04
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -541,9 +541,9 @@ $$A = \frac{A+A^T}{2} + \frac{A-A^T}{2}$$（对称部分 + 反对称部分）
 
 ## 相关概念
 
-- [[05_Matrix_Operations]] - 矩阵运算
-- [[06_Inverse_Matrix]] - 逆矩阵
-- [[07_Rank]] - 矩阵的秩
-- [[01_Determinants]] - 行列式
+- [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]] - 矩阵运算
+- [[按学科笔记/01_mathematics/algebra/linear/06_inverse_matrix]] - 逆矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/07_rank]] - 矩阵的秩
+- [[按学科笔记/01_mathematics/algebra/linear/01_determinants]] - 行列式
 
 

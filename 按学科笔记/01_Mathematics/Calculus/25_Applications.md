@@ -4,12 +4,12 @@ topic: applications
 category: calculus
 difficulty: intermediate
 prerequisites:
-    - [[02_Limits]]
-    - [[05_Derivatives]]
-    - [[10_Definite_Integrals]]
-    - [[19_Partial_Derivatives]]
-    - [[24_Vector_Calculus]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/02_limits]]
+    - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/24_vector_calculus]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -27,7 +27,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解微积分在优化、物理、经济、概率和机器学习中的典型用途
@@ -35,12 +35,12 @@ updated: 2026-04-27
 - 会把文字题转成函数、约束和积分表达式
 
 ## 先修
-- [[02_Limits]] - 极限
-- [[05_Derivatives]] - 导数
-- [[10_Definite_Integrals]] - 定积分
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[24_Vector_Calculus]] - 向量微积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[按学科笔记/01_mathematics/calculus/24_vector_calculus]] - 向量微积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：一元极值、边际分析与基本积分模型
@@ -526,12 +526,12 @@ print(f"正则化使权重更接近0，防止过拟合")
 
 ## 相关链接
 
-- [[05_Derivatives]] - 导数（优化的基础）
-- [[06_Mean_Value_Theorem]] - 中值定理（极值理论的基础）
-- [[19_Partial_Derivatives]] - 偏导数（多元优化）
-- [[24_Vector_Calculus]] - 向量微积分（多元优化与梯度）
-- [[06_Case_Finance]] - 金融案例（边际分析的应用）
-- [[04_Training_Loop]] - 训练循环（梯度下降的实现）
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数（优化的基础）
+- [[按学科笔记/01_mathematics/calculus/06_mean_value_theorem]] - 中值定理（极值理论的基础）
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数（多元优化）
+- [[按学科笔记/01_mathematics/calculus/24_vector_calculus]] - 向量微积分（多元优化与梯度）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融案例（边际分析的应用）
+- [[按学科笔记/02_programming/04_python/04_training_loop]] - 训练循环（梯度下降的实现）
 
 ## 参考资料
 

@@ -4,7 +4,7 @@ topic: quadratic_forms
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[13_Eigenvalues]]
+  - [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 17
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -767,9 +767,9 @@ $$f(\mathbf{x}) = \mathbf{x}^T A \mathbf{x} = \mathbf{y}^T \Lambda \mathbf{y} = 
 
 ## 相关概念
 
-- [[13_Eigenvalues]] - 特征值与特征向量
-- [[18_Inner_Product]] - 内积空间
-- [[19_Orthogonality]] - 正交性
+- [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]] - 特征值与特征向量
+- [[按学科笔记/01_mathematics/algebra/linear/18_inner_product]] - 内积空间
+- [[按学科笔记/01_mathematics/algebra/linear/19_orthogonality]] - 正交性
 - [[23_Optimization]] - 最优化应用
 
 ## 参考教材

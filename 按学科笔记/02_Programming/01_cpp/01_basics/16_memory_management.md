@@ -3,7 +3,7 @@ type: concept
 topic: Memory Management
 category: basics
 difficulty: 进阶
-prerequisites: [[06_Pointers]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -165,8 +165,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[06_Pointers]] - 指针
-- [[08_Arrays]] - 数组
+- [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]] - 指针
+- [[按学科笔记/02_programming/01_cpp/01_basics/08_arrays]] - 数组
 
 ## 📝 练习题
 

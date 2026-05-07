@@ -3,7 +3,7 @@ type: concept
 topic: epoll_reactor
 category: advanced
 difficulty: advanced
-prerequisites: [[06_CMake_Debug_Toolchain]], [[../01_Basics/16_Memory_Management]], [[../01_Basics/19_Error_Handling]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/04_advanced/06_cmake_debug_toolchain]], [[../01_basics/16_memory_management]], [[../01_basics/19_error_handling]]
 acm_relevant: false
 created: 2026-04-22
 status: draft
@@ -100,7 +100,7 @@ if writable on conn_fd:
 4. 为协议增加长度字段，验证粘包拆包处理是否正确
 
 ## 相关链接
-- [[06_CMake_Debug_Toolchain|CMake + 调试诊断]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/06_cmake_debug_toolchain|CMake + 调试诊断]]
 
 ## 参考资料
 - APUE（网络/IO 相关章节）

@@ -3,7 +3,7 @@ type: concept
 topic: javascript_browser_modules
 category: javascript
 difficulty: intermediate
-prerequisites: [[01_JavaScript_Core]]
+prerequisites: [[按学科笔记/02_programming/03_javascript/01_javascript_core]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

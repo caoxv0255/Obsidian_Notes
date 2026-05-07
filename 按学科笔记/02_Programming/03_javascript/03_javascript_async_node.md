@@ -3,7 +3,7 @@ type: concept
 topic: javascript_async_node
 category: javascript
 difficulty: intermediate
-prerequisites: [[02_JavaScript_Browser_Modules]]
+prerequisites: [[按学科笔记/02_programming/03_javascript/02_javascript_browser_modules]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

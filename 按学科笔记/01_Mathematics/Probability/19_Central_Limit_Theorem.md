@@ -11,7 +11,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -452,5 +452,5 @@ $$\sqrt{n}(g(\bar{X}_n) - g(\mu)) \xrightarrow{d} N(0, \nabla g(\mu)^T \Sigma \n
 2. 《Probability: Theory and Examples》- Rick Durrett
 3. 《Asymptotic Statistics》- A.W. van der Vaart
 
-**下一章**：[[20_Limit_Applications]] - 极限定理的应用
+**下一章**：[[按学科笔记/01_mathematics/probability/20_limit_applications]] - 极限定理的应用
 

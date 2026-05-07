@@ -12,26 +12,26 @@ status: complete
 ## 目录结构
 
 ### 机器学习全流程
-- [[01_ML_Pipeline]] - 机器学习端到端流程参考
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline]] - 机器学习端到端流程参考
 
 ### 数据科学场景
-- [[02_Data_Acquisition]] - 数据获取与导入
-- [[03_Data_Cleaning]] - 数据清洗与预处理
-- [[04_Data_Analysis]] - 数据分析与统计
-- [[05_Data_Visualization]] - 可视化与报告
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/02_Data_Acquisition]] - 数据获取与导入
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning]] - 数据清洗与预处理
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis]] - 数据分析与统计
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/05_Data_Visualization]] - 可视化与报告
 
 ### 深度学习框架
-- [[00_Pytorch_Index]] - PyTorch 学习索引
-- [[01_Tensors]] - 张量基础
-- [[02_Autograd]] - 自动微分
-- [[03_NN_Module]] - 神经网络模块
-- [[04_Training_Loop]] - 训练循环
-- [[05_Advanced]] - 高级特性
+- [[按学科笔记/02_programming/04_python/00_pytorch_index]] - PyTorch 学习索引
+- [[按学科笔记/02_programming/04_python/01_tensors]] - 张量基础
+- [[按学科笔记/02_programming/04_python/02_autograd]] - 自动微分
+- [[按学科笔记/02_programming/04_python/03_nn_module]] - 神经网络模块
+- [[按学科笔记/02_programming/04_python/04_training_loop]] - 训练循环
+- [[按学科笔记/02_programming/04_python/05_advanced]] - 高级特性
 
 ### 实际案例
-- [[06_Case_Finance]] - 金融分析案例
-- [[07_Case_Image]] - 图像处理案例
-- [[08_Case_NLP]] - 自然语言处理案例
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融分析案例
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/07_Case_Image]] - 图像处理案例
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/08_Case_NLP]] - 自然语言处理案例
 
 ## 学习路径
 
@@ -53,33 +53,33 @@ status: complete
 
 | 库 | 用途 | 对应笔记 | 数学基础 |
 |----|------|----------|----------|
-| NumPy | 数值计算 | 数据分析 | [[../../01_Mathematics/Algebra/Linear/08_Vectors|向量]]、[[../../01_Mathematics/Algebra/Linear/05_Matrix_Operations|矩阵]] |
-| Pandas | 数据处理、分析 | 数据获取、清洗、分析 | [[../../01_Mathematics/Probability/14_Expectation|期望]]、[[../../01_Mathematics/Probability/15_Variance|方差]] |
-| Matplotlib/Seaborn | 数据可视化 | 数据可视化 | [[../../01_Mathematics/Probability/09_Common_Distributions|常见分布]] |
-| Scikit-learn | 机器学习 | ML 全流程 | [[../../01_Mathematics/Calculus/05_Derivatives|导数]]、[[../../01_Mathematics/Optimization/06_Gradient_Methods|梯度下降]] |
-| PyTorch | 深度学习 | PyTorch 章节 | [[../../01_Mathematics/Calculus/19_Partial_Derivatives|偏导数]]、[[../../01_Mathematics/Calculus/05_Derivatives|导数]] |
+| NumPy | 数值计算 | 数据分析 | [[../../01_mathematics/algebra/linear/08_vectors|向量]]、[[../../01_mathematics/algebra/linear/05_matrix_operations|矩阵]] |
+| Pandas | 数据处理、分析 | 数据获取、清洗、分析 | [[../../01_mathematics/probability/14_expectation|期望]]、[[../../01_mathematics/probability/15_variance|方差]] |
+| Matplotlib/Seaborn | 数据可视化 | 数据可视化 | [[../../01_mathematics/probability/09_common_distributions|常见分布]] |
+| Scikit-learn | 机器学习 | ML 全流程 | [[../../01_mathematics/calculus/05_derivatives|导数]]、[[../../01_mathematics/optimization/06_gradient_methods|梯度下降]] |
+| PyTorch | 深度学习 | PyTorch 章节 | [[../../01_mathematics/calculus/19_partial_derivatives|偏导数]]、[[../../01_mathematics/calculus/05_derivatives|导数]] |
 
 ## 数学基础关联
 
 ### NumPy 与数学关联
-- 数组运算 → [[../../01_Mathematics/Algebra/Linear/05_Matrix_Operations|矩阵运算]]
-- 广播机制 → [[../../01_Mathematics/Algebra/Linear/08_Vectors|向量运算]]
-- 线性代数 → [[../../01_Mathematics/Algebra/Linear/00_Linear_Algebra_Index|线性代数]]
+- 数组运算 → [[../../01_mathematics/algebra/linear/05_matrix_operations|矩阵运算]]
+- 广播机制 → [[../../01_mathematics/algebra/linear/08_vectors|向量运算]]
+- 线性代数 → [[../../01_mathematics/algebra/linear/00_linear_algebra_index|线性代数]]
 
 ### Pandas 与数学关联
-- 统计函数 → [[../../01_Mathematics/Probability/14_Expectation|期望]]
-- 波动分析 → [[../../01_Mathematics/Probability/15_Variance|方差]]
-- 分布建模 → [[../../01_Mathematics/Probability/09_Common_Distributions|常见分布]]
+- 统计函数 → [[../../01_mathematics/probability/14_expectation|期望]]
+- 波动分析 → [[../../01_mathematics/probability/15_variance|方差]]
+- 分布建模 → [[../../01_mathematics/probability/09_common_distributions|常见分布]]
 
 ### 机器学习与优化关联
-- 损失函数 → [[../../01_Mathematics/Calculus/05_Derivatives|导数]]
-- 梯度下降 → [[../../01_Mathematics/Optimization/06_Gradient_Methods|梯度方法]]
-- 优化器 → [[../../01_Mathematics/Optimization/18_Stochastic_Optimization|随机优化]]
+- 损失函数 → [[../../01_mathematics/calculus/05_derivatives|导数]]
+- 梯度下降 → [[../../01_mathematics/optimization/06_gradient_methods|梯度方法]]
+- 优化器 → [[../../01_mathematics/optimization/18_stochastic_optimization|随机优化]]
 
 ## 相关链接
-- [[../../01_Mathematics/Calculus/00_Calculus_Index|微积分]]
-- [[../../01_Mathematics/Algebra/Linear/00_Linear_Algebra_Index|线性代数]]
-- [[../../01_Mathematics/Probability/00_Probability_Index|概率统计]]
-- [[../../01_Mathematics/Optimization/00_Optimization_Index|优化理论]]
-- [[00_Pytorch_Index|PyTorch]]
+- [[../../01_mathematics/calculus/00_calculus_index|微积分]]
+- [[../../01_mathematics/algebra/linear/00_linear_algebra_index|线性代数]]
+- [[../../01_mathematics/probability/00_probability_index|概率统计]]
+- [[../../01_mathematics/optimization/00_optimization_index|优化理论]]
+- [[按学科笔记/02_programming/04_python/00_pytorch_index|PyTorch]]
 - [[../../../MY_Learning/00_Index|主索引]]

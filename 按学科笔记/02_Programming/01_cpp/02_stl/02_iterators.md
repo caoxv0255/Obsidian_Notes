@@ -3,7 +3,7 @@ type: concept
 topic: stl_iterators
 category: stl
 difficulty: intermediate
-prerequisites: [[01_Containers]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]]
 acm_relevant: true
 created: 2026-02-20
 status: complete

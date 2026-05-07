@@ -14,10 +14,10 @@ updated: 2026-04-08
 
 | 序号 | 笔记 | 状态 | 核心内容 |
 |------|------|------|----------|
-| 01 | [[01_Python基础语法]] | ✅ 完成 | 变量/控制流/函数/模块 |
-| 02 | [[02.5_NumPy数值计算]] | ✅ 新增 | 数组/收益率/GBM/蒙特卡洛 |
-| 03 | [[02_科学计算入门]] | 🟡 进行中 | NumPy进阶/SciPy/可视化 |
-| 04 | [[03_Pandas数据处理]] | ✅ 完成 | Series/DataFrame/金融数据 |
+| 01 | [[MY_Learning/Year_1/02_Programming/2.1_Python/01_Python基础语法]] | ✅ 完成 | 变量/控制流/函数/模块 |
+| 02 | [[MY_Learning/Year_1/02_Programming/2.1_Python/02.5_NumPy数值计算]] | ✅ 新增 | 数组/收益率/GBM/蒙特卡洛 |
+| 03 | [[MY_Learning/Year_1/02_Programming/2.1_Python/02_科学计算入门]] | 🟡 进行中 | NumPy进阶/SciPy/可视化 |
+| 04 | [[MY_Learning/Year_1/02_Programming/2.1_Python/03_Pandas数据处理]] | ✅ 完成 | Series/DataFrame/金融数据 |
 
 > 🟡 = 进行中/待补充 | ✅ = 有实质内容 | 🔴 = 待补
 
@@ -43,8 +43,8 @@ updated: 2026-04-08
 
 ## 量化方向重点
 
-- [[02.5_NumPy数值计算]] 中的 **GBM模拟** 和 **蒙特卡洛定价** 是量化核心
-- [[03_Pandas数据处理]] 中的 **收益率计算** 和 **时间序列** 直接用于策略回测
+- [[MY_Learning/Year_1/02_Programming/2.1_Python/02.5_NumPy数值计算]] 中的 **GBM模拟** 和 **蒙特卡洛定价** 是量化核心
+- [[MY_Learning/Year_1/02_Programming/2.1_Python/03_Pandas数据处理]] 中的 **收益率计算** 和 **时间序列** 直接用于策略回测
 - 建议优先完成 02.5_NumPy数值计算 的练习题
 
 ## 数学基础关联
@@ -57,7 +57,7 @@ updated: 2026-04-08
 
 ## 相关链接
 
-- [[00_Math_Index|数学总索引]]
+- [[../../01_Math/1.2_线性代数/00_Math_Index|数学总索引]]
 - [[../../../00_Index|主索引]]、[[01_Mathematics/Linear_Algebra/02_Matrices|矩阵]] |
 | Pandas | 数据处理、分析 | 数据获取、清洗、分析 | [[01_Mathematics/Probability/04_Expectation_Variance|期望方差]] |
 | Matplotlib/Seaborn | 数据可视化 | 数据可视化 | [[01_Mathematics/Probability/03_Distributions|概率分布]] |
@@ -69,12 +69,12 @@ updated: 2026-04-08
 ### NumPy 与数学关联
 - 数组运算 → [[01_Mathematics/Linear_Algebra/03_Matrix_Operations|矩阵运算]]
 - 广播机制 → [[01_Mathematics/Linear_Algebra/01_Vectors|向量运算]]
-- 线性代数 → [[00_Linear_Algebra_Index|线性代数]]
+- 线性代数 → [[../../01_Math/1.2_线性代数/00_Linear_Algebra_Index|线性代数]]
 
 ### Pandas 与数学关联
 - 统计函数 → [[01_Mathematics/Probability/04_## 相关链接
 - [[00_Calculus_Index|微积分]]
-- [[00_Linear_Algebra_Index|线性代数]]
-- [[00_Probability_Index|概率统计]]
+- [[../../01_Math/1.2_线性代数/00_Linear_Algebra_Index|线性代数]]
+- [[按学科笔记/01_mathematics/probability/00_probability_index|概率统计]]
 - [[../../../../备份/02_programming/04_python/00_Pytorch_Index|PyTorch]]
 - [[../../../00_Index|主索引]]

@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "total_files_modified": 455,
+    "total_links_fixed": 669,
+    "phases": [
+      {
+        "phase": 1,
+        "name": "指向目录/唯一匹配修复",
+        "files": 169,
+        "links_fixed": 419
+      },
+      {
+        "phase": 2,
+        "name": "相对路径/大小写/占位符修复",
+        "files": 122,
+        "links_fixed": 155
+      },
+      {
+        "phase": 3,
+        "name": "章节标题映射修复",
+        "files": 187,
+        "links_fixed": 319
+      },
+      {
+        "phase": 4,
+        "name": "最终相对路径深度修复",
+        "files": 146,
+        "links_fixed": 195
+      }
+    ]
+  },
+  "remaining": {
+    "description": "剩余未修复链接（多为不存在的文件、需手工创建的索引或待审核的占位符）",
+    "todo_list": "unresolved_links_todo.json"
+  }
+}

@@ -4,7 +4,7 @@ topic: basis_dimension
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[08_Vectors]]
+  - [[按学科笔记/01_mathematics/algebra/linear/08_vectors]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 10
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -977,9 +977,9 @@ $$[\mathbf{v}]_{\mathcal{B}'} = P^{-1} [\mathbf{v}]_{\mathcal{B}}$$
 
 ## 相关概念
 
-- [[08_Vectors]] - 向量基础
-- [[09_Linear_Relations]] - 线性相关性
-- [[11_Linear_Equations]] - 线性方程组
+- [[按学科笔记/01_mathematics/algebra/linear/08_vectors]] - 向量基础
+- [[按学科笔记/01_mathematics/algebra/linear/09_linear_relations]] - 线性相关性
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组
 - [[02_Matrix_Basics]] - 矩阵基础
 
 ## 参考教材

@@ -3,7 +3,7 @@ type: concept
 topic: stl_algorithms
 category: stl
 difficulty: intermediate
-prerequisites: [[01_Containers]], [[02_Iterators]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]], [[按学科笔记/02_programming/01_cpp/02_stl/02_iterators]]
 acm_relevant: true
 created: 2026-04-25
 status: complete
@@ -71,6 +71,6 @@ v.erase(std::remove(v.begin(), v.end(), target), v.end());
 
 ## 相关链接
 
-- [[01_Containers]]
-- [[02_Iterators]]
-- [[00_STL_Index|返回 STL 索引]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/02_iterators]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/00_stl_index|返回 STL 索引]]

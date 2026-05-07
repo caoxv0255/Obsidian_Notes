@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -245,5 +245,5 @@ X_{(k)} ~ Beta(k, n-k+1)。
 1. 《概率论与数理统计》- 浙江大学
 2. 《Statistical Inference》- Casella & Berger
 
-**下一章**：[[09_Common_Distributions]] - 常见概率分布族
+**下一章**：[[按学科笔记/01_mathematics/probability/09_common_distributions]] - 常见概率分布族
 

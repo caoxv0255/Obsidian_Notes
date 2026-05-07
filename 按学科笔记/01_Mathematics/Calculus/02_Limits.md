@@ -8,7 +8,7 @@ category: calculus
 difficulty: intermediate
 
 prerequisites:
-    - [[01_Real_Numbers]]
+    - [[按学科笔记/01_mathematics/calculus/01_real_numbers]]
 
 acm_relevant: false
 
@@ -31,8 +31,8 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[01_Real_Numbers]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -778,9 +778,9 @@ numerical_limits()
 
 ## 7. 相关概念
 
-- [[01_Real_Numbers]] - 实数理论（极限的基础）
-- [[03_Continuity]] - 连续性（极限的应用）
-- [[05_Derivatives]] - 导数（极限的推广）
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]] - 实数理论（极限的基础）
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性（极限的应用）
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数（极限的推广）
 
 ## 自测（3问速测）
 

@@ -11,42 +11,42 @@ status: building
 
 ## 当前内容
 
-- [[Concept_Template|Concept 模板（占位）]]
-- [[01_ACM_Quick_Templates]] - ACM 快速模板
-- [[02_Graph_Templates]] - 图论模板
-- [[03_DP_Templates]] - DP 模板
-- [[04_String_Templates]] - 字符串模板
-- [[05_Number_Theory_Templates]] - 数论模板
-- [[06_Segment_Tree_Templates]] - 线段树模板
-- [[07_Tarjan_SCC_Templates]] - Tarjan 模板
-- [[08_Number_Theory_Advanced]] - 进阶数论模板
-- [[09_Monotonic_Stack_Queue_Templates]] - 单调栈 / 单调队列模板
-- [[10_MST_Templates]] - 最小生成树模板
-- [[11_Bipartite_Matching_Templates]] - 二分图匹配模板
-- [[12_Geometry_Templates]] - 计算几何模板
-- [[13_AC_Automaton_Templates]] - AC 自动机模板
-- [[14_Min_Cost_Max_Flow_Templates]] - 最小费用最大流模板
-- [[15_Digit_DP_Templates]] - 数位 DP 模板
-- [[16_Suffix_Array_Templates]] - 后缀数组模板
-- [[17_HLD_Templates]] - 树链剖分模板
-- [[18_Persistent_Segment_Tree_Templates]] - 可持久化线段树模板
-- [[19_LCA_Templates]] - LCA 模板
-- [[20_Tree_Difference_Templates]] - 树上差分模板
-- [[21_Matrix_Exponentiation_Templates]] - 矩阵快速幂模板
-- [[22_State_Compression_DP_Templates]] - 状压 DP 模板
-- [[23_Mo_Algorithm_Templates]] - 莫队模板
-- [[24_Biconnected_Components_Templates]] - 双连通分量模板
-- [[25_2SAT_Templates]] - 2-SAT 模板
-- [[26_Mo_Algorithm_With_Updates_Templates]] - 带修改莫队模板
-- [[27_NTT_Templates]] - NTT 模板
-- [[28_Gaussian_Elimination_Templates]] - 高斯消元模板
-- [[29_FFT_Templates]] - FFT 模板
-- [[30_Linear_Basis_Templates]] - 线性基模板
-- [[31_Dynamic_Segment_Tree_Templates]] - 动态开点线段树模板
-- [[32_Suffix_Automaton_Templates]] - 后缀自动机模板
-- [[33_Centroid_Decomposition_Templates]] - 点分治模板
-- [[34_Li_Chao_Segment_Tree_Templates]] - 李超线段树模板
-- [[35_2D_Data_Structure_Templates]] - 树套树 / 二维数据结构模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/concept_template|Concept 模板（占位）]]
+- [[按学科笔记/02_programming/01_cpp/99_snippets/01_acm_quick_templates]] - ACM 快速模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/02_graph_templates]] - 图论模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/03_dp_templates]] - DP 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/04_string_templates]] - 字符串模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/05_number_theory_templates]] - 数论模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/06_segment_tree_templates]] - 线段树模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/07_tarjan_scc_templates]] - Tarjan 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/08_number_theory_advanced]] - 进阶数论模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/09_monotonic_stack_queue_templates]] - 单调栈 / 单调队列模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/10_mst_templates]] - 最小生成树模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/11_bipartite_matching_templates]] - 二分图匹配模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/12_geometry_templates]] - 计算几何模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/13_ac_automaton_templates]] - AC 自动机模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/14_min_cost_max_flow_templates]] - 最小费用最大流模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/15_digit_dp_templates]] - 数位 DP 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/16_suffix_array_templates]] - 后缀数组模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/17_hld_templates]] - 树链剖分模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/18_persistent_segment_tree_templates]] - 可持久化线段树模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/19_lca_templates]] - LCA 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/20_tree_difference_templates]] - 树上差分模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/21_matrix_exponentiation_templates]] - 矩阵快速幂模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/22_state_compression_dp_templates]] - 状压 DP 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/23_mo_algorithm_templates]] - 莫队模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/24_biconnected_components_templates]] - 双连通分量模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/25_2sat_templates]] - 2-SAT 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/26_mo_algorithm_with_updates_templates]] - 带修改莫队模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/27_ntt_templates]] - NTT 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/28_gaussian_elimination_templates]] - 高斯消元模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/29_fft_templates]] - FFT 模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/30_linear_basis_templates]] - 线性基模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/31_dynamic_segment_tree_templates]] - 动态开点线段树模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/32_suffix_automaton_templates]] - 后缀自动机模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/33_centroid_decomposition_templates]] - 点分治模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/34_li_chao_segment_tree_templates]] - 李超线段树模板
+- [[按学科笔记/02_programming/01_cpp/99_snippets/35_2d_data_structure_templates]] - 树套树 / 二维数据结构模板
 
 ## 建议补齐（按优先级）
 
@@ -87,4 +87,4 @@ status: building
 
 ## 相关链接
 
-- [[00_CPP_Index|返回 C++ 主索引]]
+- [[按学科笔记/02_programming/01_cpp/00_cpp_index|返回 C++ 主索引]]

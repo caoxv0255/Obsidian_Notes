@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -347,7 +347,7 @@ if __name__ == "__main__":
 ---
 
 **相关链接**：
-- [[21_Sample_Statistics]] - 样本与统计量
-- [[22_Point_Estimation]] - 点估计
-- [[24_Hypothesis_Testing]] - 假设检验
+- [[按学科笔记/01_mathematics/probability/21_sample_statistics]] - 样本与统计量
+- [[按学科笔记/01_mathematics/probability/22_point_estimation]] - 点估计
+- [[按学科笔记/01_mathematics/probability/24_hypothesis_testing]] - 假设检验
 

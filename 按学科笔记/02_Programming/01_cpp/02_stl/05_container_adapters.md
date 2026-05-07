@@ -3,7 +3,7 @@ type: concept
 topic: stl_adapters
 category: stl
 difficulty: intermediate
-prerequisites: [[01_Containers]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]]
 acm_relevant: true
 created: 2026-04-25
 status: complete
@@ -69,5 +69,5 @@ std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap;
 
 ## 相关链接
 
-- [[01_Containers]]
-- [[00_STL_Index|返回 STL 索引]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/00_stl_index|返回 STL 索引]]

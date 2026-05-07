@@ -22,7 +22,7 @@ chapter: 01
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -563,9 +563,9 @@ $$\begin{vmatrix}
 
 ## 相关概念
 
-- [[02_Determinant_Applications]] - 行列式的应用
-- [[03_Determinant_Computation]] - 行列式的计算技巧
-- [[04_Matrix_Basics]] - 矩阵基础
-- [[06_Inverse_Matrix]] - 逆矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/02_determinant_applications]] - 行列式的应用
+- [[按学科笔记/01_mathematics/algebra/linear/03_determinant_computation]] - 行列式的计算技巧
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础
+- [[按学科笔记/01_mathematics/algebra/linear/06_inverse_matrix]] - 逆矩阵
 
 

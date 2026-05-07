@@ -3,7 +3,7 @@ type: concept
 topic: algorithms_core_techniques
 category: algorithms
 difficulty: intermediate
-prerequisites: [[03_Algorithms_Sorting_Searching]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/03_algorithms/03_algorithms_sorting_searching]]
 acm_relevant: true
 created: 2026-04-25
 status: complete
@@ -71,5 +71,5 @@ int main() {
 
 ## 相关链接
 
-- [[03_Algorithms_Sorting_Searching]]
-- [[00_Algorithms_Index|返回算法索引]]
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/03_algorithms_sorting_searching]]
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/00_algorithms_index|返回算法索引]]

@@ -8,7 +8,7 @@ category: calculus
 difficulty: intermediate
 
 prerequisites:
-    - [[02_Limits]]
+    - [[按学科笔记/01_mathematics/calculus/02_limits]]
 
 acm_relevant: false
 
@@ -31,8 +31,8 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[02_Limits]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/02_limits]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -1011,10 +1011,10 @@ $$(uv)^{(n)} = \sum_{k=0}^{n} C_n^k u^{(k)} v^{(n-k)}$$
 
 ## 6. 相关概念
 
-- [[02_Limits]] - 极限
-- [[03_Continuity]] - 连续性（可导必连续）
-- [[09_Indefinite_Integrals]] - 不定积分（导数的逆运算）
-- [[10_Definite_Integrals]] - 定积分（微积分基本定理）
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性（可导必连续）
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分（导数的逆运算）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（微积分基本定理）
 - [[../../03_Machine_Learning]] - 机器学习
 
 ## 自测（3问速测）

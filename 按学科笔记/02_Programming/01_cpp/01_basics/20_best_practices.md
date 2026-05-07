@@ -3,7 +3,7 @@ type: concept
 topic: best_practices
 category: code_quality
 difficulty: intermediate
-prerequisites: [[01_Basic_Syntax]], [[05_Functions]], [[16_Memory_Management]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]], [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]], [[按学科笔记/02_programming/01_cpp/01_basics/16_memory_management]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -643,11 +643,11 @@ int main() {
 
 ## 相关概念
 
-- [[01_Basic_Syntax]] - 基本语法结构
-- [[05_Functions]] - 函数设计
-- [[12_Const_Volatile]] - const 正确性
-- [[16_Memory_Management]] - 资源管理
-- [[19_Error_Handling]] - 错误处理
+- [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]] - 基本语法结构
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数设计
+- [[按学科笔记/02_programming/01_cpp/01_basics/12_const_volatile]] - const 正确性
+- [[按学科笔记/02_programming/01_cpp/01_basics/16_memory_management]] - 资源管理
+- [[按学科笔记/02_programming/01_cpp/01_basics/19_error_handling]] - 错误处理
 
 ## 练习题
 

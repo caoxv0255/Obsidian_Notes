@@ -4,8 +4,8 @@ topic: integral_applications
 category: calculus
 difficulty: intermediate
 prerequisites:
-    - [[10_Definite_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -23,7 +23,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解面积、体积、弧长与物理量的积分模型
@@ -31,8 +31,8 @@ updated: 2026-04-27
 - 能把概率、质心和转动惯量问题转为积分
 
 ## 先修
-- [[10_Definite_Integrals]] - 定积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：面积、体积与弧长的基本公式
@@ -513,11 +513,11 @@ print(f"理论值：2/√(2π) ≈ {2/np.sqrt(2*np.pi):.6f}")
 
 ## 相关链接
 
-- [[10_Definite_Integrals]] - 定积分（积分应用的基础）
-- [[12_Improper_Integrals]] - 反常积分（面积和体积的推广）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（积分应用的基础）
+- [[按学科笔记/01_mathematics/calculus/12_improper_integrals]] - 反常积分（面积和体积的推广）
 - [[../../01_Mathematics/Probability/04_Expectation_Variance]] - 期望方差（积分在概率中的应用）
-- [[05_Data_Visualization]] - 数据可视化（面积和曲线的应用）
-- [[06_Case_Finance]] - 金融案例（期望和方差的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/05_Data_Visualization]] - 数据可视化（面积和曲线的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融案例（期望和方差的应用）
 ## 总结
 - 积分应用的关键是把几何、物理或概率问题转成“微元求和”
 - 画图、分区、选微元、列积分是通用流程

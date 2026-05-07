@@ -4,7 +4,7 @@ topic: diagonalization
 category: linear_algebra
 difficulty: advanced
 prerequisites:
-  - [[14_Similar_Matrices]]
+  - [[按学科笔记/01_mathematics/algebra/linear/14_similar_matrices]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 15
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -450,8 +450,8 @@ $$\frac{d\mathbf{x}}{dt} = A\mathbf{x}$$
 
 ## 相关概念
 
-- [[13_Eigenvalues]] - 特征值与特征向量
-- [[14_Similar_Matrices]] - 相似矩阵
-- [[16_Jordan_Canonical]] - 约当标准形
+- [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]] - 特征值与特征向量
+- [[按学科笔记/01_mathematics/algebra/linear/14_similar_matrices]] - 相似矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/16_jordan_canonical]] - 约当标准形
 
 

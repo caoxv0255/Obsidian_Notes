@@ -244,8 +244,8 @@ $$\text{ED} \subset \text{PID} \subset \text{UFD} \subset \text{整环}$$
 ## 与其他模块的关联
 
 ### 前置知识
-- [[00_Linear_Algebra_Index|线性代数]] - 向量空间、线性变换
-- [[00_Advanced_Algebra_Index|高等代数]] - 多项式理论、矩阵分析
+- [[../../../../MY_Learning/Year_1/01_Math/1.2_线性代数/00_Linear_Algebra_Index|线性代数]] - 向量空间、线性变换
+- [[按学科笔记/01_mathematics/algebra/advanced/00_advanced_algebra_index|高等代数]] - 多项式理论、矩阵分析
 
 ### 具体关联
 | 近世代数概念 | 对应的线性代数/高等代数内容 |

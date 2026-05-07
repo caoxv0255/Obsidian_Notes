@@ -4,7 +4,7 @@ topic: inverse_matrix
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[05_Matrix_Operations]]
+  - [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 06
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -556,10 +556,10 @@ $$\begin{bmatrix} A & B \\ 0 & D \end{bmatrix}^{-1} = \begin{bmatrix} A^{-1} & -
 
 ## 相关概念
 
-- [[01_Determinants]] - 行列式
-- [[04_Matrix_Basics]] - 矩阵基础
-- [[05_Matrix_Operations]] - 矩阵运算
-- [[07_Rank]] - 矩阵的秩
-- [[11_Linear_Equations]] - 线性方程组
+- [[按学科笔记/01_mathematics/algebra/linear/01_determinants]] - 行列式
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础
+- [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]] - 矩阵运算
+- [[按学科笔记/01_mathematics/algebra/linear/07_rank]] - 矩阵的秩
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组
 
 

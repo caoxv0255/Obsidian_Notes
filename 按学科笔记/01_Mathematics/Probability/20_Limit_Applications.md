@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -387,8 +387,8 @@ print(f"∫₀¹ x² dx ≈ {result:.4f} ± {se:.4f} (理论值 = 1/3)")
 ---
 
 **相关链接**：
-- [[18_Law_of_Large_Numbers]] - 大数定律
-- [[19_Central_Limit_Theorem]] - 中心极限定理
-- [[21_Sample_Statistics]] - 样本与统计量
-- [[23_Interval_Estimation]] - 区间估计
+- [[按学科笔记/01_mathematics/probability/18_law_of_large_numbers]] - 大数定律
+- [[按学科笔记/01_mathematics/probability/19_central_limit_theorem]] - 中心极限定理
+- [[按学科笔记/01_mathematics/probability/21_sample_statistics]] - 样本与统计量
+- [[按学科笔记/01_mathematics/probability/23_interval_estimation]] - 区间估计
 

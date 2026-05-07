@@ -4,8 +4,8 @@ topic: function_series
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[14_Series]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/14_series]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 updated: 2026-04-24
@@ -23,7 +23,7 @@ chapter: 15
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解函数项级数、收敛域与和函数的基本概念
@@ -31,8 +31,8 @@ chapter: 15
 - 会用一致收敛处理逐项积分、逐项求导和函数逼近问题
 
 ## 先修
-- [[14_Series]] - 级数
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/14_series]] - 级数
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：函数项级数、收敛域与点收敛
@@ -206,7 +206,7 @@ plot_function_series(u_n_terms, [0, 2*np.pi], [1, 3, 5], "正弦级数")
 - [[13_Series]] - 数项级数（函数项级数的基础）
 - [[15_Power_Series]] - 幂级数（特殊的函数项级数）
 - [[16_Fourier_Series]] - 傅里叶级数（三角函数项级数）
-- [[05_Data_Visualization]] - 数据可视化（级数的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/05_Data_Visualization]] - 数据可视化（级数的应用）
 ## 根据题型整理的做题方法
 ### 函数项级数收敛性判断
 

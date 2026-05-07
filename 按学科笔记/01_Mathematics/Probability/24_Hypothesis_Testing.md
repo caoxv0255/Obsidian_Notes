@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -393,7 +393,7 @@ if __name__ == "__main__":
 ---
 
 **相关链接**：
-- [[21_Sample_Statistics]] - 样本与统计量
-- [[23_Interval_Estimation]] - 区间估计
-- [[25_Probability_Applications]] - 概率论应用
+- [[按学科笔记/01_mathematics/probability/21_sample_statistics]] - 样本与统计量
+- [[按学科笔记/01_mathematics/probability/23_interval_estimation]] - 区间估计
+- [[按学科笔记/01_mathematics/probability/25_probability_applications]] - 概率论应用
 

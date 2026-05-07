@@ -1,0 +1,108 @@
+---
+type: project_document
+project: P01
+stage: 04-05
+title: 因子分析与策略构建
+created: 2026-04-06
+updated: 2026-04-06
+---
+
+# 04 因子分析与策略构建
+
+## 因子分析
+
+### IC分析
+```python
+def calculate_ic(factor_values, future_returns):
+    """计算信息系数"""
+    ic = factor_values.corrwith(future_returns)
+    return ic
+
+def calculate_ir(ic_series):
+    """计算信息比率"""
+    mean_ic = ic_series.mean()
+    std_ic = ic_series.std()
+    ir = mean_ic / std_ic if std_ic > 0 else 0
+    return ir
+```
+
+### 因子筛选
+1. IC绝对值 > 0.02（有意义）
+2. IC的t统计量 > 2（显著）
+3. IC的稳定性 > 0.7（稳定）
+
+## 策略构建
+
+### 策略逻辑
+1. 每月选股
+2. 选择因子得分最高的N只股票
+3. 等权配置
+4. 持有1个月后换仓
+
+### 因子组合
+```python
+class FactorStrategy:
+    """多因子策略"""
+
+    def __init__(self, factor_weights):
+        self.factor_weights = factor_weights
+
+    def calculate_factor_score(self, factor_df):
+        """计算因子综合得分"""
+        score = (factor_df * self.factor_weights).sum(axis=1)
+        return score
+
+    def select_stocks(self, score_series, top_n=30):
+        """选股"""
+        return score_series.nlargest(top_n).index.tolist()
+```
+
+---
+
+# 05 回测系统与绩效评估
+
+## 回测引擎
+```python
+class Backtester:
+    """回测引擎"""
+
+    def __init__(self, initial_capital=1000000):
+        self.initial_capital = initial_capital
+        self.trades = []
+        self.positions = {}
+
+    def run_backtest(self, strategy, data):
+        """运行回测"""
+        for date in data.index:
+            # 获取当日数据
+            daily_data = data.loc[date]
+
+            # 选股
+            selected_stocks = strategy.select_stocks(daily_data)
+
+            # 交易
+            self.execute_trades(selected_stocks, date)
+
+        return self.calculate_performance()
+
+    def execute_trades(self, stocks, date):
+        """执行交易"""
+        pass
+
+    def calculate_performance(self):
+        """计算绩效"""
+        pass
+```
+
+## 绩效指标
+- 年化收益率
+- 夏普比率
+- 最大回撤
+- 信息比率
+- 胜率
+
+---
+
+**下一步**: 运行完整策略回测
+
+**返回**: [[01_项目概述|项目概述]]

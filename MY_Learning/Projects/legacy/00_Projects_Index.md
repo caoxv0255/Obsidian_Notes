@@ -79,7 +79,7 @@ P13_多模态 → 多模态融合
 ## Level 1：入门项目（3个）
 
 ### P01_房价预测（House Price Prediction）
-**理论**：[[03_Linear_Models|线性模型]]、[[06_Gradient_Methods|梯度下降]]
+**理论**：[[03_Linear_Models|线性模型]]、[[按学科笔记/01_mathematics/optimization/06_gradient_methods|梯度下降]]
 
 **技能点**：
 - 数据探索与可视化
@@ -433,7 +433,7 @@ P13_多模态 → 多模态融合
 
 ## 相关链接
 
-- [[00_ML_Index|机器学习理论]]
+- [[../../Year_2/04_ML_Foundations/00_ML_Index|机器学习理论]]
 - [[../01_Mathematics/00_Index|数学基础]]
 - [[../02_Programming/00_Index|编程工具]]
 - [[../04_Papers/00_Papers_Index|论文阅读]]

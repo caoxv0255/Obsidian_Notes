@@ -4,7 +4,7 @@ topic: determinant_computation
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[01_Determinants]]
+  - [[按学科笔记/01_mathematics/algebra/linear/01_determinants]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 03
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -522,8 +522,8 @@ $$\det\begin{bmatrix} A & B \\ 0 & D \end{bmatrix} = \det(A)\det(D)$$
 
 ## 相关概念
 
-- [[01_Determinants]] - 行列式
-- [[02_Determinant_Applications]] - 行列式的应用
-- [[04_Matrix_Basics]] - 矩阵基础
+- [[按学科笔记/01_mathematics/algebra/linear/01_determinants]] - 行列式
+- [[按学科笔记/01_mathematics/algebra/linear/02_determinant_applications]] - 行列式的应用
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础
 
 

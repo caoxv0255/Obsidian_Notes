@@ -3,7 +3,7 @@ type: concept
 topic: java_oop_collections
 category: java
 difficulty: intermediate
-prerequisites: [[01_Java_Basics]]
+prerequisites: [[按学科笔记/02_programming/02_java/01_java_basics]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

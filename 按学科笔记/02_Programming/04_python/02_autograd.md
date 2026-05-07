@@ -3,7 +3,7 @@ type: concept
 topic: autograd
 category: pytorch
 difficulty: intermediate
-prerequisites: [[01_Tensors]]
+prerequisites: [[按学科笔记/02_programming/04_python/01_tensors]]
 acm_relevant: false
 created: 2026-02-20
 status: complete

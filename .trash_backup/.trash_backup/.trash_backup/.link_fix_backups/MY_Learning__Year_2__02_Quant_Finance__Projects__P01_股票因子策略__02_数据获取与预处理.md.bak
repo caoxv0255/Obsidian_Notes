@@ -1,0 +1,590 @@
+---
+type: project_document
+project: P01
+stage: 02
+title: 数据获取与预处理
+created: 2026-04-06
+updated: 2026-04-06
+---
+
+# 02 数据获取与预处理
+
+> 高质量数据是量化投资的基础
+
+## 数据需求
+
+### 股票行情数据
+- **价格数据**：开盘价、最高价、最低价、收盘价
+- **成交量数据**：成交量、成交额
+- **复权数据**：前复权、后复权
+- **时间频率**：日线、周线、月线
+
+### 财务数据
+- **估值指标**：PE、PB、PS、PEG
+- **盈利指标**：ROE、ROA、净利润
+- **成长指标**：营收增长率、利润增长率
+- **财务质量**：负债率、现金流
+
+### 市场数据
+- **指数数据**：上证指数、深证指数、创业板指
+- **行业数据**：行业分类、行业指数
+- **资金数据**：北向资金、主力资金
+
+---
+
+## 数据源设计
+
+### 数据源选择
+
+| 数据源 | 类型 | 优点 | 缺点 |
+|--------|------|------|------|
+| Tushare | 免费 | 数据全、更新快 | 需要积分 |
+| Yahoo Finance | 免费 | 国际数据 | 国内数据有限 |
+| 聚宽 | 收费 | 数据质量高 | 成本高 |
+| Wind | 收费 | 专业级 | 成本高 |
+
+### 推荐方案
+**主数据源**：Tushare（免费）
+**备用数据源**：Yahoo Finance
+**数据存储**：本地数据库 + 缓存
+
+---
+
+## 数据获取实现
+
+### 代码结构
+```python
+# data_processor.py
+class DataProcessor:
+    """数据处理器"""
+
+    def __init__(self, config):
+        self.config = config
+        self.db = None
+
+    def get_stock_list(self):
+        """获取股票列表"""
+        pass
+
+    def get_daily_data(self, stock_id, start_date, end_date):
+        """获取日线数据"""
+        pass
+
+    def get_financial_data(self, stock_id, report_date):
+        """获取财务数据"""
+        pass
+
+    def clean_data(self, data):
+        """数据清洗"""
+        pass
+
+    def normalize_data(self, data):
+        """数据标准化"""
+        pass
+```
+
+### 完整实现
+
+```python
+"""
+数据获取与预处理模块
+"""
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+import sqlite3
+import os
+import warnings
+warnings.filterwarnings('ignore')
+
+# 数据库配置
+DB_PATH = 'data/stocks.db'
+
+class DataProcessor:
+    """数据处理器"""
+
+    def __init__(self, db_path=DB_PATH):
+        """初始化数据处理器"""
+        self.db_path = db_path
+        self.conn = None
+        self._init_db()
+
+    def _init_db(self):
+        """初始化数据库"""
+        # 创建数据目录
+        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+
+        # 连接数据库
+        self.conn = sqlite3.connect(self.db_path)
+
+        # 创建表
+        cursor = self.conn.cursor()
+
+        # 股票列表表
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS stock_list (
+                ts_code TEXT PRIMARY KEY,
+                symbol TEXT,
+                name TEXT,
+                area TEXT,
+                industry TEXT,
+                market TEXT,
+                list_date TEXT,
+                is_active INTEGER DEFAULT 1
+            )
+        ''')
+
+        # 日线数据表
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS daily_data (
+                ts_code TEXT,
+                trade_date TEXT,
+                open REAL,
+                high REAL,
+                low REAL,
+                close REAL,
+                pre_close REAL,
+                change REAL,
+                pct_chg REAL,
+                vol REAL,
+                amount REAL,
+                PRIMARY KEY (ts_code, trade_date)
+            )
+        ''')
+
+        # 财务数据表
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS financial_data (
+                ts_code TEXT,
+                ann_date TEXT,
+                end_date TEXT,
+                pe REAL,
+                pe_ttm REAL,
+                pb REAL,
+                ps REAL,
+                ps_ttm REAL,
+                dv_ratio REAL,
+                dv_ttm REAL,
+                total_share REAL,
+                float_share REAL,
+                free_share REAL,
+                total_mv REAL,
+                circ_mv REAL,
+                PRIMARY KEY (ts_code, ann_date, end_date)
+            )
+        ''')
+
+        # 因子数据表
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS factor_data (
+                ts_code TEXT,
+                trade_date TEXT,
+                momentum REAL,
+                reversal REAL,
+                volatility REAL,
+                liquidity REAL,
+                pe_ratio REAL,
+                pb_ratio REAL,
+                roe REAL,
+                revenue_growth REAL,
+                turnover_rate REAL,
+                PRIMARY KEY (ts_code, trade_date)
+            )
+        ''')
+
+        self.conn.commit()
+        print(f"数据库初始化完成: {self.db_path}")
+
+    def get_stock_list_tushare(self):
+        """从Tushare获取股票列表（模拟数据）"""
+        # 模拟一些热门股票
+        stocks = [
+            ('600000.SH', '600000', '浦发银行', '上海', '银行', '主板', '1999-11-10'),
+            ('600519.SH', '600519', '贵州茅台', '贵州', '食品饮料', '主板', '2001-08-27'),
+            ('600036.SH', '600036', '招商银行', '深圳', '银行', '主板', '2002-04-09'),
+            ('601318.SH', '601318', '中国平安', '深圳', '非银金融', '主板', '2007-03-01'),
+            ('000858.SZ', '000858', '五粮液', '四川', '食品饮料', '主板', '1998-04-27'),
+            ('000002.SZ', '000002', '万科A', '深圳', '房地产', '主板', '1991-01-29'),
+            ('000001.SZ', '000001', '平安银行', '深圳', '银行', '主板', '1991-04-03'),
+            ('002594.SZ', '002594', '比亚迪', '广东', '汽车', '中小板', '2011-06-30'),
+            ('300750.SZ', '300750', '宁德时代', '福建', '电力设备', '创业板', '2018-06-11'),
+            ('688981.SH', '688981', '中芯国际', '上海', '电子', '科创板', '2020-07-16'),
+        ]
+
+        cursor = self.conn.cursor()
+
+        # 清空旧数据
+        cursor.execute("DELETE FROM stock_list")
+
+        # 插入新数据
+        for stock in stocks:
+            cursor.execute('''
+                INSERT OR REPLACE INTO stock_list
+                (ts_code, symbol, name, area, industry, market, list_date)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', stock)
+
+        self.conn.commit()
+        print(f"股票列表更新完成，共 {len(stocks)} 只股票")
+
+        return pd.DataFrame(stocks, columns=[
+            'ts_code', 'symbol', 'name', 'area', 'industry', 'market', 'list_date'
+        ])
+
+    def generate_mock_daily_data(self, ts_code, start_date='2020-01-01', end_date='2023-12-31'):
+        """生成模拟日线数据"""
+        date_range = pd.date_range(start=start_date, end=end_date, freq='D')
+        date_range = date_range[date_range.dayofweek < 5]  # 只保留工作日
+
+        # 随机游走生成价格
+        np.random.seed(int(ts_code[:6]))
+        price = 10.0
+        prices = []
+
+        for _ in range(len(date_range)):
+            change_pct = np.random.normal(0, 0.02)  # 2%的日波动率
+            price = price * (1 + change_pct)
+            price = max(price, 1.0)  # 价格不能低于1元
+            prices.append(price)
+
+        # 生成OHLC数据
+        data = []
+        for i, date in enumerate(date_range):
+            close = prices[i]
+            high = close * (1 + abs(np.random.normal(0, 0.01)))
+            low = close * (1 - abs(np.random.normal(0, 0.01)))
+            open_price = low + np.random.random() * (high - low)
+
+            # 计算变化
+            if i == 0:
+                pre_close = close
+            else:
+                pre_close = prices[i-1]
+
+            change = close - pre_close
+            pct_chg = (change / pre_close) * 100
+
+            # 生成成交量和成交额
+            vol = np.random.randint(100000, 10000000)
+            amount = vol * close
+
+            data.append({
+                'ts_code': ts_code,
+                'trade_date': date.strftime('%Y%m%d'),
+                'open': round(open_price, 2),
+                'high': round(high, 2),
+                'low': round(low, 2),
+                'close': round(close, 2),
+                'pre_close': round(pre_close, 2),
+                'change': round(change, 2),
+                'pct_chg': round(pct_chg, 2),
+                'vol': vol,
+                'amount': round(amount, 2)
+            })
+
+        return pd.DataFrame(data)
+
+    def update_daily_data(self, stock_list=None):
+        """更新日线数据"""
+        if stock_list is None:
+            # 获取股票列表
+            cursor = self.conn.cursor()
+            cursor.execute("SELECT ts_code FROM stock_list WHERE is_active = 1")
+            stock_list = [row[0] for row in cursor.fetchall()]
+
+        print(f"开始更新 {len(stock_list)} 只股票的日线数据...")
+
+        for ts_code in stock_list:
+            # 生成模拟数据
+            df = self.generate_mock_daily_data(ts_code)
+
+            # 存入数据库
+            cursor = self.conn.cursor()
+
+            # 删除旧数据
+            cursor.execute(f"DELETE FROM daily_data WHERE ts_code = '{ts_code}'")
+
+            # 插入新数据
+            for _, row in df.iterrows():
+                cursor.execute('''
+                    INSERT INTO daily_data VALUES (
+                        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+                    )
+                ''', (
+                    row['ts_code'], row['trade_date'], row['open'],
+                    row['high'], row['low'], row['close'], row['pre_close'],
+                    row['change'], row['pct_chg'], row['vol'], row['amount']
+                ))
+
+            self.conn.commit()
+
+            if stock_list.index(ts_code) % 5 == 0:
+                print(f"  已完成 {stock_list.index(ts_code) + 1}/{len(stock_list)}")
+
+        print("日线数据更新完成")
+
+    def generate_mock_financial_data(self, ts_code):
+        """生成模拟财务数据"""
+        np.random.seed(int(ts_code[:6]))
+
+        # 生成4个季度的财务数据
+        data = []
+        base_date = datetime(2023, 12, 31)
+
+        for quarter in range(4):
+            ann_date = base_date - timedelta(days=quarter*90)
+            end_date = ann_date - timedelta(days=30)
+
+            # 生成财务指标
+            pe = np.random.uniform(5, 50)
+            pe_ttm = pe * np.random.uniform(0.9, 1.1)
+            pb = np.random.uniform(0.5, 10)
+            ps = np.random.uniform(1, 20)
+            ps_ttm = ps * np.random.uniform(0.9, 1.1)
+            dv_ratio = np.random.uniform(0, 5)
+            dv_ttm = dv_ratio * np.random.uniform(0.9, 1.1)
+
+            # 股本数据
+            total_share = np.random.randint(100000000, 10000000000)
+            float_share = total_share * np.random.uniform(0.3, 0.9)
+            free_share = float_share * np.random.uniform(0.5, 1.0)
+
+            # 市值数据
+            close_price = np.random.uniform(5, 50)
+            total_mv = total_share * close_price
+            circ_mv = float_share * close_price
+
+            data.append({
+                'ts_code': ts_code,
+                'ann_date': ann_date.strftime('%Y%m%d'),
+                'end_date': end_date.strftime('%Y%m%d'),
+                'pe': round(pe, 2),
+                'pe_ttm': round(pe_ttm, 2),
+                'pb': round(pb, 2),
+                'ps': round(ps, 2),
+                'ps_ttm': round(ps_ttm, 2),
+                'dv_ratio': round(dv_ratio, 2),
+                'dv_ttm': round(dv_ttm, 2),
+                'total_share': total_share,
+                'float_share': float_share,
+                'free_share': free_share,
+                'total_mv': round(total_mv, 2),
+                'circ_mv': round(circ_mv, 2)
+            })
+
+        return pd.DataFrame(data)
+
+    def update_financial_data(self, stock_list=None):
+        """更新财务数据"""
+        if stock_list is None:
+            # 获取股票列表
+            cursor = self.conn.cursor()
+            cursor.execute("SELECT ts_code FROM stock_list WHERE is_active = 1")
+            stock_list = [row[0] for row in cursor.fetchall()]
+
+        print(f"开始更新 {len(stock_list)} 只股票的财务数据...")
+
+        for ts_code in stock_list:
+            # 生成模拟数据
+            df = self.generate_mock_financial_data(ts_code)
+
+            # 存入数据库
+            cursor = self.conn.cursor()
+
+            # 删除旧数据
+            cursor.execute(f"DELETE FROM financial_data WHERE ts_code = '{ts_code}'")
+
+            # 插入新数据
+            for _, row in df.iterrows():
+                cursor.execute('''
+                    INSERT INTO financial_data VALUES (
+                        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+                    )
+                ''', (
+                    row['ts_code'], row['ann_date'], row['end_date'],
+                    row['pe'], row['pe_ttm'], row['pb'], row['ps'], row['ps_ttm'],
+                    row['dv_ratio'], row['dv_ttm'], row['total_share'],
+                    row['float_share'], row['free_share'], row['total_mv'], row['circ_mv']
+                ))
+
+            self.conn.commit()
+
+            if stock_list.index(ts_code) % 5 == 0:
+                print(f"  已完成 {stock_list.index(ts_code) + 1}/{len(stock_list)}")
+
+        print("财务数据更新完成")
+
+    def clean_data(self, df):
+        """数据清洗"""
+        # 删除缺失值
+        df = df.dropna()
+
+        # 删除异常值（价格<=0）
+        if 'close' in df.columns:
+            df = df[df['close'] > 0]
+
+        # 删除重复数据
+        df = df.drop_duplicates()
+
+        # 排序
+        if 'trade_date' in df.columns:
+            df = df.sort_values('trade_date')
+
+        return df
+
+    def normalize_data(self, df, method='zscore'):
+        """数据标准化"""
+        # 选择数值列
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+
+        if method == 'zscore':
+            # Z-score标准化
+            df_normalized = df.copy()
+            for col in numeric_cols:
+                mean = df[col].mean()
+                std = df[col].std()
+                if std > 0:
+                    df_normalized[col] = (df[col] - mean) / std
+
+        elif method == 'minmax':
+            # Min-Max标准化
+            df_normalized = df.copy()
+            for col in numeric_cols:
+                min_val = df[col].min()
+                max_val = df[col].max()
+                if max_val > min_val:
+                    df_normalized[col] = (df[col] - min_val) / (max_val - min_val)
+
+        elif method == 'rank':
+            # 秩标准化
+            df_normalized = df.copy()
+            for col in numeric_cols:
+                df_normalized[col] = df[col].rank(pct=True)
+
+        else:
+            df_normalized = df
+
+        return df_normalized
+
+    def get_data(self, table, ts_code=None, start_date=None, end_date=None):
+        """从数据库获取数据"""
+        query = f"SELECT * FROM {table}"
+
+        conditions = []
+        if ts_code:
+            conditions.append(f"ts_code = '{ts_code}'")
+        if start_date:
+            conditions.append(f"trade_date >= '{start_date}'")
+        if end_date:
+            conditions.append(f"trade_date <= '{end_date}'")
+
+        if conditions:
+            query += " WHERE " + " AND ".join(conditions)
+
+        query += " ORDER BY trade_date"
+
+        df = pd.read_sql_query(query, self.conn)
+        return df
+
+    def close(self):
+        """关闭数据库连接"""
+        if self.conn:
+            self.conn.close()
+            print("数据库连接已关闭")
+
+# 使用示例
+def test_data_processor():
+    """测试数据处理器"""
+    print("=" * 50)
+    print("数据处理器测试")
+    print("=" * 50)
+
+    # 创建数据处理器
+    processor = DataProcessor()
+
+    # 更新股票列表
+    print("\n1. 更新股票列表")
+    stock_list = processor.get_stock_list_tushare()
+    print(f"股票数量: {len(stock_list)}")
+    print(stock_list.head())
+
+    # 更新日线数据
+    print("\n2. 更新日线数据（模拟）")
+    processor.update_daily_data(stock_list['ts_code'].tolist())
+
+    # 查询日线数据
+    print("\n3. 查询日线数据")
+    daily_data = processor.get_data('daily_data', ts_code='600519.SH')
+    print(f"数据行数: {len(daily_data)}")
+    print(daily_data.tail())
+
+    # 更新财务数据
+    print("\n4. 更新财务数据（模拟）")
+    processor.update_financial_data(stock_list['ts_code'].tolist())
+
+    # 查询财务数据
+    print("\n5. 查询财务数据")
+    financial_data = processor.get_data('financial_data', ts_code='600519.SH')
+    print(f"数据行数: {len(financial_data)}")
+    print(financial_data)
+
+    # 数据清洗
+    print("\n6. 数据清洗")
+    cleaned_data = processor.clean_data(daily_data)
+    print(f"清洗前: {len(daily_data)} 行")
+    print(f"清洗后: {len(cleaned_data)} 行")
+
+    # 数据标准化
+    print("\n7. 数据标准化")
+    normalized_data = processor.normalize_data(daily_data, method='zscore')
+    print("标准化后的数据（前5行）:")
+    print(normalized_data[['close', 'vol', 'amount']].head())
+
+    # 关闭连接
+    processor.close()
+
+if __name__ == '__main__':
+    test_data_processor()
+```
+
+---
+
+## 数据质量控制
+
+### 数据完整性检查
+- **缺失值检测**：统计每列的缺失值比例
+- **异常值检测**：使用3σ原则或箱线图
+- **一致性检查**：检查数据逻辑一致性
+
+### 数据清洗规则
+1. **价格数据**：删除价格≤0的数据
+2. **成交量数据**：删除成交量<0的数据
+3. **时间序列**：确保时间连续性
+4. **重复数据**：删除完全重复的记录
+
+### 数据标准化方法
+1. **Z-score标准化**：适合正态分布数据
+2. **Min-Max标准化**：适合有明确范围的数据
+3. **秩标准化**：适合非正态分布数据
+
+---
+
+## 数据存储优化
+
+### 数据库设计
+- **索引优化**：为常用查询字段建立索引
+- **分区表**：按时间或股票代码分区
+- **数据压缩**：使用压缩技术减少存储空间
+
+### 缓存机制
+- **内存缓存**：热点数据缓存
+- **磁盘缓存**：预处理结果缓存
+- **分布式缓存**：多节点数据共享
+
+---
+
+## 下一步
+
+**下一步**: [[03_因子构建|因子构建 →]]
+
+**返回**: [[01_项目概述|项目概述]]

@@ -1,10 +1,10 @@
 # Year 2 学习概览（兼容入口）
 
-> 旧版年总览已并入 [[00_Overview|Year 2 双轨总览]]。如果你是从旧链接进来，这一页只保留兼容导航。
+> 旧版年总览已并入 [[MY_Learning/Year_2/00_Overview|Year 2 双轨总览]]。如果你是从旧链接进来，这一页只保留兼容导航。
 
 ## 主要入口
 
-- [[00_Overview]] - Year 2 双轨总览（推荐）
+- [[MY_Learning/Year_2/00_Overview]] - Year 2 双轨总览（推荐）
 - [[02_Quant_Finance/00_Index]] - 量化交易主线索引
 - [[03_Comp_Neuroscience/00_Index]] - 计算神经科学主线索引
 - [[../Year_1/00_Overview]] - Year 1 共享基础年
@@ -18,6 +18,6 @@
 
 ## 备注
 
-如果你正在补内容，优先从 [[00_Overview]] 进入。
+如果你正在补内容，优先从 [[MY_Learning/Year_2/00_Overview]] 进入。
 
 *最后更新：2026-04-24*

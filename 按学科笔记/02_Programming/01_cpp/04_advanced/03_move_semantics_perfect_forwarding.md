@@ -3,7 +3,7 @@ type: concept
 topic: move_semantics
 category: advanced
 difficulty: advanced
-prerequisites: [[01_OOP_Classes_Objects]], [[02_RAII_Smart_Pointers]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/04_advanced/01_oop_classes_objects]], [[按学科笔记/02_programming/01_cpp/04_advanced/02_raii_smart_pointers]]
 acm_relevant: true
 created: 2026-04-22
 status: draft
@@ -164,8 +164,8 @@ int main() {
 3. 比较 `push_back(temp)`、`push_back(std::move(temp))`、`emplace_back(...)` 的差异
 
 ## 相关链接
-- [[01_OOP_Classes_Objects|类与对象（Rule of 5）]]
-- [[04_STL_Pitfalls_Performance|STL 坑点与性能]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/01_oop_classes_objects|类与对象（Rule of 5）]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/04_stl_pitfalls_performance|STL 坑点与性能]]
 
 ## 参考资料
 - cppreference：value category、std::move、std::forward

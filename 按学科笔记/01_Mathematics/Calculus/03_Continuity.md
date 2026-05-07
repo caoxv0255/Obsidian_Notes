@@ -8,7 +8,7 @@ category: calculus
 difficulty: intermediate
 
 prerequisites:
-  - [[02_Limits]]
+  - [[按学科笔记/01_mathematics/calculus/02_limits]]
 
 acm_relevant: false
 
@@ -31,8 +31,8 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[02_Limits]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/02_limits]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -674,10 +674,10 @@ lim(x→x₀) f(x) 是否存在？
 
 ## 6. 相关概念
 
-- [[01_Real_Numbers]] - 实数理论
-- [[02_Limits]] - 极限
-- [[05_Derivatives]] - 导数
-- [[04_Uniform_Continuity]] - 一致连续性
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]] - 实数理论
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/04_uniform_continuity]] - 一致连续性
 
 ## 自测（3问速测）
 

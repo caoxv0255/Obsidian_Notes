@@ -3,7 +3,7 @@ type: concept
 topic: rust_basics
 category: rust
 difficulty: beginner
-prerequisites: [[00_Rust_Index]]
+prerequisites: [[按学科笔记/02_programming/05_rust/00_rust_index]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

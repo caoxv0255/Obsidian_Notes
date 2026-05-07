@@ -4,10 +4,10 @@ topic: real_analysis
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[01_Real_Numbers]]
-    - [[10_Definite_Integrals]]
-    - [[12_Improper_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/01_real_numbers]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/12_improper_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-04-01
 status: complete
@@ -25,7 +25,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解为什么需要 Lebesgue 积分以及它比 Riemann 积分更强的地方
@@ -33,10 +33,10 @@ updated: 2026-04-27
 - 了解单调收敛定理、Fatou 引理和支配收敛定理的作用
 
 ## 先修
-- [[01_Real_Numbers]] - 实数与完备性
-- [[10_Definite_Integrals]] - 定积分
-- [[12_Improper_Integrals]] - 反常积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]] - 实数与完备性
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[按学科笔记/01_mathematics/calculus/12_improper_integrals]] - 反常积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：测度、可测函数与简单函数积分
@@ -638,10 +638,10 @@ if __name__ == "__main__":
 
 ## 相关链接
 
-- [[01_Real_Numbers]] - 实数理论（测度论的基础）
-- [[10_Definite_Integrals]] - 定积分（Riemann积分）
-- [[12_Improper_Integrals]] - 反常积分（推广的积分）
-- [[../../02_programming/04_python/02_Autograd]] - 自动微分（$L^2$ 空间的应用）
+- [[按学科笔记/01_mathematics/calculus/01_real_numbers]] - 实数理论（测度论的基础）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（Riemann积分）
+- [[按学科笔记/01_mathematics/calculus/12_improper_integrals]] - 反常积分（推广的积分）
+- [[../../02_programming/04_python/02_autograd]] - 自动微分（$L^2$ 空间的应用）
 
 ## 总结
 

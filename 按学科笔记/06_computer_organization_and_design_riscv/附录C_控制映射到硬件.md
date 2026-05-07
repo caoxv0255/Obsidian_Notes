@@ -257,4 +257,4 @@ DECODE: PCWrite=0, IorD=0, MemRead=0, MemWrite=0, IRWrite=0, ...
 
 ---
 
-**附录C结束** → 附录D：[[附录D_指令集架构概述]]
+**附录C结束** → 附录D：[[按学科笔记/06_computer_organization_and_design_riscv/附录D_指令集架构概述]]

@@ -3,7 +3,7 @@ type: concept
 topic: java_jvm_concurrency
 category: java
 difficulty: intermediate
-prerequisites: [[02_Java_OOP_Collections]]
+prerequisites: [[按学科笔记/02_programming/02_java/02_java_oop_collections]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

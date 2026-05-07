@@ -3,7 +3,7 @@ type: project
 topic: javascript_practice_todo_app
 category: javascript
 difficulty: intermediate
-prerequisites: [[03_JavaScript_Async_Node]]
+prerequisites: [[按学科笔记/02_programming/03_javascript/03_javascript_async_node]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

@@ -72,53 +72,53 @@ status: complete
 ## 已完成笔记
 
 ### 第一部分：行列式基础
-- [[01_Determinants]] - 行列式定义与性质（排列、行列式定义、性质）
-- [[02_Determinant_Applications]] - 行列式的应用（克莱姆法则、几何意义、代数余子式）
-- [[03_Determinant_Computation]] - 行列式的计算技巧（初等变换、展开法、范德蒙行列式）
+- [[按学科笔记/01_mathematics/algebra/linear/01_determinants]] - 行列式定义与性质（排列、行列式定义、性质）
+- [[按学科笔记/01_mathematics/algebra/linear/02_determinant_applications]] - 行列式的应用（克莱姆法则、几何意义、代数余子式）
+- [[按学科笔记/01_mathematics/algebra/linear/03_determinant_computation]] - 行列式的计算技巧（初等变换、展开法、范德蒙行列式）
 
 ### 第二部分：矩阵及其运算
-- [[04_Matrix_Basics]] - 矩阵基础（矩阵定义、特殊矩阵、矩阵表示）
-- [[05_Matrix_Operations]] - 矩阵运算（加法、乘法、转置、迹、几何意义）
-- [[06_Inverse_Matrix]] - 逆矩阵（逆矩阵定义、存在条件、计算方法）
-- [[07_Rank]] - 矩阵的秩（秩的定义、秩的性质、秩的计算）
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础（矩阵定义、特殊矩阵、矩阵表示）
+- [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]] - 矩阵运算（加法、乘法、转置、迹、几何意义）
+- [[按学科笔记/01_mathematics/algebra/linear/06_inverse_matrix]] - 逆矩阵（逆矩阵定义、存在条件、计算方法）
+- [[按学科笔记/01_mathematics/algebra/linear/07_rank]] - 矩阵的秩（秩的定义、秩的性质、秩的计算）
 
 ### 第三部分：向量组与线性方程组
-- [[08_Vectors]] - 向量基础（向量定义、向量运算、向量的线性组合）
-- [[09_Linear_Relations]] - 向量组的线性相关性（线性相关/无关、判定定理）
-- [[10_Basis_Dimension]] - 基与维数（基的概念、维数定理、坐标表示）
-- [[11_Linear_Equations]] - 线性方程组（解的结构、基础解系、解法）
-- [[12_Least_Squares]] - 最小二乘法（最小二乘解、正规方程、应用）
+- [[按学科笔记/01_mathematics/algebra/linear/08_vectors]] - 向量基础（向量定义、向量运算、向量的线性组合）
+- [[按学科笔记/01_mathematics/algebra/linear/09_linear_relations]] - 向量组的线性相关性（线性相关/无关、判定定理）
+- [[按学科笔记/01_mathematics/algebra/linear/10_basis_dimension]] - 基与维数（基的概念、维数定理、坐标表示）
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组（解的结构、基础解系、解法）
+- [[按学科笔记/01_mathematics/algebra/linear/12_least_squares]] - 最小二乘法（最小二乘解、正规方程、应用）
 
 ### 第四部分：特征值与对角化
-- [[13_Eigenvalues]] - 特征值与特征向量（特征值定义、特征方程、性质）
-- [[14_Similar_Matrices]] - 相似矩阵（相似的定义、相似的性质、相似对角化）
-- [[15_Diagonalization]] - 矩阵对角化（可对角化条件、对角化步骤、应用）
-- [[16_Jordan_Canonical]] - 约当标准形（约当块、约当标准形、应用）
+- [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]] - 特征值与特征向量（特征值定义、特征方程、性质）
+- [[按学科笔记/01_mathematics/algebra/linear/14_similar_matrices]] - 相似矩阵（相似的定义、相似的性质、相似对角化）
+- [[按学科笔记/01_mathematics/algebra/linear/15_diagonalization]] - 矩阵对角化（可对角化条件、对角化步骤、应用）
+- [[按学科笔记/01_mathematics/algebra/linear/16_jordan_canonical]] - 约当标准形（约当块、约当标准形、应用）
 
 ### 第五部分：二次型与内积空间
-- [[17_Quadratic_Forms]] - 二次型及其标准化（二次型定义、合同变换、惯性定理）
-- [[18_Inner_Product]] - 内积空间（内积定义、柯西-施瓦茨不等式、正交性）
-- [[19_Orthogonality]] - 正交性（正交基、格拉姆-施密特正交化、正交补）
-- [[20_Orthogonal_Transformations]] - 正交变换与正交矩阵（正交变换、正交矩阵、Householder变换）
+- [[按学科笔记/01_mathematics/algebra/linear/17_quadratic_forms]] - 二次型及其标准化（二次型定义、合同变换、惯性定理）
+- [[按学科笔记/01_mathematics/algebra/linear/18_inner_product]] - 内积空间（内积定义、柯西-施瓦茨不等式、正交性）
+- [[按学科笔记/01_mathematics/algebra/linear/19_orthogonality]] - 正交性（正交基、格拉姆-施密特正交化、正交补）
+- [[按学科笔记/01_mathematics/algebra/linear/20_orthogonal_transformations]] - 正交变换与正交矩阵（正交变换、正交矩阵、Householder变换）
 
 ### 第六部分：特殊分解与应用
-- [[21_SVD]] - 奇异值分解（SVD定义、性质、低秩近似、机器学习应用）
-- [[22_Pseudoinverse]] - 伪逆与广义逆（Moore-Penrose伪逆、计算、应用）
-- [[23_Linear_Maps]] - 线性变换与线性空间（线性空间、线性变换、同构）
-- [[24_ML_Applications]] - 机器学习应用（数据表示、深度学习、实际案例）
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解（SVD定义、性质、低秩近似、机器学习应用）
+- [[按学科笔记/01_mathematics/algebra/linear/22_pseudoinverse]] - 伪逆与广义逆（Moore-Penrose伪逆、计算、应用）
+- [[按学科笔记/01_mathematics/algebra/linear/23_linear_maps]] - 线性变换与线性空间（线性空间、线性变换、同构）
+- [[按学科笔记/01_mathematics/algebra/linear/24_ml_applications]] - 机器学习应用（数据表示、深度学习、实际案例）
 
 ## 相关链接
 
 ### 代数学内部链接
-- [[00_Algebra_Index|代数学总目录]] - 线性代数、高等代数、近世代数统一入口
-- [[00_Advanced_Algebra_Index|高等代数]] - 多项式理论、矩阵分析、空间深化
-- [[00_Abstract_Algebra_Index|近世代数]] - 群、环、域、模
+- [[按学科笔记/01_mathematics/algebra/00_algebra_index|代数学总目录]] - 线性代数、高等代数、近世代数统一入口
+- [[按学科笔记/01_mathematics/algebra/advanced/00_advanced_algebra_index|高等代数]] - 多项式理论、矩阵分析、空间深化
+- [[按学科笔记/01_mathematics/algebra/abstract/00_abstract_algebra_index|近世代数]] - 群、环、域、模
 
 ### 数学分支链接
-- [[00_Calculus_Index|微积分]] - 偏导数和梯度计算需要矩阵运算支持
+- [[按学科笔记/01_mathematics/calculus/00_calculus_index|微积分]] - 偏导数和梯度计算需要矩阵运算支持
 - [[../../Calculus/18_Partial_Derivatives|偏导数]] - Jacobian矩阵、Hessian矩阵的数学基础
-- [[00_Probability_Index|概率统计]] - 协方差矩阵、相关系数矩阵
-- [[00_Optimization_Index|优化理论]] - 矩阵运算在牛顿法、共轭梯度法中的应用
+- [[按学科笔记/01_mathematics/probability/00_probability_index|概率统计]] - 协方差矩阵、相关系数矩阵
+- [[按学科笔记/01_mathematics/optimization/00_optimization_index|优化理论]] - 矩阵运算在牛顿法、共轭梯度法中的应用
 
 ### 编程工具链接
 - [[../../02_programming/04_python/00_Python_Index|Python]] - NumPy矩阵运算、线性代数函数

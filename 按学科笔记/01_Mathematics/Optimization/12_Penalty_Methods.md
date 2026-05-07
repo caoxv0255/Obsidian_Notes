@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -336,7 +336,7 @@ def portfolio_penalty(Sigma, mu, r_min, w0):
 ---
 
 **相关链接**：
-- [[11_Duality_Theory]] - 对偶理论
-- [[13_Augmented_Lagrangian]] - 增广拉格朗日法
-- [[16_Interior_Point]] - 内点法
+- [[按学科笔记/01_mathematics/optimization/11_duality_theory]] - 对偶理论
+- [[按学科笔记/01_mathematics/optimization/13_augmented_lagrangian]] - 增广拉格朗日法
+- [[按学科笔记/01_mathematics/optimization/16_interior_point]] - 内点法
 

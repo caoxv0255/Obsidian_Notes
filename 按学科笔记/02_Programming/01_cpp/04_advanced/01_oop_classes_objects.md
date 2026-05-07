@@ -3,7 +3,7 @@ type: concept
 topic: oop_classes_objects
 category: advanced
 difficulty: intermediate
-prerequisites: [[../01_Basics/05_Functions]], [[../01_Basics/11_Scope_Lifetime]], [[../01_Basics/16_Memory_Management]]
+prerequisites: [[../01_basics/05_functions]], [[../01_basics/11_scope_lifetime]], [[../01_basics/16_memory_management]]
 acm_relevant: true
 created: 2026-04-22
 status: draft
@@ -148,9 +148,9 @@ int main() {
 3. 写一个 `Matrix` 类，支持构造、拷贝、移动、下标访问和 `const` 访问
 
 ## 相关链接
-- [[05_Templates|模板（泛型基础）]]
-- [[02_RAII_Smart_Pointers|RAII 与智能指针]]
-- [[03_Move_Semantics_Perfect_Forwarding|移动语义与完美转发]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/05_templates|模板（泛型基础）]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/02_raii_smart_pointers|RAII 与智能指针]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/03_move_semantics_perfect_forwarding|移动语义与完美转发]]
 
 ## 参考资料
 - cppreference：special member functions

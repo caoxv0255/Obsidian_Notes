@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -399,5 +399,5 @@ while 未收敛:
 2. 《Numerical Optimization》- Nocedal & Wright
 3. 《Nonlinear Programming》- Dimitri Bertsekas
 
-**下一章**：[[10_Linear_Programming]] - 线性规划
+**下一章**：[[按学科笔记/01_mathematics/optimization/10_linear_programming]] - 线性规划
 

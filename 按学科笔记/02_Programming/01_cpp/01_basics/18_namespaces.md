@@ -3,7 +3,7 @@ type: concept
 topic: namespaces
 category: code_organization
 difficulty: intermediate
-prerequisites: [[01_Basic_Syntax]], [[05_Functions]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]], [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]]
 acm_relevant: false
 created: 2026-02-20
 status: complete
@@ -533,9 +533,9 @@ int main() {
    ```
 ## 相关概念
 
-- [[11_Scope_Lifetime]] - 作用域和生命周期
-- [[05_Functions]] - 函数的定义和使用
-- [[20_Best_Practices]] - 最佳实践
+- [[按学科笔记/02_programming/01_cpp/01_basics/11_scope_lifetime]] - 作用域和生命周期
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数的定义和使用
+- [[按学科笔记/02_programming/01_cpp/01_basics/20_best_practices]] - 最佳实践
 
 ## 练习题
 

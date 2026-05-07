@@ -17,10 +17,10 @@ status: complete
 
 ## ✅ 先修
 
-- [[06_域扩张]]
-- [[05_整环域与多项式环]]
-- [[03_群的结构]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/algebra/abstract/06_域扩张]]
+- [[按学科笔记/01_mathematics/algebra/abstract/05_整环域与多项式环]]
+- [[按学科笔记/01_mathematics/algebra/abstract/03_群的结构]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -271,9 +271,9 @@ $$K^H \leftarrow H$$
 
 ## 相关链接
 
-- [[03_群的结构]] - 可解群、单群
-- [[06_域扩张]] - 分裂域、正规扩张
-- [[01_群的定义与基本性质]] - 群论基础
+- [[按学科笔记/01_mathematics/algebra/abstract/03_群的结构]] - 可解群、单群
+- [[按学科笔记/01_mathematics/algebra/abstract/06_域扩张]] - 分裂域、正规扩张
+- [[按学科笔记/01_mathematics/algebra/abstract/01_群的定义与基本性质]] - 群论基础
 
 ---
 

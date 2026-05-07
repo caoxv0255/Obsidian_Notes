@@ -3,7 +3,7 @@ type: concept
 topic: preprocessor
 category: compilation
 difficulty: intermediate
-prerequisites: [[02_Variables_Types]], [[05_Functions]]
+prerequisites: [[../../../02_programming/01_cpp/01_basics/02_variables_types]], [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -392,10 +392,10 @@ int main() {
    ```
 ## 相关概念
 
-- [[02_Variables_Types]] - 变量和常量
-- [[05_Functions]] - 函数定义和调用
-- [[12_Const_Volatile]] - const 关键字
-- [[20_Best_Practices]] - 最佳实践
+- [[../../../02_programming/01_cpp/01_basics/02_variables_types]] - 变量和常量
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数定义和调用
+- [[按学科笔记/02_programming/01_cpp/01_basics/12_const_volatile]] - const 关键字
+- [[按学科笔记/02_programming/01_cpp/01_basics/20_best_practices]] - 最佳实践
 
 ## 练习题
 

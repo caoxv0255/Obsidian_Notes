@@ -4,8 +4,8 @@ topic: multivariable_applications
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[19_Partial_Derivatives]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -23,7 +23,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解多元函数极值、条件极值和约束优化的基本思路
@@ -32,8 +32,8 @@ updated: 2026-04-27
 - 会求有界闭域上的连续函数的最值点
 
 ## 先修
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：驻点、Hessian 判别和无条件极值
@@ -373,9 +373,9 @@ print(f"最小值: {result_min.fun:.6f}")
 
 ## 相关链接
 
-- [[19_Partial_Derivatives]] - 偏导数（多元函数应用的基础）
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数（多元函数应用的基础）
 - [[../../01_Mathematics/Optimization/01_Gradient_Descent]] - 梯度下降（极值问题的应用）
-- [[03_NN_Module]] - 神经网络（损失函数的优化）
+- [[按学科笔记/02_programming/04_python/03_nn_module]] - 神经网络（损失函数的优化）
 ## 根据题型整理的做题方法
 ### 多元函数极值判断
 

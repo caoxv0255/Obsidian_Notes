@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -277,5 +277,5 @@ $$f(x) = \begin{cases} \frac{1}{x\sqrt{2\pi}\sigma} e^{-\frac{(\ln x - \mu)^2}{2
 1. 《概率论与数理统计》- 浙江大学
 2. 《Statistical Inference》- Casella & Berger
 
-**下一章**：[[08_Functions_of_RV]] - 随机变量函数的分布
+**下一章**：[[按学科笔记/01_mathematics/probability/08_functions_of_rv]] - 随机变量函数的分布
 

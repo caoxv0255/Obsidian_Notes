@@ -4,9 +4,9 @@ topic: improper_integrals
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[09_Indefinite_Integrals]]
-    - [[10_Definite_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/10_definite_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -24,7 +24,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解无限区间积分与无界函数积分的定义与极限化方法
@@ -32,9 +32,9 @@ updated: 2026-04-27
 - 能区分收敛、绝对收敛和条件收敛，并处理典型例题
 
 ## 先修
-- [[09_Indefinite_Integrals]] - 不定积分
-- [[10_Definite_Integrals]] - 定积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：反常积分定义、分情况化为极限
@@ -885,11 +885,11 @@ $$I = (1 - 0)\ln\frac{b}{a} = \ln\frac{b}{a}$$
 
 ## 相关链接
 
-- [[09_Indefinite_Integrals]] - 不定积分（反常积分的基础）
-- [[10_Definite_Integrals]] - 定积分（反常积分的推广）
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]] - 不定积分（反常积分的基础）
+- [[按学科笔记/01_mathematics/calculus/10_definite_integrals]] - 定积分（反常积分的推广）
 - [[13_Series]] - 级数（反常积分与级数的关系）
 - [[../../01_Mathematics/Probability/03_Distributions]] - 概率分布（反常积分的应用）
-- [[06_Case_Finance]] - 金融案例（概率分布的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/06_Case_Finance]] - 金融案例（概率分布的应用）
 ## 易错点
 - 把“积分区间无限”与“被积函数无界”混为一谈
 - 判断 $\int_{-\infty}^{\infty}$ 时只看一侧收敛

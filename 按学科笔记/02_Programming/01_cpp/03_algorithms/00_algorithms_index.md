@@ -13,14 +13,14 @@ status: complete
 
 ## 已完成笔记
 
-- [[03_Algorithms_Sorting_Searching]] - 排序和搜索
-- [[04_Dynamic_Programming]] - 动态规划
-- [[05_Greedy]] - 贪心算法
-- [[06_Graph_Algorithms]] - 图算法
-- [[07_String_Algorithms]] - 字符串算法
-- [[08_Binary_Search_TwoPointers_SlidingWindow]] - 二分答案、双指针与滑动窗口
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/03_algorithms_sorting_searching]] - 排序和搜索
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/04_dynamic_programming]] - 动态规划
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/05_greedy]] - 贪心算法
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/06_graph_algorithms]] - 图算法
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/07_string_algorithms]] - 字符串算法
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/08_binary_search_twopointers_slidingwindow]] - 二分答案、双指针与滑动窗口
 
 ## 相关链接
 
-- [[00_CPP_Index|返回 C++ 主索引]]
-- [[../../00_Index|主索引]]
+- [[按学科笔记/02_programming/01_cpp/00_cpp_index|返回 C++ 主索引]]
+- [[../../00_index|主索引]]

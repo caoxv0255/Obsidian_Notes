@@ -390,6 +390,6 @@ results = full_financial_analysis('AAPL', '2020-01-01', '2024-12-31')
 | 交易成本 | 考虑手续费和滑点 |
 
 ## 相关链接
-- [[temp_data_acquisition|数据获取]]
-- [[temp_data_analysis|数据分析]]
-- [[temp_ml_pipeline|ML 全流程]]
+- 
+- [[../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis|数据分析]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline|ML 全流程]]

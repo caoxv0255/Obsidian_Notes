@@ -1,0 +1,195 @@
+{
+  "top30_analysis": [
+    {
+      "target": "../00_symbols_conventions",
+      "count": 111,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "../00_Symbols_Conventions",
+      "count": 44,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "05_Derivatives",
+      "count": 35,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第4章：供给与需求的市场力量",
+      "count": 32,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 04_第4章_供给与需求的市场力量",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/04_第4章_供给与需求的市场力量.md"
+    },
+    {
+      "target": "02_Limits",
+      "count": 29,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "10_Definite_Integrals",
+      "count": 27,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "19_Partial_Derivatives",
+      "count": 26,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "01_Real_Numbers",
+      "count": 25,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "18_Multivariable_Limits",
+      "count": 18,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "03_Continuity",
+      "count": 17,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第7章：消费者、生产者与市场效率",
+      "count": 16,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 07_第7章_消费者、生产者与市场效率",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/07_第7章_消费者、生产者与市场效率.md"
+    },
+    {
+      "target": "09_Indefinite_Integrals",
+      "count": 16,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "21_SVD",
+      "count": 16,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第2章：线性表",
+      "count": 14,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 02_第2章_线性表",
+      "found_in_header": "按学科笔记/07_data_structures_cpp/01_lecture_notes/02_第2章_线性表.md"
+    },
+    {
+      "target": "第5章：树和二叉树",
+      "count": 14,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 05_第5章_树和二叉树",
+      "found_in_header": "按学科笔记/07_data_structures_cpp/01_lecture_notes/05_第5章_树和二叉树.md"
+    },
+    {
+      "target": "第8章：排序技术",
+      "count": 14,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 08_第8章_排序技术",
+      "found_in_header": "按学科笔记/07_data_structures_cpp/01_lecture_notes/08_第8章_排序技术.md"
+    },
+    {
+      "target": "temp_data_cleaning",
+      "count": 14,
+      "type": "PLACEHOLDER",
+      "suggestion": "Replace with actual target or delete"
+    },
+    {
+      "target": "02_Variables_Types",
+      "count": 14,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第10章：外部性",
+      "count": 13,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 10_第10章_外部性",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/10_第10章_外部性.md"
+    },
+    {
+      "target": "第6章：供给、需求与政府政策",
+      "count": 13,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 06_第6章_供给、需求与政府政策",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/06_第6章_供给、需求与政府政策.md"
+    },
+    {
+      "target": "第13章：生产成本",
+      "count": 13,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 13_第13章_生产成本",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/13_第13章_生产成本.md"
+    },
+    {
+      "target": "05_Functions",
+      "count": 13,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第2章：需求、供给和均衡价格",
+      "count": 12,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 02_第2章_需求_供给和均衡价格",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/高鸿业_西方经济学_微观部分/02_第2章_需求_供给和均衡价格.md"
+    },
+    {
+      "target": "第6章：图",
+      "count": 12,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 06_第6章_图",
+      "found_in_header": "按学科笔记/07_data_structures_cpp/01_lecture_notes/06_第6章_图.md"
+    },
+    {
+      "target": "temp_ml_pipeline",
+      "count": 12,
+      "type": "PLACEHOLDER",
+      "suggestion": "Replace with actual target or delete"
+    },
+    {
+      "target": "13_Eigenvalues",
+      "count": 12,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "15_Diagonalization",
+      "count": 12,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "第5章：弹性及其应用",
+      "count": 11,
+      "type": "HEADER_MATCH",
+      "suggestion": "Create index entry pointing to 05_第5章_弹性及其应用",
+      "found_in_header": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/01_初级/曼昆_经济学原理_微观分册/05_第5章_弹性及其应用.md"
+    },
+    {
+      "target": "01_Determinants",
+      "count": 11,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    },
+    {
+      "target": "08_Vectors",
+      "count": 11,
+      "type": "NOT_FOUND",
+      "suggestion": "Verify target or create file"
+    }
+  ]
+}

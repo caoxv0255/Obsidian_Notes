@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -378,5 +378,5 @@ plt.show()
 2. 《Probability: Theory and Examples》- Rick Durrett
 3. 《A Probability Path》- Sidney Resnick
 
-**下一章**：[[19_Central_Limit_Theorem]] - 中心极限定理
+**下一章**：[[按学科笔记/01_mathematics/probability/19_central_limit_theorem]] - 中心极限定理
 

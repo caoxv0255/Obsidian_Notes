@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -351,7 +351,7 @@ def structural_optimization(stiffness, load, constraints):
 ---
 
 **相关链接**：
-- [[11_Duality_Theory]] - 对偶理论
-- [[12_Penalty_Methods]] - 罚函数法
-- [[14_Sequential_Quadratic]] - 序列二次规划
+- [[按学科笔记/01_mathematics/optimization/11_duality_theory]] - 对偶理论
+- [[按学科笔记/01_mathematics/optimization/12_penalty_methods]] - 罚函数法
+- [[按学科笔记/01_mathematics/optimization/14_sequential_quadratic]] - 序列二次规划
 

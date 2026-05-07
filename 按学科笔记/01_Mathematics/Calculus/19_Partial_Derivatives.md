@@ -4,10 +4,10 @@ topic: partial_derivatives
 category: calculus
 difficulty: intermediate
 prerequisites:
-    - [[02_Limits]]
-    - [[05_Derivatives]]
-    - [[18_Multivariable_Limits]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/02_limits]]
+    - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/18_multivariable_limits]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: false
 created: 2026-03-09
 updated: 2026-04-27
@@ -25,7 +25,7 @@ chapter: 19
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解偏导数、全微分、方向导数和梯度的基本概念
@@ -34,10 +34,10 @@ chapter: 19
 - 会应用一阶全微分形式的不变性计算微分或求偏导数
 
 ## 先修
-- [[02_Limits]] - 极限
-- [[05_Derivatives]] - 导数
-- [[18_Multivariable_Limits]] - 多元函数极限
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/18_multivariable_limits]] - 多元函数极限
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：偏导数、全微分与梯度
@@ -751,9 +751,9 @@ print(f"\n准确率: {accuracy:.2%}")
 
 ## 6. 相关概念
 
-- [[02_Limits]] - 极限
-- [[05_Derivatives]] - 导数
-- [[18_Multivariable_Limits]] - 多元函数极限
+- [[按学科笔记/01_mathematics/calculus/02_limits]] - 极限
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/18_multivariable_limits]] - 多元函数极限
 - [[20_Multiple_Integrals]] - 重积分
 
 ## 练习（分层）

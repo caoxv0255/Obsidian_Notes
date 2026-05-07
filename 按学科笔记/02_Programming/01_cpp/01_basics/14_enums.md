@@ -3,7 +3,7 @@ type: concept
 topic: Enums
 category: basics
 difficulty: 入门
-prerequisites: [[13_Struct_Union]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/13_struct_union]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -168,7 +168,7 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[13_Struct_Union]] - 结构体与联合体
+- [[按学科笔记/02_programming/01_cpp/01_basics/13_struct_union]] - 结构体与联合体
 
 ## 📝 练习题
 

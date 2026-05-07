@@ -19,46 +19,46 @@ status: complete
 
 ### 已完成
 
-- [ ] [[01_Basic_Syntax]] - 基本语法结构
-- [ ] [[02_Variables_Types]] - 变量与数据类型
-- [ ] [[03_Operators]] - 运算符
-- [ ] [[04_Control_Flow]] - 控制流
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/01_basic_syntax]] - 基本语法结构
+- [ ] [[../../../02_programming/01_cpp/01_basics/02_variables_types]] - 变量与数据类型
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/03_operators]] - 运算符
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/04_control_flow]] - 控制流
 
 ## 阶段二：函数与复合类型
 
 ### 已完成
 
-- [ ] [[05_Functions]] - 函数
-- [ ] [[06_Pointers]] - 指针
-- [ ] [[07_References]] - 引用
-- [ ] [[08_Arrays]] - 数组
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]] - 指针
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/07_references]] - 引用
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/08_arrays]] - 数组
 
 ## 阶段三：字符串与控制机制
 
 ### 已完成
 
-- [ ] [[09_Strings]] - 字符串
-- [ ] [[10_IO]] - 输入输出
-- [ ] [[11_Scope_Lifetime]] - 作用域与生命周期
-- [ ] [[12_Const_Volatile]] - const与volatile
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/09_strings]] - 字符串
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/10_io]] - 输入输出
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/11_scope_lifetime]] - 作用域与生命周期
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/12_const_volatile]] - const与volatile
 
 ## 阶段四：高级类型与内存
 
 ### 已完成
 
-- [ ] [[13_Struct_Union]] - 结构体与联合体
-- [ ] [[14_Enums]] - 枚举类型
-- [ ] [[15_Type_Conversion]] - 类型转换
-- [ ] [[16_Memory_Management]] - 内存管理
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/13_struct_union]] - 结构体与联合体
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/14_enums]] - 枚举类型
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/15_type_conversion]] - 类型转换
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/16_memory_management]] - 内存管理
 
 ## 阶段五：编译与工程实践
 
 ### 已完成
 
-- [ ] [[17_Preprocessor]] - 预处理器
-- [ ] [[18_Namespaces]] - 命名空间
-- [ ] [[19_Error_Handling]] - 错误处理
-- [ ] [[20_Best_Practices]] - 最佳实践
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/17_preprocessor]] - 预处理器
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/18_namespaces]] - 命名空间
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/19_error_handling]] - 错误处理
+- [ ] [[按学科笔记/02_programming/01_cpp/01_basics/20_best_practices]] - 最佳实践
 
 ## 学习路径
 
@@ -81,9 +81,9 @@ status: complete
 
 ## 相关链接
 
-- [[00_CPP_Index|返回 C++ 主索引]]
+- [[按学科笔记/02_programming/01_cpp/00_cpp_index|返回 C++ 主索引]]
 - [[../../01_Mathematics/Calculus/00_Calculus_Index|微积分]]
-- [[../../00_Index|主索引]]
+- [[../../00_index|主索引]]
 
 ## 完成状态
 

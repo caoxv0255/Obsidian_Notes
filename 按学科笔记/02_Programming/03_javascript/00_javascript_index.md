@@ -11,10 +11,10 @@ status: complete
 
 ## 目录结构
 
-- [[01_JavaScript_Core]] - 核心语法、对象、函数、闭包
-- [[02_JavaScript_Browser_Modules]] - 浏览器、DOM、模块系统
-- [[03_JavaScript_Async_Node]] - 异步编程、Node.js、工具链
-- [[04_JavaScript_Practice]] - 浏览器待办事项项目
+- [[按学科笔记/02_programming/03_javascript/01_javascript_core]] - 核心语法、对象、函数、闭包
+- [[按学科笔记/02_programming/03_javascript/02_javascript_browser_modules]] - 浏览器、DOM、模块系统
+- [[按学科笔记/02_programming/03_javascript/03_javascript_async_node]] - 异步编程、Node.js、工具链
+- [[按学科笔记/02_programming/03_javascript/04_javascript_practice]] - 浏览器待办事项项目
 
 ## 学习路径
 
@@ -41,4 +41,4 @@ status: complete
 
 ## 相关链接
 
-- [[../00_Index|02_Programming 总索引]]
+- [[../00_index|02_Programming 总索引]]

@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -346,5 +346,5 @@ $$\max b^T \nu \quad \text{s.t.} \quad A^T \nu \leq c$$
 2. 《Introduction to Linear Optimization》- Bertsimas & Tsitsiklis
 3. 《Convex Optimization》- Boyd & Vandenberghe
 
-**下一章**：[[11_Duality_Theory]] - 对偶理论
+**下一章**：[[按学科笔记/01_mathematics/optimization/11_duality_theory]] - 对偶理论
 

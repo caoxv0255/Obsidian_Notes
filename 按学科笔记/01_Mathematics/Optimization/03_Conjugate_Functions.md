@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -265,5 +265,5 @@ $$\min_u \|u - f\|^2 + \lambda \text{TV}(u)$$
 2. 《Convex Analysis》- Rockafellar
 3. 《凸分析》- 史树中
 
-**下一章**：[[04_Convex_Optimization_Basics]] - 凸优化基础
+**下一章**：[[按学科笔记/01_mathematics/optimization/04_convex_optimization_basics]] - 凸优化基础
 

@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -360,11 +360,11 @@ $$P(\theta|data) \propto P(data|\theta)P(\theta)$$
 ---
 
 **相关链接**：
-- [[01_Probability_Axioms]] - 概率公理
-- [[02_Conditional_Probability]] - 条件概率
-- [[14_Expectation]] - 数学期望
-- [[18_Law_of_Large_Numbers]] - 大数定律
-- [[19_Central_Limit_Theorem]] - 中心极限定理
-- [[22_Point_Estimation]] - 点估计
-- [[24_Hypothesis_Testing]] - 假设检验
+- [[按学科笔记/01_mathematics/probability/01_probability_axioms]] - 概率公理
+- [[按学科笔记/01_mathematics/probability/02_conditional_probability]] - 条件概率
+- [[按学科笔记/01_mathematics/probability/14_expectation]] - 数学期望
+- [[按学科笔记/01_mathematics/probability/18_law_of_large_numbers]] - 大数定律
+- [[按学科笔记/01_mathematics/probability/19_central_limit_theorem]] - 中心极限定理
+- [[按学科笔记/01_mathematics/probability/22_point_estimation]] - 点估计
+- [[按学科笔记/01_mathematics/probability/24_hypothesis_testing]] - 假设检验
 

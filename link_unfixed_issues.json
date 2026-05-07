@@ -1,0 +1,1430 @@
+{
+  "total_files": 1299,
+  "issues_count": 2324,
+  "issues_sample": [
+    {
+      "file": "记录/daily_template.md",
+      "link_text": "微积分笔记/第五章/定积分定义",
+      "target": "微积分笔记/第五章/定积分定义",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/daily_template.md",
+      "link_text": "算法模板/动态规划/背包问题",
+      "target": "算法模板/动态规划/背包问题",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/daily_template.md",
+      "link_text": "Python学习/NumPy基础",
+      "target": "Python学习/NumPy基础",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/monthly_template.md",
+      "link_text": "微积分笔记/第五章",
+      "target": "微积分笔记/第五章",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/monthly_template.md",
+      "link_text": "概率论笔记/第一章",
+      "target": "概率论笔记/第一章",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/monthly_template.md",
+      "link_text": "算法模板/DP专题",
+      "target": "算法模板/DP专题",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/monthly_template.md",
+      "link_text": "量化策略/双均线策略",
+      "target": "量化策略/双均线策略",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/README.md",
+      "link_text": "微积分笔记/第五章",
+      "target": "微积分笔记/第五章",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "2026-04-27",
+      "target": "2026-04-27",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "2026-04-28",
+      "target": "2026-04-28",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "微积分笔记/第五章",
+      "target": "微积分笔记/第五章",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "概率论笔记/第一章",
+      "target": "概率论笔记/第一章",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "算法模板/DP专题",
+      "target": "算法模板/DP专题",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "Python学习/pandas基础",
+      "target": "Python学习/pandas基础",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "记录/weekly_template.md",
+      "link_text": "神经科学笔记/神经元模型",
+      "target": "神经科学笔记/神经元模型",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/01_mathematics/00_symbols_conventions.md",
+      "link_text": "02_Limits",
+      "target": "02_Limits",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/01_mathematics/00_symbols_conventions.md",
+      "link_text": "03_Continuity",
+      "target": "03_Continuity",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/06_computer_organization_and_design_riscv/00_index.md",
+      "link_text": "链接",
+      "target": "链接",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/06_computer_organization_and_design_riscv/readme.md",
+      "link_text": "00_Index",
+      "target": "00_Index",
+      "type": "ambiguous_multiple_matches",
+      "matches": [
+        "MY_Learning/00_Index.md",
+        "MY_Learning/Year_2/02_Quant_Finance/00_Index.md",
+        "MY_Learning/Year_2/03_Comp_Neuroscience/00_Index.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/00_Index.md",
+        "history/中外美术欣赏/00_Index.md"
+      ]
+    },
+    {
+      "file": "按学科笔记/06_computer_organization_and_design_riscv/readme.md",
+      "link_text": "链接",
+      "target": "链接",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/06_computer_organization_and_design_riscv/readme.md",
+      "link_text": "00_Index",
+      "target": "00_Index",
+      "type": "ambiguous_multiple_matches",
+      "matches": [
+        "MY_Learning/00_Index.md",
+        "MY_Learning/Year_2/02_Quant_Finance/00_Index.md",
+        "MY_Learning/Year_2/03_Comp_Neuroscience/00_Index.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/00_Index.md",
+        "history/中外美术欣赏/00_Index.md"
+      ]
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/初级/曼昆_经济学原理_宏观分册",
+      "target": "01_按教材索引/宏观经济学/初级/曼昆_经济学原理_宏观分册",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/初级/高鸿业_西方经济学_宏观部分",
+      "target": "01_按教材索引/宏观经济学/初级/高鸿业_西方经济学_宏观部分",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/初级/曼昆_经济学原理_微观分册",
+      "target": "01_按教材索引/微观经济学/初级/曼昆_经济学原理_微观分册",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/初级/高鸿业_西方经济学_微观部分",
+      "target": "01_按教材索引/微观经济学/初级/高鸿业_西方经济学_微观部分",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/中级/曼昆_宏观经济学",
+      "target": "01_按教材索引/宏观经济学/中级/曼昆_宏观经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/中级/范里安_微观经济学_现代观点",
+      "target": "01_按教材索引/微观经济学/中级/范里安_微观经济学_现代观点",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/中级/平狄克_微观经济学",
+      "target": "01_按教材索引/微观经济学/中级/平狄克_微观经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/高级/罗默_高级宏观经济学",
+      "target": "01_按教材索引/宏观经济学/高级/罗默_高级宏观经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/高级/MasColell_微观经济理论",
+      "target": "01_按教材索引/微观经济学/高级/MasColell_微观经济理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/初级/曼昆_经济学原理_微观分册",
+      "target": "01_按教材索引/微观经济学/初级/曼昆_经济学原理_微观分册",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/初级/高鸿业_西方经济学_微观部分",
+      "target": "01_按教材索引/微观经济学/初级/高鸿业_西方经济学_微观部分",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/中级/平新乔_微观经济学十八讲",
+      "target": "01_按教材索引/微观经济学/中级/平新乔_微观经济学十八讲",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/中级/范里安_微观经济学_现代观点",
+      "target": "01_按教材索引/微观经济学/中级/范里安_微观经济学_现代观点",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/初级/曼昆_经济学原理_宏观分册",
+      "target": "01_按教材索引/宏观经济学/初级/曼昆_经济学原理_宏观分册",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/中级/曼昆_宏观经济学",
+      "target": "01_按教材索引/宏观经济学/中级/曼昆_宏观经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类",
+      "target": "02_按主题分类",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "00_Index",
+      "target": "00_Index",
+      "type": "ambiguous_multiple_matches",
+      "matches": [
+        "MY_Learning/00_Index.md",
+        "MY_Learning/Year_2/02_Quant_Finance/00_Index.md",
+        "MY_Learning/Year_2/03_Comp_Neuroscience/00_Index.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/00_Index.md",
+        "history/中外美术欣赏/00_Index.md"
+      ]
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引",
+      "target": "01_按教材索引",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类",
+      "target": "02_按主题分类",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/初级",
+      "target": "01_按教材索引/宏观经济学/初级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/初级",
+      "target": "01_按教材索引/微观经济学/初级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/中级",
+      "target": "01_按教材索引/宏观经济学/中级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/中级",
+      "target": "01_按教材索引/微观经济学/中级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/宏观经济学/高级",
+      "target": "01_按教材索引/宏观经济学/高级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引/微观经济学/高级",
+      "target": "01_按教材索引/微观经济学/高级",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类/02_供给与需求/03_市场均衡",
+      "target": "02_按主题分类/02_供给与需求/03_市场均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类/03_消费者行为理论/03_效用最大化",
+      "target": "02_按主题分类/03_消费者行为理论/03_效用最大化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类/09_宏观经济模型/01_IS-LM模型",
+      "target": "02_按主题分类/09_宏观经济模型/01_IS-LM模型",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类/05_市场结构/01_完全竞争",
+      "target": "02_按主题分类/05_市场结构/01_完全竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "00_Index",
+      "target": "00_Index",
+      "type": "ambiguous_multiple_matches",
+      "matches": [
+        "MY_Learning/00_Index.md",
+        "MY_Learning/Year_2/02_Quant_Finance/00_Index.md",
+        "MY_Learning/Year_2/03_Comp_Neuroscience/00_Index.md",
+        "MY_Learning/Year_1/02_Programming/2.2_数据结构/00_Index.md",
+        "history/中外美术欣赏/00_Index.md"
+      ]
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "01_按教材索引",
+      "target": "01_按教材索引",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "02_按主题分类",
+      "target": "02_按主题分类",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/04_references/readme_legacy.md",
+      "link_text": "每日记录",
+      "target": "每日记录",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/01_第1章_偏好与效用.md",
+      "link_text": "第2章：消费者选择",
+      "target": "第2章：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/01_第1章_偏好与效用.md",
+      "link_text": "第2章：消费者选择",
+      "target": "第2章：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/02_第2章_消费者选择.md",
+      "link_text": "第1章：偏好与效用",
+      "target": "第1章：偏好与效用",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/02_第2章_消费者选择.md",
+      "link_text": "第3章：经典需求理论",
+      "target": "第3章：经典需求理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/02_第2章_消费者选择.md",
+      "link_text": "第3章：经典需求理论",
+      "target": "第3章：经典需求理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/03_第3章_经典需求理论.md",
+      "link_text": "第2章：消费者选择",
+      "target": "第2章：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/03_第3章_经典需求理论.md",
+      "link_text": "第4章：总体选择",
+      "target": "第4章：总体选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/03_第3章_经典需求理论.md",
+      "link_text": "第4章：总体选择",
+      "target": "第4章：总体选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/04_第4章_总体选择.md",
+      "link_text": "第3章：经典需求理论",
+      "target": "第3章：经典需求理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/04_第4章_总体选择.md",
+      "link_text": "第5章：生产",
+      "target": "第5章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/04_第4章_总体选择.md",
+      "link_text": "第5章：生产",
+      "target": "第5章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/05_第5章_生产.md",
+      "link_text": "第4章：总体选择",
+      "target": "第4章：总体选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/05_第5章_生产.md",
+      "link_text": "第6章：竞争均衡",
+      "target": "第6章：竞争均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/05_第5章_生产.md",
+      "link_text": "第6章：竞争均衡",
+      "target": "第6章：竞争均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/06_第6章_竞争均衡.md",
+      "link_text": "第5章：生产",
+      "target": "第5章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/06_第6章_竞争均衡.md",
+      "link_text": "第7章：总体均衡",
+      "target": "第7章：总体均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/06_第6章_竞争均衡.md",
+      "link_text": "第7章：总体均衡",
+      "target": "第7章：总体均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/07_第7章_总体均衡.md",
+      "link_text": "第6章：竞争均衡",
+      "target": "第6章：竞争均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/07_第7章_总体均衡.md",
+      "link_text": "第8章：社会选择与福利",
+      "target": "第8章：社会选择与福利",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/07_第7章_总体均衡.md",
+      "link_text": "第8章：社会选择与福利",
+      "target": "第8章：社会选择与福利",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/08_第8章_社会选择与福利.md",
+      "link_text": "第7章：总体均衡",
+      "target": "第7章：总体均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/08_第8章_社会选择与福利.md",
+      "link_text": "第9章：博弈论：静态博弈",
+      "target": "第9章：博弈论：静态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/08_第8章_社会选择与福利.md",
+      "link_text": "第9章：博弈论：静态博弈",
+      "target": "第9章：博弈论：静态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/09_第9章_博弈论：静态博弈.md",
+      "link_text": "第8章：社会选择与福利",
+      "target": "第8章：社会选择与福利",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/09_第9章_博弈论：静态博弈.md",
+      "link_text": "第10章：博弈论：动态博弈",
+      "target": "第10章：博弈论：动态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/09_第9章_博弈论：静态博弈.md",
+      "link_text": "第10章：博弈论：动态博弈",
+      "target": "第10章：博弈论：动态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/10_第10章_博弈论：动态博弈.md",
+      "link_text": "第9章：博弈论：静态博弈",
+      "target": "第9章：博弈论：静态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/10_第10章_博弈论：动态博弈.md",
+      "link_text": "第11章：不完全信息",
+      "target": "第11章：不完全信息",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/10_第10章_博弈论：动态博弈.md",
+      "link_text": "第11章：不完全信息",
+      "target": "第11章：不完全信息",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/11_第11章_不完全信息.md",
+      "link_text": "第10章：博弈论：动态博弈",
+      "target": "第10章：博弈论：动态博弈",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/11_第11章_不完全信息.md",
+      "link_text": "第12章：寡头垄断",
+      "target": "第12章：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/11_第11章_不完全信息.md",
+      "link_text": "第12章：寡头垄断",
+      "target": "第12章：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/12_第12章_寡头垄断.md",
+      "link_text": "第11章：不完全信息",
+      "target": "第11章：不完全信息",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/12_第12章_寡头垄断.md",
+      "link_text": "第13章：垄断定价",
+      "target": "第13章：垄断定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/12_第12章_寡头垄断.md",
+      "link_text": "第13章：垄断定价",
+      "target": "第13章：垄断定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/13_第13章_垄断定价.md",
+      "link_text": "第12章：寡头垄断",
+      "target": "第12章：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/13_第13章_垄断定价.md",
+      "link_text": "第14章：产品差异化",
+      "target": "第14章：产品差异化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/13_第13章_垄断定价.md",
+      "link_text": "第14章：产品差异化",
+      "target": "第14章：产品差异化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/14_第14章_产品差异化.md",
+      "link_text": "第13章：垄断定价",
+      "target": "第13章：垄断定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/14_第14章_产品差异化.md",
+      "link_text": "第15章：一般均衡理论",
+      "target": "第15章：一般均衡理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/14_第14章_产品差异化.md",
+      "link_text": "第15章：一般均衡理论",
+      "target": "第15章：一般均衡理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/15_第15章_一般均衡理论.md",
+      "link_text": "第14章：产品差异化",
+      "target": "第14章：产品差异化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/15_第15章_一般均衡理论.md",
+      "link_text": "第16章：不确定性与一般均衡",
+      "target": "第16章：不确定性与一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/15_第15章_一般均衡理论.md",
+      "link_text": "第16章：不确定性与一般均衡",
+      "target": "第16章：不确定性与一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/16_第16章_不确定性与一般均衡.md",
+      "link_text": "第15章：一般均衡理论",
+      "target": "第15章：一般均衡理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/16_第16章_不确定性与一般均衡.md",
+      "link_text": "第17章：外部性与公共物品",
+      "target": "第17章：外部性与公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/16_第16章_不确定性与一般均衡.md",
+      "link_text": "第17章：外部性与公共物品",
+      "target": "第17章：外部性与公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/17_第17章_外部性与公共物品.md",
+      "link_text": "第16章：不确定性与一般均衡",
+      "target": "第16章：不确定性与一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/17_第17章_外部性与公共物品.md",
+      "link_text": "第18章：福利经济学",
+      "target": "第18章：福利经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/17_第17章_外部性与公共物品.md",
+      "link_text": "第18章：福利经济学",
+      "target": "第18章：福利经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/18_第18章_福利经济学.md",
+      "link_text": "第17章：外部性与公共物品",
+      "target": "第17章：外部性与公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/18_第18章_福利经济学.md",
+      "link_text": "第19章：机制设计",
+      "target": "第19章：机制设计",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/18_第18章_福利经济学.md",
+      "link_text": "第19章：机制设计",
+      "target": "第19章：机制设计",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/19_第19章_机制设计.md",
+      "link_text": "第18章：福利经济学",
+      "target": "第18章：福利经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/19_第19章_机制设计.md",
+      "link_text": "第20章：信息经济学",
+      "target": "第20章：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/19_第19章_机制设计.md",
+      "link_text": "第20章：信息经济学",
+      "target": "第20章：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/20_第20章_信息经济学.md",
+      "link_text": "第19章：机制设计",
+      "target": "第19章：机制设计",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/20_第20章_信息经济学.md",
+      "link_text": "第21章：拍卖理论",
+      "target": "第21章：拍卖理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/20_第20章_信息经济学.md",
+      "link_text": "第21章：拍卖理论",
+      "target": "第21章：拍卖理论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/03_高级/MWG_微观经济理论/21_第21章_拍卖理论.md",
+      "link_text": "第20章：信息经济学",
+      "target": "第20章：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/01_第1讲_偏好与效用.md",
+      "link_text": "第二讲：消费者选择",
+      "target": "第二讲：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/01_第1讲_偏好与效用.md",
+      "link_text": "第二讲：消费者选择",
+      "target": "第二讲：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/02_第2讲_消费者选择.md",
+      "link_text": "第1讲：偏好与效用",
+      "target": "第1讲：偏好与效用",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/02_第2讲_消费者选择.md",
+      "link_text": "第3讲：市场需求",
+      "target": "第3讲：市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/02_第2讲_消费者选择.md",
+      "link_text": "第3讲：市场需求",
+      "target": "第3讲：市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/03_第3讲_市场需求.md",
+      "link_text": "第2讲：消费者选择",
+      "target": "第2讲：消费者选择",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/03_第3讲_市场需求.md",
+      "link_text": "第4讲：不确定性",
+      "target": "第4讲：不确定性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/03_第3讲_市场需求.md",
+      "link_text": "第4讲：不确定性",
+      "target": "第4讲：不确定性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/04_第4讲_不确定性.md",
+      "link_text": "第3讲：市场需求",
+      "target": "第3讲：市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/04_第4讲_不确定性.md",
+      "link_text": "第5讲：生产技术",
+      "target": "第5讲：生产技术",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/04_第4讲_不确定性.md",
+      "link_text": "第5讲：生产技术",
+      "target": "第5讲：生产技术",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/05_第5讲_生产技术.md",
+      "link_text": "第4讲：不确定性",
+      "target": "第4讲：不确定性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/05_第5讲_生产技术.md",
+      "link_text": "第6讲：成本函数",
+      "target": "第6讲：成本函数",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/05_第5讲_生产技术.md",
+      "link_text": "第6讲：成本函数",
+      "target": "第6讲：成本函数",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/06_第6讲_成本函数.md",
+      "link_text": "第5讲：生产技术",
+      "target": "第5讲：生产技术",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/06_第6讲_成本函数.md",
+      "link_text": "第7讲：利润最大化",
+      "target": "第7讲：利润最大化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/06_第6讲_成本函数.md",
+      "link_text": "第7讲：利润最大化",
+      "target": "第7讲：利润最大化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/07_第7讲_利润最大化.md",
+      "link_text": "第6讲：成本函数",
+      "target": "第6讲：成本函数",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/07_第7讲_利润最大化.md",
+      "link_text": "第8讲：完全竞争",
+      "target": "第8讲：完全竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/07_第7讲_利润最大化.md",
+      "link_text": "第8讲：完全竞争",
+      "target": "第8讲：完全竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/08_第8讲_完全竞争.md",
+      "link_text": "第7讲：利润最大化",
+      "target": "第7讲：利润最大化",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/08_第8讲_完全竞争.md",
+      "link_text": "第9讲：垄断",
+      "target": "第9讲：垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/08_第8讲_完全竞争.md",
+      "link_text": "第9讲：垄断",
+      "target": "第9讲：垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/09_第9讲_垄断.md",
+      "link_text": "第8讲：完全竞争",
+      "target": "第8讲：完全竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/09_第9讲_垄断.md",
+      "link_text": "第10讲：寡头垄断",
+      "target": "第10讲：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/09_第9讲_垄断.md",
+      "link_text": "第10讲：寡头垄断",
+      "target": "第10讲：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/10_第10讲_寡头垄断.md",
+      "link_text": "第9讲：垄断",
+      "target": "第9讲：垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/10_第10讲_寡头垄断.md",
+      "link_text": "第11讲：博弈论",
+      "target": "第11讲：博弈论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/10_第10讲_寡头垄断.md",
+      "link_text": "第11讲：博弈论",
+      "target": "第11讲：博弈论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/11_第11讲_博弈论.md",
+      "link_text": "第10讲：寡头垄断",
+      "target": "第10讲：寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/11_第11讲_博弈论.md",
+      "link_text": "第12讲：垄断竞争",
+      "target": "第12讲：垄断竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/11_第11讲_博弈论.md",
+      "link_text": "第12讲：垄断竞争",
+      "target": "第12讲：垄断竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/12_第12讲_垄断竞争.md",
+      "link_text": "第11讲：博弈论",
+      "target": "第11讲：博弈论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/12_第12讲_垄断竞争.md",
+      "link_text": "第13讲：要素市场",
+      "target": "第13讲：要素市场",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/12_第12讲_垄断竞争.md",
+      "link_text": "第13讲：要素市场",
+      "target": "第13讲：要素市场",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/13_第13讲_要素市场.md",
+      "link_text": "第12讲：垄断竞争",
+      "target": "第12讲：垄断竞争",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/13_第13讲_要素市场.md",
+      "link_text": "第14讲：一般均衡",
+      "target": "第14讲：一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/13_第13讲_要素市场.md",
+      "link_text": "第14讲：一般均衡",
+      "target": "第14讲：一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/14_第14讲_一般均衡.md",
+      "link_text": "第13讲：要素市场",
+      "target": "第13讲：要素市场",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/14_第14讲_一般均衡.md",
+      "link_text": "第15讲：外部性",
+      "target": "第15讲：外部性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/14_第14讲_一般均衡.md",
+      "link_text": "第15讲：外部性",
+      "target": "第15讲：外部性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/15_第15讲_外部性.md",
+      "link_text": "第14讲：一般均衡",
+      "target": "第14讲：一般均衡",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/15_第15讲_外部性.md",
+      "link_text": "第16讲：公共物品",
+      "target": "第16讲：公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/15_第15讲_外部性.md",
+      "link_text": "第16讲：公共物品",
+      "target": "第16讲：公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/16_第16讲_公共物品.md",
+      "link_text": "第15讲：外部性",
+      "target": "第15讲：外部性",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/16_第16讲_公共物品.md",
+      "link_text": "第17讲：信息经济学",
+      "target": "第17讲：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/16_第16讲_公共物品.md",
+      "link_text": "第17讲：信息经济学",
+      "target": "第17讲：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/17_第17讲_信息经济学.md",
+      "link_text": "第16讲：公共物品",
+      "target": "第16讲：公共物品",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/17_第17讲_信息经济学.md",
+      "link_text": "第18讲：社会福利",
+      "target": "第18讲：社会福利",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/17_第17讲_信息经济学.md",
+      "link_text": "第18讲：社会福利",
+      "target": "第18讲：社会福利",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平新乔_微观经济学十八讲/18_第18讲_社会福利.md",
+      "link_text": "第17讲：信息经济学",
+      "target": "第17讲：信息经济学",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/01_第1章_微观经济学导论.md",
+      "link_text": "第2章：供给与需求的基本原理",
+      "target": "第2章：供给与需求的基本原理",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/01_第1章_微观经济学导论.md",
+      "link_text": "第2章：供给与需求的基本原理",
+      "target": "第2章：供给与需求的基本原理",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/02_第2章_供给与需求的基本原理.md",
+      "link_text": "第1章：微观经济学导论",
+      "target": "第1章：微观经济学导论",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/02_第2章_供给与需求的基本原理.md",
+      "link_text": "第3章：消费者行为",
+      "target": "第3章：消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/02_第2章_供给与需求的基本原理.md",
+      "link_text": "第3章：消费者行为",
+      "target": "第3章：消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/03_第3章_消费者行为.md",
+      "link_text": "第2章：供给与需求的基本原理",
+      "target": "第2章：供给与需求的基本原理",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/03_第3章_消费者行为.md",
+      "link_text": "第4章：个别需求和市场需求",
+      "target": "第4章：个别需求和市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/03_第3章_消费者行为.md",
+      "link_text": "第4章：个别需求和市场需求",
+      "target": "第4章：个别需求和市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/04_第4章_个别需求和市场需求.md",
+      "link_text": "第3章：消费者行为",
+      "target": "第3章：消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/04_第4章_个别需求和市场需求.md",
+      "link_text": "第5章：不确定性与消费者行为",
+      "target": "第5章：不确定性与消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/04_第4章_个别需求和市场需求.md",
+      "link_text": "第5章：不确定性与消费者行为",
+      "target": "第5章：不确定性与消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/05_第5章_不确定性与消费者行为.md",
+      "link_text": "第4章：个别需求和市场需求",
+      "target": "第4章：个别需求和市场需求",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/05_第5章_不确定性与消费者行为.md",
+      "link_text": "第6章：生产",
+      "target": "第6章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/05_第5章_不确定性与消费者行为.md",
+      "link_text": "第6章：生产",
+      "target": "第6章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/06_第6章_生产.md",
+      "link_text": "第5章：不确定性与消费者行为",
+      "target": "第5章：不确定性与消费者行为",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/06_第6章_生产.md",
+      "link_text": "第7章：生产成本",
+      "target": "第7章：生产成本",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/06_第6章_生产.md",
+      "link_text": "第7章：生产成本",
+      "target": "第7章：生产成本",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/07_第7章_生产成本.md",
+      "link_text": "第6章：生产",
+      "target": "第6章：生产",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/07_第7章_生产成本.md",
+      "link_text": "第8章：利润最大化和竞争性供给",
+      "target": "第8章：利润最大化和竞争性供给",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/07_第7章_生产成本.md",
+      "link_text": "第8章：利润最大化和竞争性供给",
+      "target": "第8章：利润最大化和竞争性供给",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/08_第8章_利润最大化和竞争性供给.md",
+      "link_text": "第7章：生产成本",
+      "target": "第7章：生产成本",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/08_第8章_利润最大化和竞争性供给.md",
+      "link_text": "第9章：竞争性市场的分析",
+      "target": "第9章：竞争性市场的分析",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/08_第8章_利润最大化和竞争性供给.md",
+      "link_text": "第9章：竞争性市场的分析",
+      "target": "第9章：竞争性市场的分析",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/09_第9章_竞争性市场的分析.md",
+      "link_text": "第8章：利润最大化和竞争性供给",
+      "target": "第8章：利润最大化和竞争性供给",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/09_第9章_竞争性市场的分析.md",
+      "link_text": "第10章：市场势力：垄断和买方垄断",
+      "target": "第10章：市场势力：垄断和买方垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/09_第9章_竞争性市场的分析.md",
+      "link_text": "第10章：市场势力：垄断和买方垄断",
+      "target": "第10章：市场势力：垄断和买方垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/10_第10章_市场势力：垄断和买方垄断.md",
+      "link_text": "第9章：竞争性市场的分析",
+      "target": "第9章：竞争性市场的分析",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/10_第10章_市场势力：垄断和买方垄断.md",
+      "link_text": "第11章：有市场势力的定价",
+      "target": "第11章：有市场势力的定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/10_第10章_市场势力：垄断和买方垄断.md",
+      "link_text": "第11章：有市场势力的定价",
+      "target": "第11章：有市场势力的定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/11_第11章_有市场势力的定价.md",
+      "link_text": "第10章：市场势力：垄断和买方垄断",
+      "target": "第10章：市场势力：垄断和买方垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/11_第11章_有市场势力的定价.md",
+      "link_text": "第12章：垄断竞争和寡头垄断",
+      "target": "第12章：垄断竞争和寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/11_第11章_有市场势力的定价.md",
+      "link_text": "第12章：垄断竞争和寡头垄断",
+      "target": "第12章：垄断竞争和寡头垄断",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/12_第12章_垄断竞争和寡头垄断.md",
+      "link_text": "第11章：有市场势力的定价",
+      "target": "第11章：有市场势力的定价",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/12_第12章_垄断竞争和寡头垄断.md",
+      "link_text": "第13章：博弈论和竞争策略",
+      "target": "第13章：博弈论和竞争策略",
+      "type": "nonexistent",
+      "matches": []
+    },
+    {
+      "file": "按学科笔记/09_economics_notes/01_lecture_notes/01_按教材索引/02_微观经济学/02_中级/平狄克_微观经济学/12_第12章_垄断竞争和寡头垄断.md",
+      "link_text": "第13章：博弈论和竞争策略",
+      "target": "第13章：博弈论和竞争策略",
+      "type": "nonexistent",
+      "matches": []
+    }
+  ]
+}

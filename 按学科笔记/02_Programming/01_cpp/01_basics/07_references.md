@@ -3,7 +3,7 @@ type: concept
 topic: References
 category: basics
 difficulty: 基础
-prerequisites: [[06_Pointers]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -144,8 +144,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[06_Pointers]] - 指针
-- [[05_Functions]] - 函数
+- [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]] - 指针
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数
 
 ## 📝 练习题
 

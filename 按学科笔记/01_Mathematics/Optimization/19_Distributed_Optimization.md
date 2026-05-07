@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -379,7 +379,7 @@ def decentralized_sgd(grad_funcs, W, n_iters=1000, lr=0.01):
 ---
 
 **相关链接**：
-- [[13_Augmented_Lagrangian]] - 增广拉格朗日法（ADMM）
-- [[18_Stochastic_Optimization]] - 随机优化
-- [[20_ML_Applications]] - 机器学习应用
+- [[按学科笔记/01_mathematics/optimization/13_augmented_lagrangian]] - 增广拉格朗日法（ADMM）
+- [[按学科笔记/01_mathematics/optimization/18_stochastic_optimization]] - 随机优化
+- [[按学科笔记/01_mathematics/optimization/20_ml_applications]] - 机器学习应用
 

@@ -3,7 +3,7 @@ type: concept
 topic: algorithms_graph
 category: algorithms
 difficulty: advanced
-prerequisites: [[03_Algorithms_Sorting_Searching]], [[05_Greedy]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/03_algorithms/03_algorithms_sorting_searching]], [[按学科笔记/02_programming/01_cpp/03_algorithms/05_greedy]]
 acm_relevant: true
 created: 2026-04-25
 status: complete
@@ -81,5 +81,5 @@ int main() {
 
 ## 相关链接
 
-- [[05_Greedy]]
-- [[00_Algorithms_Index|返回算法索引]]
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/05_greedy]]
+- [[按学科笔记/02_programming/01_cpp/03_algorithms/00_algorithms_index|返回算法索引]]

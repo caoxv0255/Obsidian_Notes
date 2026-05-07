@@ -3,7 +3,7 @@ type: concept
 topic: error_handling
 category: robustness
 difficulty: intermediate
-prerequisites: [[05_Functions]], [[12_Const_Volatile]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]], [[按学科笔记/02_programming/01_cpp/01_basics/12_const_volatile]]
 acm_relevant: true
 created: 2026-02-20
 status: complete
@@ -695,10 +695,10 @@ int main() {
    ```
 ## 相关概念
 
-- [[05_Functions]] - 函数的返回值
-- [[12_Const_Volatile]] - const 关键字
-- [[16_Memory_Management]] - 资源管理
-- [[20_Best_Practices]] - 最佳实践
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数的返回值
+- [[按学科笔记/02_programming/01_cpp/01_basics/12_const_volatile]] - const 关键字
+- [[按学科笔记/02_programming/01_cpp/01_basics/16_memory_management]] - 资源管理
+- [[按学科笔记/02_programming/01_cpp/01_basics/20_best_practices]] - 最佳实践
 
 ## 练习题
 

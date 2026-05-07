@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -409,5 +409,5 @@ print(f"单纯形法: {time_simplex:.3f}秒, 迭代{result_simplex.nit}次")
 2. 《Interior-Point Polynomial Algorithms in Convex Programming》- Nesterov & Nemirovski
 3. 《Linear Programming》- Vasek Chvatal
 
-**下一章**：[[17_Semidefinite_Programming]] - 半定规划
+**下一章**：[[按学科笔记/01_mathematics/optimization/17_semidefinite_programming]] - 半定规划
 

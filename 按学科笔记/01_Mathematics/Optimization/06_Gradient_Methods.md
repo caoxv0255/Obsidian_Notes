@@ -11,7 +11,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 📌 学习目标
 
@@ -633,5 +633,5 @@ plt.show()
 2. 《Numerical Optimization》- Nocedal & Wright
 3. 《Optimization for Machine Learning》- Sra, Nowozin, Wright
 
-**下一章**：[[07_Newton_Method]] - 牛顿法与拟牛顿法
+**下一章**：[[按学科笔记/01_mathematics/optimization/07_newton_method]] - 牛顿法与拟牛顿法
 

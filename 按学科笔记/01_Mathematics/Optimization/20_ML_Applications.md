@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -394,8 +394,8 @@ def train_neural_network(X_train, y_train, X_val, y_val, config):
 ---
 
 **相关链接**：
-- [[06_Gradient_Methods]] - 梯度下降法
-- [[18_Stochastic_Optimization]] - 随机优化
-- [[01_Convex_Sets]] - 凸集
-- [[09_KKT_Conditions]] - KKT条件
+- [[按学科笔记/01_mathematics/optimization/06_gradient_methods]] - 梯度下降法
+- [[按学科笔记/01_mathematics/optimization/18_stochastic_optimization]] - 随机优化
+- [[按学科笔记/01_mathematics/optimization/01_convex_sets]] - 凸集
+- [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]] - KKT条件
 

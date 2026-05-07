@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -232,8 +232,8 @@ print(f"残差: {np.linalg.norm(A @ x - b)}")
 ---
 
 **相关链接**：
-- [[06_Gradient_Methods]] - 梯度下降法
-- [[07_Newton_Method]] - 牛顿法与拟牛顿法
-- [[09_KKT_Conditions]] - KKT条件
-- [[00_Probability_Index|概率统计]] - 随机优化
+- [[按学科笔记/01_mathematics/optimization/06_gradient_methods]] - 梯度下降法
+- [[按学科笔记/01_mathematics/optimization/07_newton_method]] - 牛顿法与拟牛顿法
+- [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]] - KKT条件
+- [[按学科笔记/01_mathematics/probability/00_probability_index|概率统计]] - 随机优化
 

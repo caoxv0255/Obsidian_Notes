@@ -3,7 +3,7 @@ type: cookbook
 topic: data_cleaning
 category: data_science
 difficulty: intermediate
-prerequisites: [[temp_data_acquisition]]
+prerequisites: 
 acm_relevant: false
 created: 2026-02-20
 status: complete
@@ -153,15 +153,15 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 
 # 标准化（Z-score）
 scaler = StandardScaler()
-df_scaled = scaler.fit_transform(df[['column1', 'column2']])
+df_scaled = scaler.fit_transform(df)
 
 # 归一化（0-1）
 scaler = MinMaxScaler()
-df_normalized = scaler.fit_transform(df[['column1', 'column2']])
+df_normalized = scaler.fit_transform(df)
 
 # 鲁棒缩放（对异常值不敏感）
 scaler = RobustScaler()
-df_robust = scaler.fit_transform(df[['column1', 'column2']])
+df_robust = scaler.fit_transform(df)
 
 # 对数变换（处理偏态数据）
 df['log_column'] = np.log1p(df['column'])  # log(1+x) 避免 log(0)
@@ -247,6 +247,6 @@ def clean_data(df):
 ```
 
 ## 相关链接
-- [[temp_data_acquisition|数据获取]]
-- [[temp_data_analysis|数据分析]]
-- [[temp_ml_pipeline|ML 全流程]]
+- 
+- [[../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis|数据分析]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline|ML 全流程]]

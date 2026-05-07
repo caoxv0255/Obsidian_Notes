@@ -17,10 +17,10 @@ status: complete
 
 ## ✅ 先修
 
-- [[08_模的基础理论]]
-- [[04_环的定义与理想]]
-- [[03_群的结构]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/algebra/abstract/08_模的基础理论]]
+- [[按学科笔记/01_mathematics/algebra/abstract/04_环的定义与理想]]
+- [[按学科笔记/01_mathematics/algebra/abstract/03_群的结构]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -198,9 +198,9 @@ $$\begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}$$
 
 ## 相关链接
 
-- [[08_模的基础理论]] - 模的基础概念
-- [[16_Jordan_Canonical|Jordan标准形]] - 线性代数视角
-- [[03_群的结构]] - 有限Abel群结构定理
+- [[按学科笔记/01_mathematics/algebra/abstract/08_模的基础理论]] - 模的基础概念
+- [[按学科笔记/01_mathematics/algebra/linear/16_jordan_canonical|Jordan标准形]] - 线性代数视角
+- [[按学科笔记/01_mathematics/algebra/abstract/03_群的结构]] - 有限Abel群结构定理
 
 ## 总结
 

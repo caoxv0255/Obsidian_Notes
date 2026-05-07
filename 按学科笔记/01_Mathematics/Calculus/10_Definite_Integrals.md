@@ -8,9 +8,9 @@ category: calculus
 difficulty: intermediate
 
 prerequisites:
-    - [[03_Continuity]]
-    - [[05_Derivatives]]
-    - [[09_Indefinite_Integrals]]
+    - [[按学科笔记/01_mathematics/calculus/03_continuity]]
+    - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]]
 
 acm_relevant: false
 
@@ -44,10 +44,10 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[03_Continuity]]
-- [[05_Derivatives]]
-- [[09_Indefinite_Integrals]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/03_continuity]]
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+- [[按学科笔记/01_mathematics/calculus/09_indefinite_integrals]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 高数/数分附件补充
 

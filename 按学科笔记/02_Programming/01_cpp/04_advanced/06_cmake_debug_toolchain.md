@@ -3,7 +3,7 @@ type: concept
 topic: cmake_debug_toolchain
 category: advanced
 difficulty: intermediate
-prerequisites: [[../01_Basics/19_Error_Handling]]
+prerequisites: [[../01_basics/19_error_handling]]
 acm_relevant: false
 created: 2026-04-22
 status: draft
@@ -81,7 +81,7 @@ target_compile_options(demo PRIVATE -Wall -Wextra -Wpedantic -g)
 3. 给一个已有项目补上 `Debug`/`Release` 两套构建配置
 
 ## 相关链接
-- [[07_Epoll_Reactor_Server|epoll/网络服务端（调试重点）]]
+- [[按学科笔记/02_programming/01_cpp/04_advanced/07_epoll_reactor_server|epoll/网络服务端（调试重点）]]
 
 ## 参考资料
 - CMake 官方文档：target_* 体系

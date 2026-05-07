@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -288,8 +288,8 @@ print(f"原始最优值: p* = {sum(x_star**2) if len(x_star) > 0 else dual_objec
 ---
 
 **相关链接**：
-- [[09_KKT_Conditions]] - KKT条件
-- [[10_Linear_Programming]] - 线性规划的对偶
-- [[12_Penalty_Methods]] - 罚函数法
-- [[13_Augmented_Lagrangian]] - 增广拉格朗日法
+- [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]] - KKT条件
+- [[按学科笔记/01_mathematics/optimization/10_linear_programming]] - 线性规划的对偶
+- [[按学科笔记/01_mathematics/optimization/12_penalty_methods]] - 罚函数法
+- [[按学科笔记/01_mathematics/optimization/13_augmented_lagrangian]] - 增广拉格朗日法
 

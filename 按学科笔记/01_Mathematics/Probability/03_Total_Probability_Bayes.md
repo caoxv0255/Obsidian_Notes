@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -354,5 +354,5 @@ $$P(X_1, \ldots, X_n) = \prod_{i=1}^{n} P(X_i | \text{Parents}(X_i))$$
 2. 《Pattern Recognition and Machine Learning》- Christopher Bishop
 3. 《Bayesian Data Analysis》- Gelman et al.
 
-**下一章**：[[04_Probability_Calculus]] - 概率计算技巧
+**下一章**：[[按学科笔记/01_mathematics/probability/04_probability_calculus]] - 概率计算技巧
 

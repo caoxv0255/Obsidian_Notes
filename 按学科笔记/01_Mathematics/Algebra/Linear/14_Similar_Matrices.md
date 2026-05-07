@@ -4,7 +4,7 @@ topic: similar_matrices
 category: linear_algebra
 difficulty: advanced
 prerequisites:
-  - [[13_Eigenvalues]]
+  - [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 14
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -455,8 +455,8 @@ $A$可对角化 $\Leftrightarrow$ $A$有$n$个线性无关的特征向量
 
 ## 相关概念
 
-- [[13_Eigenvalues]] - 特征值与特征向量
-- [[15_Diagonalization]] - 矩阵对角化
-- [[16_Jordan_Canonical]] - 约当标准形
+- [[按学科笔记/01_mathematics/algebra/linear/13_eigenvalues]] - 特征值与特征向量
+- [[按学科笔记/01_mathematics/algebra/linear/15_diagonalization]] - 矩阵对角化
+- [[按学科笔记/01_mathematics/algebra/linear/16_jordan_canonical]] - 约当标准形
 
 

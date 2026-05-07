@@ -3,7 +3,7 @@ type: concept
 topic: rust_cargo_error_handling
 category: rust
 difficulty: intermediate
-prerequisites: [[02_Rust_Ownership_Borrowing]]
+prerequisites: [[按学科笔记/02_programming/05_rust/02_rust_ownership_borrowing]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -386,5 +386,5 @@ plt.show()
 2. 《多元统计分析》- Anderson
 3. 《The Elements of Statistical Learning》- Hastie et al.
 
-**下一章**：[[17_Moment_Characteristic]] - 矩与特征函数
+**下一章**：[[按学科笔记/01_mathematics/probability/17_moment_characteristic]] - 矩与特征函数
 

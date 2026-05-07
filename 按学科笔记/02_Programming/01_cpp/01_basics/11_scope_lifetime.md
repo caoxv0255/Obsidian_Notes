@@ -3,7 +3,7 @@ type: concept
 topic: Scope and Lifetime
 category: basics
 difficulty: 基础
-prerequisites: [[05_Functions]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -149,8 +149,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[05_Functions]] - 函数
-- [[16_Memory_Management]] - 内存管理
+- [[按学科笔记/02_programming/01_cpp/01_basics/05_functions]] - 函数
+- [[按学科笔记/02_programming/01_cpp/01_basics/16_memory_management]] - 内存管理
 
 ## 📝 练习题
 

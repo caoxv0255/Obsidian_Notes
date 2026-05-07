@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -296,5 +296,5 @@ result_lbfgs = minimize(rosenbrock, x0, method='L-BFGS-B',
 1. 《Numerical Optimization》- Nocedal & Wright
 2. 《Convex Optimization》- Boyd & Vandenberghe
 
-**下一章**：[[08_Conjugate_Gradient]] - 共轭梯度法
+**下一章**：[[按学科笔记/01_mathematics/optimization/08_conjugate_gradient]] - 共轭梯度法
 

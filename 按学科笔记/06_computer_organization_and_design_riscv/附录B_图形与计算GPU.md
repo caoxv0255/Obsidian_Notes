@@ -322,4 +322,4 @@ __global__ void matrix_mul(float *A, float *B, float *C, int n) {
 
 ---
 
-**附录B结束** → 附录C：[[附录C_控制映射到硬件]]
+**附录B结束** → 附录C：[[按学科笔记/06_computer_organization_and_design_riscv/附录C_控制映射到硬件]]

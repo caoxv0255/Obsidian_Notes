@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -346,5 +346,5 @@ $$= E[\text{Var}(X|Y)] + \text{Var}(E[X|Y])$$
 2. 《概率论基础》（第3版）- 李贤平
 3. 《Mathematical Statistics and Data Analysis》- John Rice
 
-**下一章**：[[16_Covariance_Correlation]] - 协方差与相关系数
+**下一章**：[[按学科笔记/01_mathematics/probability/16_covariance_correlation]] - 协方差与相关系数
 

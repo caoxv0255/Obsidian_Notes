@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -280,5 +280,5 @@ $$\binom{9}{2} = 36$$
 2. 《概率论与数理统计》- 浙江大学
 3. 《Concrete Mathematics》- Graham, Knuth, Patashnik
 
-**下一章**：[[05_Random_Variables]] - 随机变量与分布函数
+**下一章**：[[按学科笔记/01_mathematics/probability/05_random_variables]] - 随机变量与分布函数
 

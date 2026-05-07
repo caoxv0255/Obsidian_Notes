@@ -21,7 +21,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -762,6 +762,6 @@ $$\mathbf{x} = A^{-1}\mathbf{b} = \begin{bmatrix} 1 & -1 \\ -1 & 2 \end{bmatrix}
 - [[13_Determinants]] - 行列式
 - [[14_Eigenvalues]] - 特征值
 - [[09_Inner_Product]] - 内积空间
-- [[00_Python_Index|Python]] - NumPy 线性代数
+- [[../../../../MY_Learning/Year_1/02_Programming/2.1_Python/00_Python_Index|Python]] - NumPy 线性代数
 
 

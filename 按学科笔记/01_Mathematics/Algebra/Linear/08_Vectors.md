@@ -21,7 +21,7 @@ chapter: 08
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -785,5 +785,5 @@ $$\|\mathbf{a} + \mathbf{b}\| \leq \|\mathbf{a}\| + \|\mathbf{b}\|$$
 - [[03_Matrix_Basics]] - 矩阵基础
 - [[04_Matrix_Operations]] - 矩阵运算
 - [[09_Inner_Product]] - 内积空间
-- [[00_Python_Index|Python]] - NumPy 向量运算
+- [[../../../../MY_Learning/Year_1/02_Programming/2.1_Python/00_Python_Index|Python]] - NumPy 向量运算
 

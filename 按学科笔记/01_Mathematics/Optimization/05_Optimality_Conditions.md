@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -203,7 +203,7 @@ $$\text{s.t.} \quad g(x) \leq 0$$
 3. λ* ≥ 0
 4. λ*g(x*) = 0
 
-详见 [[09_KKT_Conditions]]。
+详见 [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]]。
 
 ## 6. 下降方向
 
@@ -323,5 +323,5 @@ plt.show()
 2. 《Convex Optimization》- Boyd & Vandenberghe
 3. 《Nonlinear Programming》- Bertsekas
 
-**下一章**：[[06_Gradient_Methods]] - 梯度下降法
+**下一章**：[[按学科笔记/01_mathematics/optimization/06_gradient_methods]] - 梯度下降法
 

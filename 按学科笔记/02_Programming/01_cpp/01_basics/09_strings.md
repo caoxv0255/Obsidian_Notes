@@ -3,7 +3,7 @@ type: concept
 topic: Strings
 category: basics
 difficulty: 基础
-prerequisites: [[08_Arrays]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/08_arrays]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -209,8 +209,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[08_Arrays]] - 数组
-- [[10_IO]] - 输入输出
+- [[按学科笔记/02_programming/01_cpp/01_basics/08_arrays]] - 数组
+- [[按学科笔记/02_programming/01_cpp/01_basics/10_io]] - 输入输出
 
 ## 📝 练习题
 

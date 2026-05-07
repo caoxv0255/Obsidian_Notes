@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -354,5 +354,5 @@ $$P(\text{恰有} k \text{件不合格}) = \frac{C_M^k C_{N-M}^{n-k}}{C_N^n}$$
 2. 《概率论基础》（第3版）- 李贤平
 3. 《A First Course in Probability》（第10版）- Sheldon Ross
 
-**下一章**：[[02_Conditional_Probability]] - 条件概率与独立性
+**下一章**：[[按学科笔记/01_mathematics/probability/02_conditional_probability]] - 条件概率与独立性
 

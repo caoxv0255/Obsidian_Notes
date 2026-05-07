@@ -4,7 +4,7 @@ topic: inner_product
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[08_Vectors]]
+  - [[按学科笔记/01_mathematics/algebra/linear/08_vectors]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 18
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -819,10 +819,10 @@ $$\text{proj}_{\mathbf{u}} \mathbf{v} = \frac{\langle \mathbf{v}, \mathbf{u} \ra
 
 ## 相关概念
 
-- [[08_Vectors]] - 向量基础
-- [[09_Linear_Relations]] - 线性相关性
-- [[19_Orthogonality]] - 正交性
-- [[21_SVD]] - 奇异值分解
+- [[按学科笔记/01_mathematics/algebra/linear/08_vectors]] - 向量基础
+- [[按学科笔记/01_mathematics/algebra/linear/09_linear_relations]] - 线性相关性
+- [[按学科笔记/01_mathematics/algebra/linear/19_orthogonality]] - 正交性
+- [[按学科笔记/01_mathematics/algebra/linear/21_svd]] - 奇异值分解
 
 ## 参考教材
 

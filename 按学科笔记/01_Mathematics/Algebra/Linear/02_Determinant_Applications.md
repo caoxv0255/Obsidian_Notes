@@ -4,7 +4,7 @@ topic: determinant_applications
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[01_Determinants]]
+  - [[按学科笔记/01_mathematics/algebra/linear/01_determinants]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 02
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -450,9 +450,9 @@ x_3 & y_3 & 1
 
 ## 相关概念
 
-- [[01_Determinants]] - 行列式
-- [[03_Determinant_Computation]] - 行列式的计算技巧
-- [[06_Inverse_Matrix]] - 逆矩阵
-- [[11_Linear_Equations]] - 线性方程组
+- [[按学科笔记/01_mathematics/algebra/linear/01_determinants]] - 行列式
+- [[按学科笔记/01_mathematics/algebra/linear/03_determinant_computation]] - 行列式的计算技巧
+- [[按学科笔记/01_mathematics/algebra/linear/06_inverse_matrix]] - 逆矩阵
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组
 
 

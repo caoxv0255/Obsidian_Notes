@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -226,5 +226,5 @@ $$Var(X) = E[X^2] - (E[X])^2 = \lambda$$
 1. 《概率论基础》- 李贤平
 2. 《Probability: Theory and Examples》- Durrett
 
-**下一章**：[[18_Law_of_Large_Numbers]] - 大数定律
+**下一章**：[[按学科笔记/01_mathematics/probability/18_law_of_large_numbers]] - 大数定律
 

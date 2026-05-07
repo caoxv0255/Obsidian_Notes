@@ -3,7 +3,7 @@ type: cookbook
 topic: data_visualization
 category: data_science
 difficulty: beginner
-prerequisites: [[temp_data_cleaning]]
+prerequisites: [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/03_Data_Cleaning]]
 acm_relevant: false
 created: 2026-02-20
 status: complete
@@ -322,5 +322,5 @@ plt.tight_layout()  # 自动调整布局
 ```
 
 ## 相关链接
-- [[temp_data_analysis|数据分析]]
-- [[temp_ml_pipeline|ML 全流程]]
+- [[../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/04_Data_Analysis|数据分析]]
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/01_ML_Pipeline|ML 全流程]]

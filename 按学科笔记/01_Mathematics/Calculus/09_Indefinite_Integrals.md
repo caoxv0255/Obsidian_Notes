@@ -4,7 +4,7 @@ topic: indefinite_integrals
 category: calculus
 difficulty: intermediate
 prerequisites:
-  - [[05_Derivatives]]
+  - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -23,8 +23,8 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[05_Derivatives]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 

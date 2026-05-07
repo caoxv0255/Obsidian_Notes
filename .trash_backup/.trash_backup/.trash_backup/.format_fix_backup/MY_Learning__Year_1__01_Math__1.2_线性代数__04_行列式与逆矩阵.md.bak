@@ -1,0 +1,317 @@
+---
+type: chapter
+subject: linear_algebra
+chapter: 04
+created: 2026-04-04
+updated: 2026-04-04
+status: complete
+---
+
+# 04 行列式与逆矩阵
+
+> 线性代数的核心工具：从体积到可逆性判定
+
+## 章节导引
+
+行列式是线性代数中最重要的数值特征之一，它不仅提供判断矩阵可逆的方法，还揭示了线性变换的几何意义（体积缩放因子）。本章系统讲解行列式的定义、性质和计算方法。
+
+**核心问题**：
+- 行列式是什么？有什么几何意义？
+- 如何高效计算行列式？
+- 行列式与逆矩阵的关系？
+
+**学习目标**：
+- 掌握行列式的定义和性质
+- 熟练计算行列式
+- 理解行列式的几何意义
+- 掌握伴随矩阵求逆方法
+
+---
+
+## 1. 行列式的定义
+
+### 1.1 二阶行列式
+
+$$\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$$
+
+**几何意义**：由列向量张成的平行四边形的有向面积。
+
+### 1.2 三阶行列式
+
+$$\det\begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} = a_{11}(a_{22}a_{33}-a_{23}a_{32}) - a_{12}(a_{21}a_{33}-a_{23}a_{31}) + a_{13}(a_{21}a_{32}-a_{22}a_{31})$$
+
+**Sarrus 法则**：对角线法则（仅适用于三阶）
+
+### 1.3 一般定义
+
+$n$ 阶行列式通过展开定理递归定义：
+$$\det(A) = \sum_{j=1}^{n} (-1)^{1+j} a_{1j} M_{1j} = \sum_{j=1}^{n} a_{1j} C_{1j}$$
+
+其中：
+- $M_{ij}$：余子式（删除第 $i$ 行第 $j$ 列后的行列式）
+- $C_{ij} = (-1)^{i+j} M_{ij}$：代数余子式
+
+---
+
+## 2. 行列式的性质
+
+### 2.1 基本性质
+
+1. **转置不变性**：$\det(A) = \det(A^T)$
+
+2. **行/列交换**：交换两行/列，行列式变号
+
+3. **行/列倍乘**：某行/列乘 $k$，行列式乘 $k$
+
+4. **行/列可加性**：若某行/列可分解为两部分，行列式可分解
+
+5. **消元不变性**：某行/列加上另一行/列的倍数，行列式不变
+
+6. **三角行列式**：上/下三角矩阵的行列式等于对角元乘积
+   $$\det\begin{pmatrix} a_{11} & * & * \\ 0 & a_{22} & * \\ 0 & 0 & a_{33} \end{pmatrix} = a_{11}a_{22}a_{33}$$
+
+### 2.2 乘积性质
+
+$$\det(AB) = \det(A)\det(B)$$
+
+### 2.3 特殊矩阵
+
+| 矩阵类型 | 行列式 |
+|---------|--------|
+| 单位矩阵 | $\det(I) = 1$ |
+| 对角矩阵 | $\det(D) = d_1 d_2 \cdots d_n$ |
+| 正交矩阵 | $\det(Q) = \pm 1$ |
+| 可逆矩阵 | $\det(A) \neq 0$ |
+| 奇异矩阵 | $\det(A) = 0$ |
+
+---
+
+## 3. 行列式的计算方法
+
+### 3.1 展开法
+
+**按第 $i$ 行展开**：
+$$\det(A) = \sum_{j=1}^{n} a_{ij} C_{ij}$$
+
+**按第 $j$ 列展开**：
+$$\det(A) = \sum_{i=1}^{n} a_{ij} C_{ij}$$
+
+**策略**：选择零最多的行/列展开
+
+### 3.2 高斯消元法
+
+1. 用行初等变换化为上三角
+2. 记录变换的影响
+3. 计算对角元乘积
+
+**注意**：
+- 交换两行：行列式变号
+- 某行乘 $k$：行列式除以 $k$
+
+### 3.3 分块矩阵
+
+对于分块矩阵：
+$$\det\begin{pmatrix} A & B \\ 0 & D \end{pmatrix} = \det(A)\det(D)$$
+
+---
+
+## 4. 行列式的几何意义
+
+### 4.1 体积缩放因子
+
+**定理**：$|\det(A)|$ 是线性变换 $A$ 将单位立方体变换后的体积。
+
+$$\text{Vol}(A\cdot\text{单位立方体}) = |\det(A)|$$
+
+### 4.2 方向
+
+- $\det(A) > 0$：保持定向（右手系仍为右手系）
+- $\det(A) < 0$：反向定向
+- $\det(A) = 0$：降维（体积为零）
+
+### 4.3 可逆性判定
+
+$$A \text{ 可逆} \iff \det(A) \neq 0$$
+
+几何解释：可逆变换不将空间"压扁"到低维。
+
+---
+
+## 5. 伴随矩阵与逆矩阵
+
+### 5.1 伴随矩阵
+
+$A$ 的伴随矩阵 $\text{adj}(A)$ 是代数余子式矩阵的转置：
+$$\text{adj}(A) = (C_{ij})^T$$
+
+### 5.2 逆矩阵公式
+
+$$A^{-1} = \frac{1}{\det(A)} \text{adj}(A)$$
+
+### 5.3 Cramer 法则
+
+对于 $A\mathbf{x} = \mathbf{b}$（$\det(A) \neq 0$）：
+$$x_i = \frac{\det(A_i)}{\det(A)}$$
+
+其中 $A_i$ 是将 $A$ 的第 $i$ 列替换为 $\mathbf{b}$ 得到的矩阵。
+
+---
+
+## 6. 代码实现
+
+### 6.1 行列式计算
+
+```python
+import numpy as np
+
+def det_by_expansion(A):
+    """递归展开法计算行列式"""
+    n = A.shape[0]
+    
+    if n == 1:
+        return A[0, 0]
+    
+    if n == 2:
+        return A[0, 0] * A[1, 1] - A[0, 1] * A[1, 0]
+    
+    det = 0
+    for j in range(n):
+        # 余子式
+        M = np.delete(np.delete(A, 0, axis=0), j, axis=1)
+        # 代数余子式
+        C = ((-1) ** j) * det_by_expansion(M)
+        det += A[0, j] * C
+    
+    return det
+
+def det_by_gaussian(A):
+    """高斯消元法计算行列式"""
+    A = A.astype(float).copy()
+    n = A.shape[0]
+    det = 1
+    
+    for i in range(n):
+        # 选主元
+        max_row = i + np.argmax(np.abs(A[i:, i]))
+        if max_row != i:
+            A[[i, max_row]] = A[[max_row, i]]
+            det *= -1
+        
+        if A[i, i] == 0:
+            return 0
+        
+        det *= A[i, i]
+        
+        # 消元
+        for j in range(i+1, n):
+            factor = A[j, i] / A[i, i]
+            A[j, i:] -= factor * A[i, i:]
+    
+    return det
+
+# 测试
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 10]], dtype=float)
+print(f"NumPy: {np.linalg.det(A):.4f}")
+print(f"展开法: {det_by_expansion(A):.4f}")
+print(f"高斯法: {det_by_gaussian(A):.4f}")
+```
+
+### 6.2 伴随矩阵求逆
+
+```python
+import numpy as np
+
+def adjugate(A):
+    """计算伴随矩阵"""
+    n = A.shape[0]
+    adj = np.zeros_like(A)
+    
+    for i in range(n):
+        for j in range(n):
+            # 余子式
+            M = np.delete(np.delete(A, i, axis=0), j, axis=1)
+            # 代数余子式（注意转置）
+            adj[j, i] = ((-1) ** (i + j)) * np.linalg.det(M)
+    
+    return adj
+
+def inverse_by_adjugate(A):
+    """伴随矩阵法求逆"""
+    det = np.linalg.det(A)
+    if abs(det) < 1e-10:
+        raise ValueError("矩阵不可逆")
+    
+    adj = adjugate(A)
+    return adj / det
+
+# 测试
+A = np.array([[1, 2], [3, 4]], dtype=float)
+A_inv = inverse_by_adjugate(A)
+print(f"逆矩阵:\n{A_inv}")
+print(f"验证 AA^(-1):\n{A @ A_inv}")
+```
+
+---
+
+## 7. 例题精选
+
+### 例题 1：计算行列式
+
+**问题**：计算 $\det\begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}$
+
+**解**：上三角矩阵，行列式 = 对角元乘积
+$$\det = 1 \times 4 \times 6 = 24$$
+
+### 例题 2：利用性质简化
+
+**问题**：计算 $\det\begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 7 & 8 & 9 \end{pmatrix}$
+
+**解**：第2行是第1行的2倍，行列式 = 0
+
+### 例题 3：求逆矩阵
+
+**问题**：求 $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ 的逆矩阵
+
+**解**：$\det(A) = 2 \times 1 - 1 \times 1 = 1$
+
+$$A^{-1} = \frac{1}{1} \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$$
+
+---
+
+## 8. 习题
+
+### 基础题
+
+1. 计算 $\det\begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}$
+2. 计算 $\det\begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 0 & 0 & 1 \end{pmatrix}$
+3. 证明 $\det(AB) = \det(A)\det(B)$（提示：利用初等变换）
+4. 判断 $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ 是否可逆
+5. 用 Cramer 法则求解 $\begin{cases} 2x + y = 5 \\ x + y = 3 \end{cases}$
+
+### 进阶题
+
+6. 证明：奇数阶反对称矩阵的行列式为 0
+7. 证明 Vandermonde 行列式公式
+8. 研究行列式的微分法则
+9. 分析行列式数值计算的稳定性
+10. 研究 Wronskian 行列式与线性无关性
+
+---
+
+## 9. 知识关联
+
+### 本章 → 后续章节
+
+```
+行列式 → 特征值（特征多项式）
+逆矩阵 → 矩阵分解
+体积意义 → SVD（体积最大化）
+```
+
+---
+
+**上一章**：[[03_线性方程组|线性方程组 ←]]
+
+**下一章**：[[05_特征值与特征向量|特征值与特征向量 →]]
+
+**返回索引**：[[00_Linear_Algebra_Index|线性代数索引]]

@@ -3,7 +3,7 @@ type: concept
 topic: Functions
 category: basics
 difficulty: 基础
-prerequisites: [[04_Control_Flow]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/01_basics/04_control_flow]]
 acm_relevant: true
 created: 2026-02-20
 status: learning
@@ -205,9 +205,9 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[04_Control_Flow]] - 控制流
-- [[06_Pointers]] - 指针
-- [[07_References]] - 引用
+- [[按学科笔记/02_programming/01_cpp/01_basics/04_control_flow]] - 控制流
+- [[按学科笔记/02_programming/01_cpp/01_basics/06_pointers]] - 指针
+- [[按学科笔记/02_programming/01_cpp/01_basics/07_references]] - 引用
 
 ## 📝 练习题
 

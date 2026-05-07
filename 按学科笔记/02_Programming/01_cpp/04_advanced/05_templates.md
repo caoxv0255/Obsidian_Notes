@@ -3,7 +3,7 @@ type: concept
 topic: templates
 category: advanced
 difficulty: advanced
-prerequisites: [[../02_STL/01_Containers]]
+prerequisites: [[../02_stl/01_containers]]
 acm_relevant: false
 created: 2026-02-20
 status: complete

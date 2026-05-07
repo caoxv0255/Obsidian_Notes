@@ -4,7 +4,7 @@ topic: linear_maps
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[10_Basis_Dimension]]
+  - [[按学科笔记/01_mathematics/algebra/linear/10_basis_dimension]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 23
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -313,8 +313,8 @@ $T$可逆 $\Leftrightarrow$ $T$是双射 $\Leftrightarrow$ $\ker T = \{\mathbf{0
 
 ## 相关概念
 
-- [[10_Basis_Dimension]] - 基与维数
-- [[12_Least_Squares]] - 最小二乘法
+- [[按学科笔记/01_mathematics/algebra/linear/10_basis_dimension]] - 基与维数
+- [[按学科笔记/01_mathematics/algebra/linear/12_least_squares]] - 最小二乘法
 - [[04_Matrix_Operations]] - 矩阵运算
 
 ## 参考教材

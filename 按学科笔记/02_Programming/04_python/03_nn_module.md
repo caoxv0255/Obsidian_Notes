@@ -3,7 +3,7 @@ type: concept
 topic: nn_module
 category: pytorch
 difficulty: intermediate
-prerequisites: [[02_Autograd]]
+prerequisites: [[按学科笔记/02_programming/04_python/02_autograd]]
 acm_relevant: false
 created: 2026-02-20
 status: complete

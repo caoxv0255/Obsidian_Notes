@@ -3,7 +3,7 @@ type: project
 topic: java_practice_cli
 category: java
 difficulty: intermediate
-prerequisites: [[03_Java_JVM_Concurrency]]
+prerequisites: [[按学科笔记/02_programming/02_java/03_java_jvm_concurrency]]
 acm_relevant: false
 created: 2026-04-25
 status: complete

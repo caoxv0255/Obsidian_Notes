@@ -3,7 +3,7 @@ type: concept
 topic: Const and Volatile
 category: basics
 difficulty: 基础
-prerequisites: [[02_Variables_Types]]
+prerequisites: [[../../../02_programming/01_cpp/01_basics/02_variables_types]]
 acm_relevant: false
 created: 2026-02-20
 status: learning
@@ -156,8 +156,8 @@ int main() {
 
 ## 🔗 相关概念
 
-- [[02_Variables_Types]] - 变量与数据类型
-- [[07_References]] - 引用
+- [[../../../02_programming/01_cpp/01_basics/02_variables_types]] - 变量与数据类型
+- [[按学科笔记/02_programming/01_cpp/01_basics/07_references]] - 引用
 
 ## 📝 练习题
 

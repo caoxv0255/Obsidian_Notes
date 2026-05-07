@@ -3,7 +3,7 @@ type: concept
 topic: stl_allocators
 category: stl
 difficulty: advanced
-prerequisites: [[01_Containers]], [[03_STL_Algorithms]]
+prerequisites: [[按学科笔记/02_programming/01_cpp/02_stl/01_containers]], [[按学科笔记/02_programming/01_cpp/02_stl/03_stl_algorithms]]
 acm_relevant: false
 created: 2026-04-25
 status: complete
@@ -55,4 +55,4 @@ int main() {
 
 ## 相关链接
 
-- [[00_STL_Index|返回 STL 索引]]
+- [[按学科笔记/02_programming/01_cpp/02_stl/00_stl_index|返回 STL 索引]]

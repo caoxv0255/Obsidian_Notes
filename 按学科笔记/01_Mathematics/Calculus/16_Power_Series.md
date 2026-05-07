@@ -4,9 +4,9 @@ topic: power_series
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[14_Series]]
-    - [[15_Function_Series]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/14_series]]
+    - [[按学科笔记/01_mathematics/calculus/15_function_series]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -24,7 +24,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解幂级数、收敛半径和收敛区间的基本概念
@@ -32,9 +32,9 @@ updated: 2026-04-27
 - 会用幂级数和泰勒展开处理函数近似与恒等式证明
 
 ## 先修
-- [[14_Series]] - 级数
-- [[15_Function_Series]] - 函数项级数
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/14_series]] - 级数
+- [[按学科笔记/01_mathematics/calculus/15_function_series]] - 函数项级数
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：幂级数定义、收敛半径与常见展开
@@ -234,7 +234,7 @@ $$f(x + \Delta x) \approx f(x) + \nabla f(x)^T \Delta x + \frac{1}{2} \Delta x^T
 
 ## 相关链接
 
-- [[07_Taylor_Series]] - 泰勒级数（幂级数的特例）
+- [[按学科笔记/01_mathematics/calculus/07_taylor_series]] - 泰勒级数（幂级数的特例）
 - [[13_Series]] - 数项级数（幂级数的基础）
 - [[14_Function_Series]] - 函数项级数（幂级数的推广）
 - [[../../01_Mathematics/Optimization/01_Gradient_Descent]] - 梯度下降（泰勒展开的应用）

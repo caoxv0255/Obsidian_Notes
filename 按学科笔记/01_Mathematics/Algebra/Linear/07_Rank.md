@@ -4,7 +4,7 @@ topic: rank
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[05_Matrix_Operations]]
+  - [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 07
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -654,9 +654,9 @@ plt.show()
 
 ## 相关概念
 
-- [[04_Matrix_Basics]] - 矩阵基础
-- [[05_Matrix_Operations]] - 矩阵运算
-- [[09_Linear_Relations]] - 线性相关性
-- [[11_Linear_Equations]] - 线性方程组
+- [[按学科笔记/01_mathematics/algebra/linear/04_matrix_basics]] - 矩阵基础
+- [[按学科笔记/01_mathematics/algebra/linear/05_matrix_operations]] - 矩阵运算
+- [[按学科笔记/01_mathematics/algebra/linear/09_linear_relations]] - 线性相关性
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组
 
 

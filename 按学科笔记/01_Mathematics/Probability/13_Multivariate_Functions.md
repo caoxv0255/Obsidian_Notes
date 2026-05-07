@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -340,7 +340,7 @@ print(f"样本均值: {x_k_samples.mean():.4f}")
 ---
 
 **相关链接**：
-- [[08_Functions_of_RV]] - 随机变量函数的分布
-- [[10_Joint_Distributions]] - 多维随机变量与联合分布
-- [[12_Independence]] - 随机变量的独立性
+- [[按学科笔记/01_mathematics/probability/08_functions_of_rv]] - 随机变量函数的分布
+- [[按学科笔记/01_mathematics/probability/10_joint_distributions]] - 多维随机变量与联合分布
+- [[按学科笔记/01_mathematics/probability/12_independence]] - 随机变量的独立性
 

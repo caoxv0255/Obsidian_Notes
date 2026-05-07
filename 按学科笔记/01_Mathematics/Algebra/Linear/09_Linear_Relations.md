@@ -4,7 +4,7 @@ topic: linear_relations
 category: linear_algebra
 difficulty: intermediate
 prerequisites:
-  - [[08_Vectors]]
+  - [[按学科笔记/01_mathematics/algebra/linear/08_vectors]]
 acm_relevant: false
 created: 2026-03-11
 updated: 2026-03-11
@@ -22,7 +22,7 @@ chapter: 09
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -882,11 +882,11 @@ $$\begin{cases} x = 2 \\ y = 3 \\ x + y = 5 \end{cases}$$
 
 ## 相关概念
 
-- [[08_Vectors]] - 向量基础
-- [[10_Basis_Dimension]] - 基与维数
+- [[按学科笔记/01_mathematics/algebra/linear/08_vectors]] - 向量基础
+- [[按学科笔记/01_mathematics/algebra/linear/10_basis_dimension]] - 基与维数
 - [[02_Matrix_Basics]] - 矩阵基础
 - [[07_Matrix_Rank]] - 矩阵的秩
-- [[11_Linear_Equations]] - 线性方程组
+- [[按学科笔记/01_mathematics/algebra/linear/11_linear_equations]] - 线性方程组
 
 ## 参考教材
 

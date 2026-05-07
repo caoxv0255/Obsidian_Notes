@@ -389,4 +389,4 @@ endmodule
 
 ---
 
-**附录A结束** → 附录B：[[附录B_图形与计算GPU]]
+**附录A结束** → 附录B：[[按学科笔记/06_computer_organization_and_design_riscv/附录B_图形与计算GPU]]

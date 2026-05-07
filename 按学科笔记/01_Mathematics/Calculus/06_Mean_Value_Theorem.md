@@ -4,8 +4,8 @@ topic: mean_value_theorem
 category: calculus
 difficulty: intermediate
 prerequisites:
-  - [[03_Continuity]]
-  - [[05_Derivatives]]
+  - [[按学科笔记/01_mathematics/calculus/03_continuity]]
+  - [[按学科笔记/01_mathematics/calculus/05_derivatives]]
 acm_relevant: false
 created: 2026-03-09
 status: complete
@@ -24,9 +24,9 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[03_Continuity]]
-- [[05_Derivatives]]
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/03_continuity]]
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -720,9 +720,9 @@ for n in [1, 2, 3]:
 
 ## 6. 相关概念
 
-- [[03_Continuity]] - 连续性
-- [[05_Derivatives]] - 导数
-- [[07_Taylor_Series]] - 泰勒级数
+- [[按学科笔记/01_mathematics/calculus/03_continuity]] - 连续性
+- [[按学科笔记/01_mathematics/calculus/05_derivatives]] - 导数
+- [[按学科笔记/01_mathematics/calculus/07_taylor_series]] - 泰勒级数
 
 ## 自测（3问速测）
 

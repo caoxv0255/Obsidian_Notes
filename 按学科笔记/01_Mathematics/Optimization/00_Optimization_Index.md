@@ -10,7 +10,7 @@ status: complete
 
 ## 速查
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习进度
 
@@ -65,34 +65,34 @@ status: complete
 ## 已完成笔记
 
 ### 第一部分：凸集与凸函数
-- [[01_Convex_Sets]] - 凸集（仿射集、凸集定义、凸锥、分离超平面定理、对偶锥）
-- [[02_Convex_Functions]] - 凸函数（一阶条件、二阶条件、Jensen不等式、保凸运算、共轭函数）
-- [x] [[03_Conjugate_Functions]] - 共轭函数
-- [x] [[04_Convex_Optimization_Basics]] - 凸优化基础
+- [[按学科笔记/01_mathematics/optimization/01_convex_sets]] - 凸集（仿射集、凸集定义、凸锥、分离超平面定理、对偶锥）
+- [[按学科笔记/01_mathematics/optimization/02_convex_functions]] - 凸函数（一阶条件、二阶条件、Jensen不等式、保凸运算、共轭函数）
+- [x] [[按学科笔记/01_mathematics/optimization/03_conjugate_functions]] - 共轭函数
+- [x] [[按学科笔记/01_mathematics/optimization/04_convex_optimization_basics]] - 凸优化基础
 
 ### 第二部分：无约束优化
-- [[05_Optimality_Conditions]] - 最优性条件（一阶必要条件、二阶条件、凸函数最优性）
-- [[06_Gradient_Methods]] - 梯度下降法（步长策略、收敛性分析、SGD、Adam）
-- [x] [[07_Newton_Method]] - 牛顿法与拟牛顿法
-- [x] [[08_Conjugate_Gradient]] - 共轭梯度法
+- [[按学科笔记/01_mathematics/optimization/05_optimality_conditions]] - 最优性条件（一阶必要条件、二阶条件、凸函数最优性）
+- [[按学科笔记/01_mathematics/optimization/06_gradient_methods]] - 梯度下降法（步长策略、收敛性分析、SGD、Adam）
+- [x] [[按学科笔记/01_mathematics/optimization/07_newton_method]] - 牛顿法与拟牛顿法
+- [x] [[按学科笔记/01_mathematics/optimization/08_conjugate_gradient]] - 共轭梯度法
 
 ### 第三部分：约束优化
-- [[09_KKT_Conditions]] - KKT条件（拉格朗日乘子法、互补松弛条件、敏感性分析）
-- [[10_Linear_Programming]] - 线性规划（单纯形法、对偶理论、敏感性分析）
-- [x] [[11_Duality_Theory]] - 对偶理论
-- [x] [[12_Penalty_Methods]] - 罚函数法
-- [x] [[13_Augmented_Lagrangian]] - 增广拉格朗日法
-- [x] [[14_Sequential_Quadratic]] - 序列二次规划
+- [[按学科笔记/01_mathematics/optimization/09_kkt_conditions]] - KKT条件（拉格朗日乘子法、互补松弛条件、敏感性分析）
+- [[按学科笔记/01_mathematics/optimization/10_linear_programming]] - 线性规划（单纯形法、对偶理论、敏感性分析）
+- [x] [[按学科笔记/01_mathematics/optimization/11_duality_theory]] - 对偶理论
+- [x] [[按学科笔记/01_mathematics/optimization/12_penalty_methods]] - 罚函数法
+- [x] [[按学科笔记/01_mathematics/optimization/13_augmented_lagrangian]] - 增广拉格朗日法
+- [x] [[按学科笔记/01_mathematics/optimization/14_sequential_quadratic]] - 序列二次规划
 
 ### 第四部分：凸优化专题
-- [x] [[15_Simplex_Method]] - 单纯形法
-- [[16_Interior_Point]] - 内点法（中心路径、原始-对偶方法、Mehrotra方法）
-- [x] [[17_Semidefinite_Programming]] - 半定规划
+- [x] [[按学科笔记/01_mathematics/optimization/15_simplex_method]] - 单纯形法
+- [[按学科笔记/01_mathematics/optimization/16_interior_point]] - 内点法（中心路径、原始-对偶方法、Mehrotra方法）
+- [x] [[按学科笔记/01_mathematics/optimization/17_semidefinite_programming]] - 半定规划
 
 ### 第五部分：现代优化方法
-- [x] [[18_Stochastic_Optimization]] - 随机优化
-- [x] [[19_Distributed_Optimization]] - 分布式优化
-- [x] [[20_ML_Applications]] - 机器学习应用
+- [x] [[按学科笔记/01_mathematics/optimization/18_stochastic_optimization]] - 随机优化
+- [x] [[按学科笔记/01_mathematics/optimization/19_distributed_optimization]] - 分布式优化
+- [x] [[按学科笔记/01_mathematics/optimization/20_ml_applications]] - 机器学习应用
 
 ## 核心知识图谱
 
@@ -228,10 +228,10 @@ $$g(\lambda, \nu) = \inf_x L(x, \lambda, \nu)$$
 
 ## 相关链接
 
-- [[00_Calculus_Index|微积分]] - 导数和梯度计算
-- [[00_Linear_Algebra_Index|线性代数]] - 矩阵运算和特征值
-- [[00_Probability_Index|概率统计]] - 随机优化和统计学习
-- [[../00_Index|主索引]]
+- [[按学科笔记/01_mathematics/calculus/00_calculus_index|微积分]] - 导数和梯度计算
+- [[../../../MY_Learning/Year_1/01_Math/1.2_线性代数/00_Linear_Algebra_Index|线性代数]] - 矩阵运算和特征值
+- [[按学科笔记/01_mathematics/probability/00_probability_index|概率统计]] - 随机优化和统计学习
+- [[../00_index|主索引]]
 
 ---
 

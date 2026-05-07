@@ -4,10 +4,10 @@ topic: surface_integrals
 category: calculus
 difficulty: advanced
 prerequisites:
-    - [[19_Partial_Derivatives]]
-    - [[21_Multiple_Integrals]]
-    - [[22_Curve_Integrals]]
-    - [[../00_Symbols_Conventions|符号与约定总表]]
+    - [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]]
+    - [[按学科笔记/01_mathematics/calculus/21_multiple_integrals]]
+    - [[按学科笔记/01_mathematics/calculus/22_curve_integrals]]
+    - [[../../00_symbols_conventions|符号与约定总表]]
 acm_relevant: true
 created: 2026-03-09
 status: complete
@@ -25,7 +25,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 学习目标
 - 理解第一类和第二类曲面积分的定义与几何意义
@@ -33,10 +33,10 @@ updated: 2026-04-27
 - 会用曲面积分处理面积、通量和散度定理问题
 
 ## 先修
-- [[19_Partial_Derivatives]] - 偏导数与全微分
-- [[21_Multiple_Integrals]] - 重积分
-- [[22_Curve_Integrals]] - 曲线积分
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[按学科笔记/01_mathematics/calculus/19_partial_derivatives]] - 偏导数与全微分
+- [[按学科笔记/01_mathematics/calculus/21_multiple_integrals]] - 重积分
+- [[按学科笔记/01_mathematics/calculus/22_curve_integrals]] - 曲线积分
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 - A档（基础）：第一类曲面积分、第二类曲面积分的定义与计算
@@ -250,10 +250,10 @@ $$\oint_C \mathbf{F}\cdot d\mathbf{r} = \iint_S (\nabla\times\mathbf{F})\cdot d\
 
 ## 相关链接
 
-- [[21_Multiple_Integrals]] - 重积分（曲面积分的基础）
-- [[22_Curve_Integrals]] - 曲线积分（曲面积分的特例）
+- [[按学科笔记/01_mathematics/calculus/21_multiple_integrals]] - 重积分（曲面积分的基础）
+- [[按学科笔记/01_mathematics/calculus/22_curve_integrals]] - 曲线积分（曲面积分的特例）
 - [[23_Vector_Calculus]] - 向量微积分（曲面积分的应用）
-- [[07_Case_Image]] - 图像案例（曲面积分的应用）
+- [[../../../MY_Learning/Year_2/04_ML/4.1_Python数据科学/07_Case_Image]] - 图像案例（曲面积分的应用）
 
 
 

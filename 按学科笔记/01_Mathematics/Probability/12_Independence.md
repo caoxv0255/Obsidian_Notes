@@ -16,7 +16,7 @@ updated: 2026-04-27
 
 ## ✅ 先修
 
-- [[../00_Symbols_Conventions|符号与约定总表]]
+- [[../../00_symbols_conventions|符号与约定总表]]
 
 ## 难度分层
 
@@ -308,7 +308,7 @@ print(f"相关样本相关系数: {corr:.4f}")  # 接近0.5
 ---
 
 **相关链接**：
-- [[10_Joint_Distributions]] - 多维随机变量与联合分布
-- [[11_Marginal_Conditional]] - 边缘分布与条件分布
-- [[16_Covariance_Correlation]] - 协方差与相关系数
+- [[按学科笔记/01_mathematics/probability/10_joint_distributions]] - 多维随机变量与联合分布
+- [[按学科笔记/01_mathematics/probability/11_marginal_conditional]] - 边缘分布与条件分布
+- [[按学科笔记/01_mathematics/probability/16_covariance_correlation]] - 协方差与相关系数
 
